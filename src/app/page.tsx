@@ -221,6 +221,16 @@ export default function Home() {
           >
             Start Test
           </button>
+
+          <div className="mt-6 pt-4 border-t border-zinc-200 text-center">
+            <p className="text-sm text-zinc-500 mb-2">Have questions or feedback?</p>
+            <a
+              href="mailto:akrjohn@gmail.com?subject=ELA%20Practice%20Feedback"
+              className="text-emerald-600 hover:text-emerald-700 text-sm underline"
+            >
+              Email us
+            </a>
+          </div>
         </div>
       </div>
     );
