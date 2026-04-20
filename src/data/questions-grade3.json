@@ -1,0 +1,1475 @@
+[
+  {
+    "id": "g3-q01",
+    "type": "reading",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.RL.3.1",
+    "question": "Based on the text, why did the hummingbird most likely visit the garden?",
+    "passage": {
+      "id": "passage-hummingbird",
+      "text": "The tiny hummingbird zipped through the air. Its wings moved so fast they were just a blur. It stopped at a bright red flower and dipped its long beak inside. After taking a sweet sip of nectar, the bird darted toward a nearby tree. High up on a branch sat a small, cup-shaped nest made of moss and spiderwebs. Inside the nest were two eggs the size of jellybeans. The mother bird sat down gently to keep them warm.",
+      "source": "original"
+    },
+    "options": [
+      "To build a nest out of spiderwebs",
+      "To find a safe place to sleep",
+      "To drink nectar from a flower",
+      "To hide from other birds"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The text states the bird 'stopped at a bright red flower' and took a 'sweet sip of nectar.'"
+  },
+  {
+    "id": "g3-q02",
+    "type": "reading",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.RL.3.3",
+    "question": "How does the hummingbird act after visiting the flower?",
+    "passage": {
+      "id": "passage-hummingbird",
+      "text": "The tiny hummingbird zipped through the air. Its wings moved so fast they were just a blur. It stopped at a bright red flower and dipped its long beak inside. After taking a sweet sip of nectar, the bird darted toward a nearby tree. High up on a branch sat a small, cup-shaped nest made of moss and spiderwebs. Inside the nest were two eggs the size of jellybeans. The mother bird sat down gently to keep them warm.",
+      "source": "original"
+    },
+    "options": [
+      "She ignores her nest to find more food.",
+      "She carefully returns to protect her eggs.",
+      "She flies away to find a bigger tree.",
+      "She starts building a second nest."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The passage describes the bird darting to her nest and sitting 'gently to keep them [the eggs] warm,' showing her protective nature."
+  },
+  {
+    "id": "g3-q03",
+    "type": "reading",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.RI.3.2",
+    "question": "What is the main idea of this passage?",
+    "passage": {
+      "id": "passage-pioneers",
+      "text": "Pioneers traveling west faced many hardships. They traveled in covered wagons pulled by oxen or mules. Because the wagons were full of supplies like flour, tools, and blankets, most people had to walk next to the wagon all day. They had to cross deep rivers and climb steep mountains. At night, they cooked over campfires and slept under the stars. Despite the long journey and the hard work, these families hoped to find a better life in a new land.",
+      "source": "original"
+    },
+    "options": [
+      "Wagons were pulled by mules and oxen.",
+      "Pioneers ate flour and slept outside.",
+      "Pioneer life was difficult during the journey west.",
+      "Mountains are very hard to climb."
+    ],
+    "correctAnswer": 2,
+    "explanation": "The passage focuses on the various challenges and 'hardships' pioneers faced while moving west."
+  },
+  {
+    "id": "g3-q04",
+    "type": "reading",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.RI.3.3",
+    "question": "Why did most pioneers walk instead of riding in the wagons?",
+    "passage": {
+      "id": "passage-pioneers",
+      "text": "Pioneers traveling west faced many hardships. They traveled in covered wagons pulled by oxen or mules. Because the wagons were full of supplies like flour, tools, and blankets, most people had to walk next to the wagon all day. They had to cross deep rivers and climb steep mountains. At night, they cooked over campfires and slept under the stars. Despite the long journey and the hard work, these families hoped to find a better life in a new land.",
+      "source": "original"
+    },
+    "options": [
+      "The wagons were moving too fast.",
+      "The wagons were filled with heavy supplies.",
+      "They wanted to see the mountains better.",
+      "Walking was faster than the oxen."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The text explains: 'Because the wagons were full of supplies... most people had to walk next to the wagon all day.'"
+  },
+  {
+    "id": "g3-q05",
+    "type": "vocabulary",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.L.3.4.A",
+    "question": "What does the word 'hardships' mean as it is used in the passage?",
+    "passage": {
+      "id": "passage-pioneers",
+      "text": "Pioneers traveling west faced many hardships. They traveled in covered wagons pulled by oxen or mules. Because the wagons were full of supplies like flour, tools, and blankets, most people had to walk next to the wagon all day. They had to cross deep rivers and climb steep mountains.",
+      "source": "original"
+    },
+    "options": [
+      "Fun adventures",
+      "Difficulties or problems",
+      "Types of wagons",
+      "New friends"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The context clues describing crossing rivers, climbing mountains, and walking all day indicate that hardships are difficult situations."
+  },
+  {
+    "id": "g3-q06",
+    "type": "reading",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.RL.3.2",
+    "question": "What is the moral or lesson of the story?",
+    "passage": {
+      "id": "passage-lion-mouse",
+      "text": "A small mouse accidentally ran across a sleeping lion's paw. The lion woke up and caught the mouse. 'Please let me go!' cried the mouse. 'One day I might help you.' The lion laughed, thinking a tiny mouse could never help a king, but he let her go. Weeks later, the lion was caught in a hunter's net. He roared for help. The mouse heard him and chewed through the ropes. Soon, the lion was free. The lion realized that even a small friend can be a great help.",
+      "source": "original"
+    },
+    "options": [
+      "Lions are the kings of the jungle.",
+      "Always stay away from sleeping animals.",
+      "Kindness is never wasted, no matter how small.",
+      "Mice are better at escaping than lions."
+    ],
+    "correctAnswer": 2,
+    "explanation": "The story demonstrates that because the lion was kind to the small mouse, the mouse was able to save him later."
+  },
+  {
+    "id": "g3-q07",
+    "type": "reading",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.RL.3.3",
+    "question": "Why did the lion laugh when the mouse offered to help him?",
+    "passage": {
+      "id": "passage-lion-mouse",
+      "text": "A small mouse accidentally ran across a sleeping lion's paw. The lion woke up and caught the mouse. 'Please let me go!' cried the mouse. 'One day I might help you.' The lion laughed, thinking a tiny mouse could never help a king, but he let her go.",
+      "source": "original"
+    },
+    "options": [
+      "The mouse told a funny joke.",
+      "He didn't think such a small creature could be useful.",
+      "He was happy to make a new friend.",
+      "The mouse was tickling his paw."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The text states he laughed 'thinking a tiny mouse could never help a king.'"
+  },
+  {
+    "id": "g3-q08",
+    "type": "reading",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.RI.3.5",
+    "question": "If this passage had a glossary, which word would most likely be defined there?",
+    "passage": {
+      "id": "passage-volcano",
+      "text": "A volcano is an opening in Earth's crust. When a volcano erupts, hot melted rock called magma pushes up from deep underground. Once it reaches the surface, it is called lava. Lava can flow down the sides of the volcano, destroying trees and roads. As the lava cools down, it turns into hard, black rock. Over many years, this rock can crumble to form very rich soil where plants grow well.",
+      "source": "original"
+    },
+    "options": [
+      "Earth",
+      "Magma",
+      "Trees",
+      "Growing"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Glossaries typically define specific, technical, or domain-related terms like 'magma' that are central to the scientific topic."
+  },
+  {
+    "id": "g3-q09",
+    "type": "vocabulary",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.RI.3.4",
+    "question": "What is the difference between magma and lava?",
+    "passage": {
+      "id": "passage-volcano",
+      "text": "When a volcano erupts, hot melted rock called magma pushes up from deep underground. Once it reaches the surface, it is called lava.",
+      "source": "original"
+    },
+    "options": [
+      "Magma is cold, but lava is hot.",
+      "Magma is underground, but lava is on the surface.",
+      "Magma is black rock, but lava is red rock.",
+      "There is no difference; they are the same thing."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The passage specifies magma is 'deep underground' and it is called lava 'once it reaches the surface.'"
+  },
+  {
+    "id": "g3-q10",
+    "type": "reading",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.RI.3.1",
+    "question": "What happens after lava cools down?",
+    "passage": {
+      "id": "passage-volcano",
+      "text": "As the lava cools down, it turns into hard, black rock. Over many years, this rock can crumble to form very rich soil where plants grow well.",
+      "source": "original"
+    },
+    "options": [
+      "It turns into magma.",
+      "It explodes into the air.",
+      "It becomes hard, black rock.",
+      "It flows back into the ground."
+    ],
+    "correctAnswer": 2,
+    "explanation": "The text explicitly states: 'As the lava cools down, it turns into hard, black rock.'"
+  },
+  {
+    "id": "g3-q11",
+    "type": "vocabulary",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.L.3.4.B",
+    "question": "Which word has the same root word as 'rebuild'?",
+    "passage": { "id": "none", "text": "N/A", "source": "original" },
+    "options": [
+      "Build",
+      "Ready",
+      "Blue",
+      "Bird"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The root of 'rebuild' is 'build,' with the prefix 're-' meaning to do again."
+  },
+  {
+    "id": "g3-q12",
+    "type": "vocabulary",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.L.3.4.D",
+    "question": "Use a dictionary or context to find the best word to complete this sentence: 'The runner felt ______ after winning the gold medal.'",
+    "passage": { "id": "none", "text": "N/A", "source": "original" },
+    "options": [
+      "gloomy",
+      "furious",
+      "joyful",
+      "confused"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Winning a gold medal is a positive event, making 'joyful' the most appropriate choice."
+  },
+  {
+    "id": "g3-q13",
+    "type": "vocabulary",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.L.3.5.A",
+    "question": "Which of these is a literal (real) meaning of the phrase 'it's raining cats and dogs'?",
+    "passage": { "id": "none", "text": "N/A", "source": "original" },
+    "options": [
+      "It is raining very heavily.",
+      "Pets are falling from the sky.",
+      "The wind is blowing hard.",
+      "The street is flooded."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The prompt asks for the literal meaning (actual animals falling), even though the phrase is usually used figuratively to mean heavy rain."
+  },
+  {
+    "id": "g3-q14",
+    "type": "grammar",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.L.3.1.A",
+    "question": "Which sentence uses an abstract noun correctly?",
+    "passage": { "id": "none", "text": "N/A", "source": "original" },
+    "options": [
+      "I put my bravery in the backpack.",
+      "The cat felt a lot of happiness.",
+      "She picked up a piece of kindness.",
+      "He ate a bowl of courage."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Happiness is an abstract noun (a feeling). Bravery, kindness, and courage cannot be physically placed in bags or eaten."
+  },
+  {
+    "id": "g3-q15",
+    "type": "grammar",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.L.3.1.E",
+    "question": "Which sentence uses the correct verb tense?",
+    "passage": { "id": "none", "text": "N/A", "source": "original" },
+    "options": [
+      "Yesterday, I go to the park.",
+      "Tomorrow, I went to the zoo.",
+      "Last week, I played soccer.",
+      "Now, I will eating lunch."
+    ],
+    "correctAnswer": 2,
+    "explanation": "'Last week' refers to the past, so the past tense 'played' is correct."
+  },
+  {
+    "id": "g3-q16",
+    "type": "grammar",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.L.3.1.F",
+    "question": "Choose the sentence that has correct subject-verb agreement.",
+    "passage": { "id": "none", "text": "N/A", "source": "original" },
+    "options": [
+      "The boys runs fast.",
+      "The girl sing a song.",
+      "The dogs bark at the mailman.",
+      "My friend play outside."
+    ],
+    "correctAnswer": 2,
+    "explanation": "'Dogs' (plural) matches with 'bark' (plural verb form)."
+  },
+  {
+    "id": "g3-q17",
+    "type": "grammar",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.L.3.2.B",
+    "question": "Where should the comma be placed in this sentence? 'On Saturday June 10th we are going to the beach.'",
+    "passage": { "id": "none", "text": "N/A", "source": "original" },
+    "options": [
+      "Saturday June, 10th",
+      "Saturday, June 10th",
+      "On, Saturday June",
+      "June 10th, we"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Commas are used between the day of the week and the month."
+  },
+  {
+    "id": "g3-q18",
+    "type": "grammar",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.L.3.2.D",
+    "question": "Which word is spelled correctly to complete the sentence? 'The ______ are playing in the mud.'",
+    "passage": { "id": "none", "text": "N/A", "source": "original" },
+    "options": [
+      "ponys",
+      "ponies",
+      "poneys",
+      "ponise"
+    ],
+    "correctAnswer": 1,
+    "explanation": "For words ending in 'y' preceded by a consonant, change the 'y' to 'i' and add 'es' to make it plural."
+  },
+  {
+    "id": "g3-q19",
+    "type": "writing",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.W.3.1.A",
+    "question": "A student is writing an opinion about school lunches. Which sentence is the best way to start the paragraph?",
+    "passage": { "id": "none", "text": "N/A", "source": "original" },
+    "options": [
+      "School lunch starts at 12:00 PM.",
+      "The cafeteria has blue tables.",
+      "In my opinion, pizza day is the best day of the week.",
+      "Apples and oranges are types of fruit."
+    ],
+    "correctAnswer": 2,
+    "explanation": "An opinion piece should start by stating the writer's point of view or preference."
+  },
+  {
+    "id": "g3-q20",
+    "type": "writing",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.W.3.1.B",
+    "question": "Read this sentence from an opinion piece: 'Recess should be longer because students need more time to exercise.' What is the best reason to add to support this?",
+    "passage": { "id": "none", "text": "N/A", "source": "original" },
+    "options": [
+      "I like the color of the slide.",
+      "Running and playing games helps students stay healthy and focused.",
+      "Math class is after recess.",
+      "The swings are sometimes broken."
+    ],
+    "correctAnswer": 1,
+    "explanation": "This sentence provides a logical reason that supports the idea that exercise is beneficial for students."
+  },
+  {
+    "id": "g3-q21",
+    "type": "writing",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.W.3.2.B",
+    "question": "A student is writing a report about frogs. Which sentence provides a fact that would be good for this report?",
+    "passage": { "id": "none", "text": "N/A", "source": "original" },
+    "options": [
+      "Frogs are very cute when they jump.",
+      "I think everyone should have a pet frog.",
+      "Frogs use their long, sticky tongues to catch insects.",
+      "Frogs make a funny sound."
+    ],
+    "correctAnswer": 2,
+    "explanation": "This is a factual, informative statement about a frog's physical characteristics and behavior."
+  },
+  {
+    "id": "g3-q22",
+    "type": "writing",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.W.3.3.A",
+    "question": "Which of these words would best show that time has passed in a story?",
+    "passage": { "id": "none", "text": "N/A", "source": "original" },
+    "options": [
+      "Suddenly",
+      "Later that afternoon",
+      "Quietly",
+      "Everywhere"
+    ],
+    "correctAnswer": 1,
+    "explanation": "'Later that afternoon' is a temporal phrase that indicates a sequence of time."
+  },
+  {
+    "id": "g3-q23",
+    "type": "reading",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.RL.3.7",
+    "question": "How does the first paragraph help the reader understand the second paragraph?",
+    "passage": {
+      "id": "passage-garden",
+      "text": "Paragraph 1: Sarah looked at the empty dirt in her backyard. She wanted to grow colorful flowers. She spent all Saturday digging holes and planting tiny seeds. Paragraph 2: Two weeks later, Sarah saw little green sprouts poking out of the ground. She felt very excited. She grabbed her watering can and gave them a drink.",
+      "source": "original"
+    },
+    "options": [
+      "It explains why Sarah was tired.",
+      "It shows that the seeds Sarah planted are now growing.",
+      "It tells us what Sarah did with the watering can.",
+      "It describes the flowers Sarah wants to buy."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The first paragraph sets up the action (planting seeds) that leads to the result in the second paragraph (sprouts growing)."
+  },
+  {
+    "id": "g3-q24",
+    "type": "vocabulary",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.L.3.4",
+    "question": "Read this sentence: 'The heavy rain caused the river to overflow its banks.' What does the word 'banks' mean in this sentence?",
+    "passage": { "id": "none", "text": "N/A", "source": "original" },
+    "options": [
+      "Places where people keep money",
+      "The sides of a river",
+      "Rows of seats",
+      "Small piggy banks"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In the context of a river, 'banks' are the land sloping down to the water's edge."
+  },
+  {
+    "id": "g3-q25",
+    "type": "reading",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.RI.3.1",
+    "question": "Which question can be answered by reading the passage about Sarah's garden?",
+    "passage": {
+      "id": "passage-garden",
+      "text": "Sarah looked at the empty dirt in her backyard. She wanted to grow colorful flowers. She spent all Saturday digging holes and planting tiny seeds. Two weeks later, Sarah saw little green sprouts poking out of the ground. She felt very excited. She grabbed her watering can and gave them a drink.",
+      "source": "original"
+    },
+    "options": [
+      "What color were the flowers?",
+      "How many seeds did Sarah plant?",
+      "How long did it take for the sprouts to appear?",
+      "Who helped Sarah in the garden?"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The text explicitly states: 'Two weeks later, Sarah saw little green sprouts...'"
+  },
+  {
+    "id": "g3-q2p-01",
+    "type": "reading",
+    "format": "two-part",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.RL.3.3",
+    "question": "Part A: How does Maya most likely feel at the beginning of the passage?",
+    "passage": {
+      "id": "passage-the-play",
+      "text": "Maya stood behind the heavy velvet curtain, clutching her script so tightly her knuckles turned white. The auditorium was filled with parents and teachers, and she could hear their low murmurs through the fabric. This was her first time having a lead role in the school play. Her heart hammered against her ribs like a trapped bird. She took a deep breath, trying to remember her first line, but her mind felt like a blank slate. Just then, her teacher, Mr. Gable, leaned in and whispered, 'You've practiced this a dozen times, Maya. Just look at the back wall and speak clearly.' Maya nodded, loosened her grip on the paper, and stepped out into the bright stage lights.",
+      "source": "original"
+    },
+    "options": [
+      "Bored and uninterested",
+      "Nervous and anxious",
+      "Angry and frustrated",
+      "Proud and excited"
+    ],
+    "correctAnswer": 1,
+    "partBQuestion": "Part B: Which sentence from the passage best supports your answer in Part A?",
+    "partBOptions": [
+      "The auditorium was filled with parents and teachers.",
+      "This was her first time having a lead role in the school play.",
+      "Her heart hammered against her ribs like a trapped bird.",
+      "Maya nodded, loosened her grip on the paper, and stepped out."
+    ],
+    "partBCorrectAnswer": 2,
+    "explanation": "Maya's physical reactions (clutching the script, white knuckles, hammering heart) indicate she is nervous. The simile in Part B comparing her heart to a trapped bird is the strongest evidence of anxiety."
+  },
+  {
+    "id": "g3-q2p-02",
+    "type": "reading",
+    "format": "two-part",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.RL.3.1",
+    "question": "Part A: What effect does Mr. Gable's advice have on Maya?",
+    "passage": {
+      "id": "passage-the-play",
+      "text": "Maya stood behind the heavy velvet curtain, clutching her script so tightly her knuckles turned white. The auditorium was filled with parents and teachers, and she could hear their low murmurs through the fabric. This was her first time having a lead role in the school play. Her heart hammered against her ribs like a trapped bird. She took a deep breath, trying to remember her first line, but her mind felt like a blank slate. Just then, her teacher, Mr. Gable, leaned in and whispered, 'You've practiced this a dozen times, Maya. Just look at the back wall and speak clearly.' Maya nodded, loosened her grip on the paper, and stepped out into the bright stage lights.",
+      "source": "original"
+    },
+    "options": [
+      "It makes her want to go home.",
+      "It helps her feel more prepared to start.",
+      "It makes her forget her lines again.",
+      "It causes her to feel confused about where to look."
+    ],
+    "correctAnswer": 1,
+    "partBQuestion": "Part B: Which phrase from the passage best supports your answer in Part A?",
+    "partBOptions": [
+      "her mind felt like a blank slate",
+      "leaned in and whispered",
+      "You've practiced this a dozen times",
+      "loosened her grip on the paper"
+    ],
+    "partBCorrectAnswer": 3,
+    "explanation": "Mr. Gable's encouragement helps Maya relax. The fact that she 'loosened her grip' shows she is becoming less tense and more ready to perform."
+  },
+  {
+    "id": "g3-q2p-03",
+    "type": "reading",
+    "format": "two-part",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.RI.3.1",
+    "question": "Part A: Based on the text, why are honeybees important to humans?",
+    "passage": {
+      "id": "passage-honeybees",
+      "text": "Honeybees are much more than just insects that make sweet honey. They are hard workers that help many of the foods we eat grow. As a bee flies from flower to flower to drink nectar, tiny grains of pollen stick to its fuzzy body. When the bee lands on the next flower, some of that pollen falls off. This process is called pollination. Without pollination, plants like apples, berries, and almonds would not be able to produce fruit or seeds. Farmers often keep beehives in their orchards to make sure their crops are healthy. Even though bees can sting if they feel threatened, they are essential partners in our food system.",
+      "source": "original"
+    },
+    "options": [
+      "They make nectar for other insects to drink.",
+      "They protect farmers from dangerous pests.",
+      "They help many food crops grow through pollination.",
+      "They keep orchards cool with their wings."
+    ],
+    "correctAnswer": 2,
+    "partBQuestion": "Part B: Which sentence from the passage best supports your answer in Part A?",
+    "partBOptions": [
+      "Honeybees are much more than just insects that make sweet honey.",
+      "As a bee flies from flower to flower to drink nectar, tiny grains of pollen stick to its fuzzy body.",
+      "Without pollination, plants like apples, berries, and almonds would not be able to produce fruit or seeds.",
+      "Even though bees can sting if they feel threatened, they are essential partners."
+    ],
+    "partBCorrectAnswer": 2,
+    "explanation": "The text explains that bees are essential because they facilitate pollination, and Part B provides the specific consequence: without them, common food plants could not produce fruit."
+  },
+  {
+    "id": "g3-q2p-04",
+    "type": "reading",
+    "format": "two-part",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.RI.3.3",
+    "question": "Part A: What is the relationship between bees and pollen?",
+    "passage": {
+      "id": "passage-honeybees",
+      "text": "Honeybees are much more than just insects that make sweet honey. They are hard workers that help many of the foods we eat grow. As a bee flies from flower to flower to drink nectar, tiny grains of pollen stick to its fuzzy body. When the bee lands on the next flower, some of that pollen falls off. This process is called pollination. Without pollination, plants like apples, berries, and almonds would not be able to produce fruit or seeds. Farmers often keep beehives in their orchards to make sure their crops are healthy. Even though bees can sting if they feel threatened, they are essential partners in our food system.",
+      "source": "original"
+    },
+    "options": [
+      "Bees eat pollen to stay strong.",
+      "Bees accidentally move pollen between plants.",
+      "Pollen helps bees find their way home to the hive.",
+      "Pollen protects bees from getting stung."
+    ],
+    "correctAnswer": 1,
+    "partBQuestion": "Part B: Which phrase from the passage best supports your answer in Part A?",
+    "partBOptions": [
+      "flies from flower to flower to drink nectar",
+      "tiny grains of pollen stick to its fuzzy body",
+      "Farmers often keep beehives in their orchards",
+      "they are essential partners"
+    ],
+    "partBCorrectAnswer": 1,
+    "explanation": "The passage describes the physical process of how pollen 'sticks' to the bee, which then 'falls off' at the next stop, showing how they move it from one place to another."
+  },
+  {
+    "id": "g3-q2p-05",
+    "type": "reading",
+    "format": "two-part",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.RL.3.3",
+    "question": "Part A: What character trait does Oliver show in the passage?",
+    "passage": {
+      "id": "passage-olivers-bike",
+      "text": "Oliver stared at his bicycle, which was lying in a heap on the sidewalk. The chain had popped off for the third time that afternoon. His hands were covered in greasy black streaks, and his knees were sore from falling. 'I'm never going to get this right,' he muttered, wiping sweat from his forehead. He took a long look at the steep hill ahead. Then, he sat down on the curb, took a deep breath, and picked up the chain again. He carefully lined up the links with the gears, ignoring the grease staining his shirt. After a few minutes of steady work, he turned the pedal and heard a satisfying 'click.' He stood up, wiped his hands on his grass-stained jeans, and hopped back onto the seat.",
+      "source": "original"
+    },
+    "options": [
+      "Laziness",
+      "Rudeness",
+      "Persistence",
+      "Fearfulness"
+    ],
+    "correctAnswer": 2,
+    "partBQuestion": "Part B: Which action from the passage best supports your answer in Part A?",
+    "partBOptions": [
+      "Oliver stared at his bicycle on the sidewalk.",
+      "He muttered that he was never going to get it right.",
+      "He took a long look at the steep hill.",
+      "He sat down, took a deep breath, and picked up the chain again."
+    ],
+    "partBCorrectAnswer": 3,
+    "explanation": "Persistence means keeping at something even when it is difficult. Oliver shows this by trying to fix the chain again despite being frustrated and dirty."
+  },
+  {
+    "id": "g3-qms-01",
+    "type": "reading",
+    "format": "multi-select",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.RI.3.1",
+    "question": "Select TWO details from the passage that explain how bees help plants.",
+    "passage": {
+      "id": "passage-honeybees",
+      "text": "Honeybees are much more than just insects that make sweet honey. They are hard workers that help many of the foods we eat grow. As a bee flies from flower to flower to drink nectar, tiny grains of pollen stick to its fuzzy body. When the bee lands on the next flower, some of that pollen falls off. This process is called pollination. Without pollination, plants like apples, berries, and almonds would not be able to produce fruit or seeds.",
+      "source": "original"
+    },
+    "options": [
+      "Bees drink nectar from flowers.",
+      "Pollen sticks to the bee's body.",
+      "Bees make sweet honey.",
+      "Pollen falls off on new flowers."
+    ],
+    "correctAnswer": [1, 3],
+    "explanation": "Both B and D are correct. Pollen sticking to the bee's body (B) and then falling off on new flowers (D) is the process of pollination that helps plants produce fruit."
+  },
+  {
+    "id": "g3-qms-02",
+    "type": "reading",
+    "format": "multi-select",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.RL.3.1",
+    "question": "Select TWO details that show Maya was nervous before her performance.",
+    "passage": {
+      "id": "passage-the-play",
+      "text": "Maya stood behind the heavy velvet curtain, clutching her script so tightly her knuckles turned white. The auditorium was filled with parents and teachers, and she could hear their low murmurs through the fabric. This was her first time having a lead role in the school play. Her heart hammered against her ribs like a trapped bird. She took a deep breath, trying to remember her first line, but her mind felt like a blank slate.",
+      "source": "original"
+    },
+    "options": [
+      "She clutched her script tightly.",
+      "Her heart hammered like a trapped bird.",
+      "She stepped out into the lights.",
+      "Her mind felt like a blank slate."
+    ],
+    "correctAnswer": [0, 1],
+    "explanation": "Both A and B are correct. Maya clutching her script so tightly her knuckles turned white (A) and her heart hammering like a trapped bird (B) are physical signs of nervousness."
+  },
+  {
+    "id": "g3-qms-03",
+    "type": "reading",
+    "format": "multi-select",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.RI.3.2",
+    "question": "Select TWO sentences that state the main idea of the passage.",
+    "passage": {
+      "id": "passage-honeybees",
+      "text": "Honeybees are much more than just insects that make sweet honey. They are hard workers that help many of the foods we eat grow. As a bee flies from flower to flower to drink nectar, tiny grains of pollen stick to its fuzzy body. When the bee lands on the next flower, some of that pollen falls off. This process is called pollination. Without pollination, plants like apples, berries, and almonds would not be able to produce fruit or seeds. Farmers often keep beehives in their orchards to make sure their crops are healthy.",
+      "source": "original"
+    },
+    "options": [
+      "Honeybees are much more than just insects that make sweet honey.",
+      "Bees are hard workers that help many of the foods we eat grow.",
+      "Bees drink nectar from flowers.",
+      "Farmers keep beehives in their orchards."
+    ],
+    "correctAnswer": [0, 1],
+    "explanation": "Both A and B express the main idea: honeybees are important because they help grow food through their work as pollinators."
+  },
+  {
+    "id": "g3-qms-04",
+    "type": "vocabulary",
+    "format": "multi-select",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.L.3.4.A",
+    "question": "Select TWO context clues that help determine the meaning of 'pollination' in the passage.",
+    "passage": {
+      "id": "passage-honeybees",
+      "text": "As a bee flies from flower to flower to drink nectar, tiny grains of pollen stick to its fuzzy body. When the bee lands on the next flower, some of that pollen falls off. This process is called pollination.",
+      "source": "original"
+    },
+    "options": [
+      "pollen stick to its fuzzy body",
+      "bees drink nectar",
+      "pollen falls off",
+      "tiny grains of pollen"
+    ],
+    "correctAnswer": [0, 2],
+    "explanation": "A describes pollen attaching to the bee, and C describes it falling off. Together they explain the process called 'pollination.'"
+  },
+  {
+    "id": "g3-qms-05",
+    "type": "reading",
+    "format": "multi-select",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.RL.3.1",
+    "question": "Select TWO things Oliver did that showed persistence.",
+    "passage": {
+      "id": "passage-olivers-bike",
+      "text": "Oliver stared at his bicycle, which was lying in a heap on the sidewalk. The chain had popped off for the third time that afternoon. His hands were covered in greasy black streaks, and his knees were sore from falling. 'I'm never going to get this right,' he muttered. He took a long look at the steep hill ahead. Then, he sat down on the curb, took a deep breath, and picked up the chain again.",
+      "source": "original"
+    },
+    "options": [
+      "He complained about the chain.",
+      "He took a deep breath.",
+      "He picked up the chain again.",
+      "He stared at his bicycle."
+    ],
+    "correctAnswer": [1, 2],
+    "explanation": "Taking a deep breath (B) and picking up the chain again (C) both show Oliver continuing despite frustration - that is persistence."
+  },
+  {
+    "id": "g3-qms-06",
+    "type": "reading",
+    "format": "multi-select",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.RI.3.2",
+    "question": "Which TWO details from the passage support the main idea that desert animals have special ways to survive the heat?",
+    "passage": {
+      "id": "passage-desert-life",
+      "text": "The desert is a land of extremes, where water is scarce and the sun is scorching. Many animals that live there have developed amazing tricks to stay cool. The fennec fox has giant ears that help heat escape from its body. Many desert creatures are nocturnal, meaning they sleep in cool underground burrows during the day and come out only at night when the air is chilly. Some animals, like the camel, can go for a long time without drinking any water. These adaptations allow life to thrive in a place that seems too dry for anything to live.",
+      "source": "original"
+    },
+    "options": [
+      "The fennec fox uses its large ears to release heat.",
+      "Deserts are very dry and have very little water.",
+      "Animals sleep underground during the day to avoid the sun.",
+      "The desert air becomes chilly once the sun goes down."
+    ],
+    "correctAnswer": [0, 2],
+    "explanation": "Options A and C describe specific 'tricks' or adaptations (large ears and burrowing) that animals use to survive heat, which supports the main idea."
+  },
+  {
+    "id": "g3-qms-07",
+    "type": "reading",
+    "format": "multi-select",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.RI.3.1",
+    "question": "According to the passage, which TWO things happen to a desert fox or camel because of the environment?",
+    "passage": {
+      "id": "passage-desert-life",
+      "text": "The desert is a land of extremes, where water is scarce and the sun is scorching. Many animals that live there have developed amazing tricks to stay cool. The fennec fox has giant ears that help heat escape from its body. Many desert creatures are nocturnal, meaning they sleep in cool underground burrows during the day and come out only at night when the air is chilly. Some animals, like the camel, can go for a long time without drinking any water. These adaptations allow life to thrive in a place that seems too dry for anything to live.",
+      "source": "original"
+    },
+    "options": [
+      "The fox's ears help it stay cool by letting heat out.",
+      "The camel grows thick fur to stay warm at night.",
+      "The camel survives for long periods without water.",
+      "The fox hunts for food during the hottest part of the day."
+    ],
+    "correctAnswer": [0, 2],
+    "explanation": "The text explicitly states the fox has giant ears to help heat escape and the camel can go a long time without drinking water."
+  },
+  {
+    "id": "g3-qms-08",
+    "type": "reading",
+    "format": "multi-select",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.RI.3.2",
+    "question": "Which TWO sentences best describe the main idea of the passage about the Statue of Liberty?",
+    "passage": {
+      "id": "passage-liberty",
+      "text": "The Statue of Liberty is a famous symbol located on Liberty Island in New York. It was a gift from the people of France to the United States to celebrate friendship and freedom. The statue is made of copper, which is the same metal used to make pennies. Over many years, the air and water caused the copper to change from a shiny brown color to the green color we see today. Millions of people visit the statue every year to see this giant lady holding her torch high in the sky. It remains one of the most recognizable landmarks in the world.",
+      "source": "original"
+    },
+    "options": [
+      "The statue was a gift from France to honor freedom.",
+      "Copper is the same metal that is used to make pennies.",
+      "The Statue of Liberty is a well-known symbol of the United States.",
+      "Liberty Island is located in the state of New York."
+    ],
+    "correctAnswer": [0, 2],
+    "explanation": "The passage focuses on the statue's meaning (a gift for freedom) and its status as a famous symbol. Options B and D are just small supporting details."
+  },
+  {
+    "id": "g3-qms-09",
+    "type": "reading",
+    "format": "multi-select",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.RI.3.1",
+    "question": "Based on the passage, which TWO factors caused the Statue of Liberty to change color?",
+    "passage": {
+      "id": "passage-liberty",
+      "text": "The Statue of Liberty is a famous symbol located on Liberty Island in New York. It was a gift from the people of France to the United States to celebrate friendship and freedom. The statue is made of copper, which is the same metal used to make pennies. Over many years, the air and water caused the copper to change from a shiny brown color to the green color we see today. Millions of people visit the statue every year to see this giant lady holding her torch high in the sky. It remains one of the most recognizable landmarks in the world.",
+      "source": "original"
+    },
+    "options": [
+      "The bright light from the torch",
+      "The air over many years",
+      "The people visiting the island",
+      "The water surrounding the statue"
+    ],
+    "correctAnswer": [1, 3],
+    "explanation": "The text states that 'the air and water caused the copper to change... to the green color we see today.'"
+  },
+  {
+    "id": "g3-qms-10",
+    "type": "reading",
+    "format": "multi-select",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.RI.3.1",
+    "question": "Which TWO statements about the Statue of Liberty's appearance are supported by the text?",
+    "passage": {
+      "id": "passage-liberty",
+      "text": "The Statue of Liberty is a famous symbol located on Liberty Island in New York. It was a gift from the people of France to the United States to celebrate friendship and freedom. The statue is made of copper, which is the same metal used to make pennies. Over many years, the air and water caused the copper to change from a shiny brown color to the green color we see today. Millions of people visit the statue every year to see this giant lady holding her torch high in the sky. It remains one of the most recognizable landmarks in the world.",
+      "source": "original"
+    },
+    "options": [
+      "It was originally a shiny brown color.",
+      "The statue is holding a large book in her hand.",
+      "She is shown holding a torch high in the sky.",
+      "The statue is the tallest building in New York."
+    ],
+    "correctAnswer": [0, 2],
+    "explanation": "The text mentions the copper was originally 'shiny brown' and describes the 'giant lady holding her torch high.'"
+  },
+  {
+    "id": "g3-q41",
+    "type": "reading",
+    "format": "single",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.RL.3.1",
+    "question": "What is the main reason why the squirrel, Squeaky, is worried at the beginning of the story?",
+    "passage": {
+      "id": "p-squeaky",
+      "text": "Squeaky the squirrel lived in a large oak tree in the middle of a busy park. Every day, he searched the grass for acorns to hide for the winter. However, this year the winter was coming much earlier than usual. Squeaky looked at his small pile of food and then at the grey clouds gathering in the sky. He knew he needed to find at least ten more acorns before the first snow fell. He scampered toward the picnic area, hoping the humans had left something behind.",
+      "source": "original"
+    },
+    "options": [
+      "He lost his home in the oak tree.",
+      "The winter is arriving earlier than expected.",
+      "Other squirrels are stealing his food.",
+      "The park is too busy for him to find food."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The text states 'this year the winter was coming much earlier than usual,' causing Squeaky to worry about his food supply."
+  },
+  {
+    "id": "g3-q42",
+    "type": "reading",
+    "format": "two-part",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.RL.3.1",
+    "question": "Part A: What does Squeaky plan to do to solve his problem?",
+    "passage": {
+      "id": "p-squeaky",
+      "text": "Squeaky the squirrel lived in a large oak tree in the middle of a busy park. Every day, he searched the grass for acorns to hide for the winter. However, this year the winter was coming much earlier than usual. Squeaky looked at his small pile of food and then at the grey clouds gathering in the sky. He knew he needed to find at least ten more acorns before the first snow fell. He scampered toward the picnic area, hoping the humans had left something behind.",
+      "source": "original"
+    },
+    "options": [
+      "He plans to sleep through the first snow.",
+      "He plans to move to a different park.",
+      "He plans to look for food near the picnic area.",
+      "He plans to ask the humans for help."
+    ],
+    "correctAnswer": 2,
+    "partBQuestion": "Part B: Which sentence from the passage best supports your answer?",
+    "partBOptions": [
+      "Every day, he searched the grass for acorns to hide.",
+      "Squeaky looked at his small pile of food.",
+      "He knew he needed to find at least ten more acorns.",
+      "He scampered toward the picnic area, hoping the humans had left something behind."
+    ],
+    "partBCorrectAnswer": 3,
+    "explanation": "The final sentence of the passage shows Squeaky's specific action to find more food by going to the picnic area."
+  },
+  {
+    "id": "g3-q43",
+    "type": "reading",
+    "format": "multi-select",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.RL.3.1",
+    "question": "Select TWO details that show Squeaky is running out of time.",
+    "passage": {
+      "id": "p-squeaky",
+      "text": "Squeaky the squirrel lived in a large oak tree in the middle of a busy park. Every day, he searched the grass for acorns to hide for the winter. However, this year the winter was coming much earlier than usual. Squeaky looked at his small pile of food and then at the grey clouds gathering in the sky. He knew he needed to find at least ten more acorns before the first snow fell. He scampered toward the picnic area, hoping the humans had left something behind.",
+      "source": "original"
+    },
+    "options": [
+      "winter was coming much earlier than usual",
+      "he searched the grass for acorns",
+      "grey clouds gathering in the sky",
+      "he lived in a large oak tree"
+    ],
+    "correctAnswer": [0, 2],
+    "explanation": "The early winter and the gathering grey clouds (signaling snow) indicate that he has very little time left to prepare."
+  },
+  {
+    "id": "g3-q44",
+    "type": "reading",
+    "format": "single",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.RL.3.2",
+    "question": "What is the central message or lesson of the story about the Lion and the Mouse?",
+    "passage": {
+      "id": "p-lion-mouse",
+      "text": "A tiny mouse accidentally woke a sleeping lion. The lion was about to eat her, but the mouse begged, 'Please let me go! I might help you one day.' The lion laughed, thinking a small mouse could never help a king like him, but he let her go. Weeks later, the lion was caught in a hunter's net. He roared for help. The mouse heard him and chewed through the ropes until the lion was free. The lion realized that even a small friend can be a great help.",
+      "source": "original"
+    },
+    "options": [
+      "Always be afraid of lions.",
+      "Mice are better at escaping nets than lions.",
+      "Kindness is never wasted, no matter how small the person is.",
+      "Lions should never sleep in the open."
+    ],
+    "correctAnswer": 2,
+    "explanation": "The story concludes with the lion realizing that even a small friend can be helpful, teaching the lesson of kindness."
+  },
+  {
+    "id": "g3-q45",
+    "type": "reading",
+    "format": "two-part",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.RL.3.3",
+    "question": "Part A: Why does the lion laugh at the mouse's promise?",
+    "passage": {
+      "id": "p-lion-mouse",
+      "text": "A tiny mouse accidentally woke a sleeping lion. The lion was about to eat her, but the mouse begged, 'Please let me go! I might help you one day.' The lion laughed, thinking a small mouse could never help a king like him, but he let her go. Weeks later, the lion was caught in a hunter's net. He roared for help. The mouse heard him and chewed through the ropes until the lion was free. The lion realized that even a small friend can be a great help.",
+      "source": "original"
+    },
+    "options": [
+      "He thinks the mouse is telling a joke.",
+      "He is happy to make a new friend.",
+      "He thinks the mouse is too small to ever be useful to him.",
+      "He is tickled by the mouse's whiskers."
+    ],
+    "correctAnswer": 2,
+    "partBQuestion": "Part B: Which sentence from the passage best supports your answer?",
+    "partBOptions": [
+      "A tiny mouse accidentally woke a sleeping lion.",
+      "The mouse begged, 'Please let me go! I might help you one day.'",
+      "The lion laughed, thinking a small mouse could never help a king like him.",
+      "The mouse heard him and chewed through the ropes."
+    ],
+    "partBCorrectAnswer": 2,
+    "explanation": "The text explicitly states the lion's internal thought: that a small mouse could never help a 'king'."
+  },
+  {
+    "id": "g3-q46",
+    "type": "reading",
+    "format": "single",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.RI.3.2",
+    "question": "What is the main idea of the passage about the Honeybee?",
+    "passage": {
+      "id": "p-honeybee",
+      "text": "Honeybees are incredible workers that help our planet. As they fly from flower to flower to find food, they carry pollen on their legs. This movement of pollen helps plants grow new fruits and seeds. This process is called pollination. Without honeybees, many of the foods we eat, like apples and almonds, would not grow. Farmers work hard to keep bee colonies healthy because they are so important to our food supply.",
+      "source": "original"
+    },
+    "options": [
+      "Apples and almonds are delicious fruits.",
+      "Honeybees have pollen on their legs.",
+      "Honeybees are important because they help plants grow through pollination.",
+      "Farmers have to work very hard every day."
+    ],
+    "correctAnswer": 2,
+    "explanation": "The entire passage focuses on the role of bees in pollination and why that makes them important for the planet and food."
+  },
+  {
+    "id": "g3-q47",
+    "type": "reading",
+    "format": "multi-select",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.RI.3.1",
+    "question": "Select TWO foods mentioned in the passage that depend on honeybees.",
+    "passage": {
+      "id": "p-honeybee",
+      "text": "Honeybees are incredible workers that help our planet. As they fly from flower to flower to find food, they carry pollen on their legs. This movement of pollen helps plants grow new fruits and seeds. This process is called pollination. Without honeybees, many of the foods we eat, like apples and almonds, would not grow. Farmers work hard to keep bee colonies healthy because they are so important to our food supply.",
+      "source": "original"
+    },
+    "options": [
+      "Honey",
+      "Apples",
+      "Almonds",
+      "Flowers"
+    ],
+    "correctAnswer": [1, 2],
+    "explanation": "The text specifically names apples and almonds as foods that would not grow without honeybees."
+  },
+  {
+    "id": "g3-q48",
+    "type": "reading",
+    "format": "single",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.RI.3.3",
+    "question": "According to the passage, what is the relationship between pollen and plants?",
+    "passage": {
+      "id": "p-honeybee",
+      "text": "Honeybees are incredible workers that help our planet. As they fly from flower to flower to find food, they carry pollen on their legs. This movement of pollen helps plants grow new fruits and seeds. This process is called pollination. Without honeybees, many of the foods we eat, like apples and almonds, would not grow. Farmers work hard to keep bee colonies healthy because they are so important to our food supply.",
+      "source": "original"
+    },
+    "options": [
+      "Pollen makes plants turn into honey.",
+      "Pollen is a type of food that plants eat.",
+      "The movement of pollen allows plants to grow fruits and seeds.",
+      "Pollen protects plants from insects."
+    ],
+    "correctAnswer": 2,
+    "explanation": "The text explains that the movement of pollen helps plants grow 'new fruits and seeds'."
+  },
+  {
+    "id": "g3-q49",
+    "type": "reading",
+    "format": "two-part",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.RI.3.2",
+    "question": "Part A: What is the main idea of the passage about the Moon?",
+    "passage": {
+      "id": "p-moon",
+      "text": "The Moon is Earth's only natural satellite. It does not make its own light. Instead, it acts like a giant mirror, reflecting the light from the Sun. As the Moon travels around the Earth, it looks like it is changing shape. These different shapes are called phases. Sometimes we see a full circle, and other times we see only a small silver sliver. It takes about 29 days for the Moon to go through all its phases and return to the start.",
+      "source": "original"
+    },
+    "options": [
+      "The Moon is very bright and hot.",
+      "The Moon reflects sunlight and appears to change shape as it orbits Earth.",
+      "The Moon takes 29 days to turn into the Sun.",
+      "The Moon is made of silver mirrors."
+    ],
+    "correctAnswer": 1,
+    "partBQuestion": "Part B: Which sentence from the passage best supports your answer?",
+    "partBOptions": [
+      "The Moon is Earth's only natural satellite.",
+      "Instead, it acts like a giant mirror, reflecting the light from the Sun.",
+      "These different shapes are called phases.",
+      "It takes about 29 days for the Moon to go through all its phases."
+    ],
+    "partBCorrectAnswer": 1,
+    "explanation": "Part A identifies the core concept (reflecting light/changing shape), and Part B provides the supporting evidence about light reflection."
+  },
+  {
+    "id": "g3-q50",
+    "type": "reading",
+    "format": "multi-select",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.RI.3.5",
+    "question": "Select TWO shapes of the Moon mentioned in the passage.",
+    "passage": {
+      "id": "p-moon",
+      "text": "The Moon is Earth's only natural satellite. It does not make its own light. Instead, it acts like a giant mirror, reflecting the light from the Sun. As the Moon travels around the Earth, it looks like it is changing shape. These different shapes are called phases. Sometimes we see a full circle, and other times we see only a small silver sliver. It takes about 29 days for the Moon to go through all its phases and return to the start.",
+      "source": "original"
+    },
+    "options": [
+      "A full circle",
+      "A bright square",
+      "A silver sliver",
+      "A giant triangle"
+    ],
+    "correctAnswer": [0, 2],
+    "explanation": "The text specifically mentions seeing a 'full circle' and a 'small silver sliver'."
+  },
+  {
+    "id": "g3-q51",
+    "type": "reading",
+    "format": "single",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.RL.3.4",
+    "question": "In the story 'The New Bicycle', what does the phrase 'over the moon' mean?",
+    "passage": {
+      "id": "p-bicycle",
+      "text": "When Jake saw the shiny blue bicycle in the driveway, he was over the moon. He had been saving his allowance for an entire year to buy one just like it. His parents smiled as he hopped on and pedaled down the street. Jake felt like he was flying. He spent the whole afternoon practicing turns and using the hand brakes. It was the best day of his summer.",
+      "source": "original"
+    },
+    "options": [
+      "Jake was physically jumping high.",
+      "Jake was very happy and excited.",
+      "Jake was looking at the night sky.",
+      "Jake was confused about his gift."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The context of getting a long-awaited gift and the parents smiling indicates that 'over the moon' is an expression of great joy."
+  },
+  {
+    "id": "g3-q52",
+    "type": "reading",
+    "format": "two-part",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.RL.3.3",
+    "question": "Part A: How do Jake's parents feel about him getting the bicycle?",
+    "passage": {
+      "id": "p-bicycle",
+      "text": "When Jake saw the shiny blue bicycle in the driveway, he was over the moon. He had been saving his allowance for an entire year to buy one just like it. His parents smiled as he hopped on and pedaled down the street. Jake felt like he was flying. He spent the whole afternoon practicing turns and using the hand brakes. It was the best day of his summer.",
+      "source": "original"
+    },
+    "options": [
+      "They are worried he will fall.",
+      "They are happy to see Jake enjoy his gift.",
+      "They are tired of watching him practice.",
+      "They are angry that he spent his money."
+    ],
+    "correctAnswer": 1,
+    "partBQuestion": "Part B: Which sentence from the passage best supports your answer?",
+    "partBOptions": [
+      "He had been saving his allowance for an entire year.",
+      "His parents smiled as he hopped on and pedaled down the street.",
+      "Jake felt like he was flying.",
+      "It was the best day of his summer."
+    ],
+    "partBCorrectAnswer": 1,
+    "explanation": "The parents' smiles provide evidence that they are happy for Jake."
+  },
+  {
+    "id": "g3-q53",
+    "type": "reading",
+    "format": "multi-select",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.RL.3.1",
+    "question": "Select TWO things Jake does with his new bicycle in the passage.",
+    "passage": {
+      "id": "p-bicycle",
+      "text": "When Jake saw the shiny blue bicycle in the driveway, he was over the moon. He had been saving his allowance for an entire year to buy one just like it. His parents smiled as he hopped on and pedaled down the street. Jake felt like he was flying. He spent the whole afternoon practicing turns and using the hand brakes. It was the best day of his summer.",
+      "source": "original"
+    },
+    "options": [
+      "He practices making turns.",
+      "He paints it a different color.",
+      "He uses the hand brakes.",
+      "He saves more of his allowance."
+    ],
+    "correctAnswer": [0, 2],
+    "explanation": "The text explicitly mentions Jake 'practicing turns' and 'using the hand brakes'."
+  },
+  {
+    "id": "g3-q54",
+    "type": "reading",
+    "format": "single",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.RI.3.1",
+    "question": "Based on the text, what is the main reason why the Grand Canyon is famous?",
+    "passage": {
+      "id": "p-canyon",
+      "text": "The Grand Canyon is one of the most famous natural wonders in the world. Located in Arizona, this massive canyon was carved by the Colorado River over millions of years. It is over 270 miles long and a mile deep. People come from all over the world to see the beautiful red and orange rock layers. Some visitors hike down the steep trails, while others take a boat trip down the river at the bottom. It is a place that shows how powerful nature can be.",
+      "source": "original"
+    },
+    "options": [
+      "It was built by ancient humans.",
+      "It has beautiful rock layers and was carved by a river.",
+      "It is the only place in Arizona with red rocks.",
+      "It is a mile long and a mile wide."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The text attributes the canyon's fame to it being a natural wonder carved by a river with beautiful rock layers."
+  },
+  {
+    "id": "g3-q55",
+    "type": "reading",
+    "format": "two-part",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.RI.3.1",
+    "question": "Part A: How can visitors explore the bottom of the Grand Canyon?",
+    "passage": {
+      "id": "p-canyon",
+      "text": "The Grand Canyon is one of the most famous natural wonders in the world. Located in Arizona, this massive canyon was carved by the Colorado River over millions of years. It is over 270 miles long and a mile deep. People come from all over the world to see the beautiful red and orange rock layers. Some visitors hike down the steep trails, while others take a boat trip down the river at the bottom. It is a place that shows how powerful nature can be.",
+      "source": "original"
+    },
+    "options": [
+      "By flying in a helicopter",
+      "By driving a car down the rocks",
+      "By taking a boat trip on the river",
+      "By swimming across the canyon"
+    ],
+    "correctAnswer": 2,
+    "partBQuestion": "Part B: Which sentence from the passage best supports your answer?",
+    "partBOptions": [
+      "It is over 270 miles long and a mile deep.",
+      "People come from all over the world to see the layers.",
+      "Some visitors hike down the steep trails.",
+      "others take a boat trip down the river at the bottom."
+    ],
+    "partBCorrectAnswer": 3,
+    "explanation": "The text mentions boat trips as a specific way to be 'at the bottom' on the river."
+  },
+  {
+    "id": "g3-q56",
+    "type": "vocabulary",
+    "format": "single",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.L.3.4.A",
+    "question": "Read this sentence: 'The curious kitten peered into the empty box.' What does the word 'peered' mean?",
+    "passage": {
+      "id": "p-none-1",
+      "text": "N/A",
+      "source": "original"
+    },
+    "options": [
+      "jumped",
+      "looked closely",
+      "yelled",
+      "slept"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In this context, a curious animal would look into something to investigate it."
+  },
+  {
+    "id": "g3-q57",
+    "type": "vocabulary",
+    "format": "single",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.L.3.4.B",
+    "question": "Which prefix can be added to the word 'happy' to make it mean 'not happy'?",
+    "passage": {
+      "id": "p-none-2",
+      "text": "N/A",
+      "source": "original"
+    },
+    "options": [
+      "pre-",
+      "un-",
+      "re-",
+      "dis-"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The prefix 'un-' means 'not', creating the word 'unhappy'."
+  },
+  {
+    "id": "g3-q58",
+    "type": "vocabulary",
+    "format": "single",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.L.3.4.C",
+    "question": "Which word means the same as 'frightened'?",
+    "passage": {
+      "id": "p-none-3",
+      "text": "N/A",
+      "source": "original"
+    },
+    "options": [
+      "angry",
+      "scared",
+      "excited",
+      "calm"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Scared is a synonym for frightened."
+  },
+  {
+    "id": "g3-q59",
+    "type": "vocabulary",
+    "format": "single",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.RI.3.4",
+    "question": "In a science article, what does the word 'nocturnal' mean when describing an owl?",
+    "passage": {
+      "id": "p-none-4",
+      "text": "N/A",
+      "source": "original"
+    },
+    "options": [
+      "an animal that eats plants",
+      "an animal that is active at night",
+      "an animal that can fly very high",
+      "an animal that lives in the desert"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Nocturnal is the scientific term for animals that are active during the night."
+  },
+  {
+    "id": "g3-q60",
+    "type": "vocabulary",
+    "format": "single",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.L.3.4",
+    "question": "Read this sentence: 'The heavy rain will drench the garden.' What is the meaning of 'drench'?",
+    "passage": {
+      "id": "p-none-5",
+      "text": "N/A",
+      "source": "original"
+    },
+    "options": [
+      "to make very wet",
+      "to make very dry",
+      "to make grow fast",
+      "to make look pretty"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Heavy rain results in something becoming completely wet or soaked."
+  },
+  {
+    "id": "g3-q61",
+    "type": "grammar",
+    "format": "single",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.L.3.1",
+    "question": "Which sentence uses the correct verb?",
+    "passage": {
+      "id": "p-none-6",
+      "text": "N/A",
+      "source": "original"
+    },
+    "options": [
+      "The boys runs to the park.",
+      "The boys run to the park.",
+      "The boys is running to the park.",
+      "The boy run to the park."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Plural subjects (boys) require the plural verb form (run) without an 's'."
+  },
+  {
+    "id": "g3-q62",
+    "type": "grammar",
+    "format": "single",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.L.3.2",
+    "question": "Which sentence has correct capitalization?",
+    "passage": {
+      "id": "p-none-7",
+      "text": "N/A",
+      "source": "original"
+    },
+    "options": [
+      "we went to disney world in florida.",
+      "We went to Disney World in Florida.",
+      "We went to Disney world in florida.",
+      "we went to Disney World in Florida."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Proper nouns (Disney World, Florida) and the start of a sentence must be capitalized."
+  },
+  {
+    "id": "g3-q63",
+    "type": "grammar",
+    "format": "single",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.L.3.2",
+    "question": "Which sentence uses a comma correctly?",
+    "passage": {
+      "id": "p-none-8",
+      "text": "N/A",
+      "source": "original"
+    },
+    "options": [
+      "I need apples, bananas and, milk.",
+      "I need, apples, bananas and milk.",
+      "I need apples, bananas, and milk.",
+      "I need apples bananas, and milk."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Commas are used to separate items in a list."
+  },
+  {
+    "id": "g3-q64",
+    "type": "grammar",
+    "format": "single",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.L.3.1",
+    "question": "What is the correct way to write the plural of 'child'?",
+    "passage": {
+      "id": "p-none-9",
+      "text": "N/A",
+      "source": "original"
+    },
+    "options": [
+      "childs",
+      "childes",
+      "children",
+      "childrens"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Children is the irregular plural form of child."
+  },
+  {
+    "id": "g3-q65",
+    "type": "grammar",
+    "format": "single",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.L.3.1",
+    "question": "Choose the correct pronoun to complete the sentence: 'Sarah and I are going to the library because ____ want to read.'",
+    "passage": {
+      "id": "p-none-10",
+      "text": "N/A",
+      "source": "original"
+    },
+    "options": [
+      "them",
+      "us",
+      "we",
+      "they"
+    ],
+    "correctAnswer": 2,
+    "explanation": "'Sarah and I' is a compound subject that should be replaced by the subject pronoun 'we'."
+  },
+  {
+    "id": "g3-q66",
+    "type": "writing",
+    "format": "single",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.W.3.1",
+    "question": "A student is writing an opinion about school uniforms. Which sentence is an opinion?",
+    "passage": {
+      "id": "p-none-11",
+      "text": "N/A",
+      "source": "original"
+    },
+    "options": [
+      "Our school requires students to wear blue shirts.",
+      "Uniforms cost twenty dollars at the store.",
+      "I believe uniforms make school more professional.",
+      "Many schools in California use uniforms."
+    ],
+    "correctAnswer": 2,
+    "explanation": "The phrase 'I believe' introduces a personal feeling or opinion, not a fact."
+  },
+  {
+    "id": "g3-q67",
+    "type": "writing",
+    "format": "single",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.W.3.2",
+    "question": "Which sentence would be the best topic sentence for a paragraph about how to grow a sunflower?",
+    "passage": {
+      "id": "p-none-12",
+      "text": "N/A",
+      "source": "original"
+    },
+    "options": [
+      "Sunflowers can grow to be very tall.",
+      "Growing your own sunflower is a fun and simple process.",
+      "Yellow is a bright and happy color.",
+      "I saw a sunflower in my neighbor's yard."
+    ],
+    "correctAnswer": 1,
+    "explanation": "A topic sentence should introduce the main idea of the whole paragraph, which in this case is the process of growing the flower."
+  },
+  {
+    "id": "g3-q68",
+    "type": "writing",
+    "format": "multi-select",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.W.3.1",
+    "question": "Select TWO sentences that provide reasons to support the opinion: 'Dogs make the best pets.'",
+    "passage": {
+      "id": "p-none-13",
+      "text": "N/A",
+      "source": "original"
+    },
+    "options": [
+      "Dogs are loyal and help keep their owners safe.",
+      "Some dogs have very long tails.",
+      "Dogs can be trained to do fun tricks and play fetch.",
+      "There are many different breeds of dogs."
+    ],
+    "correctAnswer": [0, 2],
+    "explanation": "Loyalty/safety and fun tricks are positive qualities that support the 'best pet' opinion."
+  },
+  {
+    "id": "g3-q69",
+    "type": "writing",
+    "format": "multi-select",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.W.3.2",
+    "question": "Select TWO facts that would belong in a report about the planet Mars.",
+    "passage": {
+      "id": "p-none-14",
+      "text": "N/A",
+      "source": "original"
+    },
+    "options": [
+      "Mars is known as the Red Planet.",
+      "I think Mars is a very scary place to visit.",
+      "Mars has the largest volcano in the solar system.",
+      "Alien movies about Mars are my favorite."
+    ],
+    "correctAnswer": [0, 2],
+    "explanation": "The name 'Red Planet' and the fact about the volcano are objective scientific facts suitable for a report."
+  },
+  {
+    "id": "g3-q70",
+    "type": "writing",
+    "format": "single",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.W.3.2",
+    "question": "Which of these is the best way to conclude an informative paragraph about recycle bins?",
+    "passage": {
+      "id": "p-none-15",
+      "text": "N/A",
+      "source": "original"
+    },
+    "options": [
+      "I have a blue bin at my house.",
+      "Recycling bins can be made of plastic or metal.",
+      "By using these bins correctly, we can all help protect the Earth.",
+      "Don't forget to put paper in the bin."
+    ],
+    "correctAnswer": 2,
+    "explanation": "A conclusion should summarize the importance of the topic discussed."
+  }
+]
