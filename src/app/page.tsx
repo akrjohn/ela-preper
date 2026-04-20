@@ -183,7 +183,10 @@ export default function Home() {
     return (
       <div className="min-h-screen bg-zinc-50 font-sans flex flex-col items-center justify-center p-4">
         <div className="max-w-md w-full bg-white rounded-xl shadow-lg p-8">
-          <h1 className="text-3xl font-bold text-zinc-800 mb-2">ELA Practice Test</h1>
+          <div className="flex justify-center mb-4">
+            <img src="/logo.svg" alt="ELA Prep Logo" className="w-24 h-24" />
+          </div>
+          <h1 className="text-3xl font-bold text-zinc-800 mb-2 text-center">ELA Practice Test</h1>
           <p className="text-zinc-600 mb-6">California State Standards aligned questions</p>
 
           <label className="block text-sm font-medium text-zinc-700 mb-2">

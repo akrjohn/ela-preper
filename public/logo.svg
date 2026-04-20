@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10b981"/>
+      <stop offset="100%" style="stop-color:#059669"/>
+    </linearGradient>
+    <linearGradient id="book" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#fbbf24"/>
+      <stop offset="100%" style="stop-color:#f59e0b"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="95" fill="url(#bg)"/>
+  
+  <!-- Open book shape -->
+  <path d="M45 65 Q45 55 55 55 L100 55 Q110 55 110 65 L110 145 Q110 155 100 155 L55 155 Q45 155 45 145 Z" fill="white" opacity="0.95"/>
+  <path d="M90 55 L90 155" stroke="#e5e7eb" stroke-width="2"/>
+  
+  <!-- Book spine highlight -->
+  <path d="M55 55 L55 155" stroke="#f3f4f6" stroke-width="3"/>
+  
+  <!-- Lines representing text -->
+  <line x1="60" y1="75" x2="80" y2="75" stroke="#10b981" stroke-width="4" stroke-linecap="round"/>
+  <line x1="60" y1="90" x2="85" y2="90" stroke="#10b981" stroke-width="4" stroke-linecap="round"/>
+  <line x1="60" y1="105" x2="75" y2="105" stroke="#10b981" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Pencil/pen icon -->
+  <path d="M135 145 L140 120 L160 100 L165 105 L145 125 Z" fill="url(#book)"/>
+  <path d="M135 145 L135 150 Q135 155 140 155 L145 150 Z" fill="#f59e0b"/>
+  
+  <!-- Pencil tip -->
+  <path d="M160 100 L165 95 L168 98 Z" fill="#fcd34d"/>
+  
+  <!-- Checkmark accent -->
+  <circle cx="100" cy="100" r="35" fill="white" opacity="0.15"/>
+  <path d="M85 100 L95 110 L120 80" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>
