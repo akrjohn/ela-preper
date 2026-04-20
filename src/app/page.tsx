@@ -8,6 +8,7 @@ import grade4Questions from '@/data/questions-grade4.json';
 import grade5Questions from '@/data/questions-grade5.json';
 
 type TestState = 'setup' | 'testing' | 'results';
+type ReviewMode = 'full' | 'missed';
 
 const QUESTION_COUNT_OPTIONS = [5, 8, 10, 15];
 const TIMER_OPTIONS = [
@@ -28,6 +29,8 @@ export default function Home() {
   const [answers, setAnswers] = useState<Map<string, number | number[]>>(new Map());
   const [partBAnswers, setPartBAnswers] = useState<Map<string, number>>(new Map());
   const [results, setResults] = useState<TestResult[]>([]);
+  const [lastMissedQuestions, setLastMissedQuestions] = useState<Question[]>([]);
+  const [reviewMode, setReviewMode] = useState<ReviewMode>('full');
   const [filteredQuestions, setFilteredQuestions] = useState<Question[]>([]);
   const timerRef = useRef<NodeJS.Timeout | null>(null);
 
@@ -130,6 +133,23 @@ export default function Home() {
     }));
 
     setTestState('results');
+
+    const missedQs = filteredQuestions.filter((q, i) => !testResults[i]?.isCorrect);
+    setLastMissedQuestions(missedQs);
+  };
+
+  const startReviewMode = () => {
+    const missed = lastMissedQuestions;
+    if (missed.length === 0) return;
+    
+    const withShuffledOptions = missed.map(shuffleOptions);
+    setFilteredQuestions(withShuffledOptions);
+    setAnswers(new Map());
+    setPartBAnswers(new Map());
+    setCurrentQuestionIndex(0);
+    setResults([]);
+    setReviewMode('missed');
+    setTestState('testing');
   };
 
   useEffect(() => {
@@ -216,6 +236,8 @@ export default function Home() {
   const restartTest = () => {
     setTestState('setup');
     setResults([]);
+    setLastMissedQuestions([]);
+    setReviewMode('full');
     setAnswers(new Map());
     setPartBAnswers(new Map());
     setCurrentQuestionIndex(0);
@@ -442,7 +464,9 @@ export default function Home() {
       <div className="min-h-screen bg-zinc-50 font-sans p-4">
         <div className="max-w-2xl mx-auto">
           <div className="bg-white rounded-xl shadow-lg p-6 mb-6 text-center">
-            <h2 className="text-2xl font-bold text-zinc-800 mb-4">Test Complete!</h2>
+            <h2 className="text-2xl font-bold text-zinc-800 mb-4">
+              {reviewMode === 'missed' ? 'Review Mode' : 'Test Complete!'}
+            </h2>
             
             <div className="text-5xl font-bold text-emerald-600 mb-2">{percentage}%</div>
             <p className="text-zinc-600 mb-6">
@@ -531,12 +555,23 @@ export default function Home() {
             })}
           </div>
 
-          <button
-            onClick={restartTest}
-            className="w-full bg-emerald-600 text-white py-3 px-6 rounded-lg font-medium hover:bg-emerald-700 transition-colors"
-          >
-            Take Another Test
-          </button>
+          <div className="space-y-3">
+            <button
+              onClick={restartTest}
+              className="w-full bg-emerald-600 text-white py-3 px-6 rounded-lg font-medium hover:bg-emerald-700 transition-colors"
+            >
+              Take Another Test
+            </button>
+            
+            {lastMissedQuestions.length > 0 && (
+              <button
+                onClick={startReviewMode}
+                className="w-full bg-amber-500 text-white py-3 px-6 rounded-lg font-medium hover:bg-amber-600 transition-colors"
+              >
+                Review {lastMissedQuestions.length} Missed Question{lastMissedQuestions.length > 1 ? 's' : ''}
+              </button>
+            )}
+          </div>
         </div>
       </div>
     );
