@@ -1,0 +1,672 @@
+[
+  {
+    "id": "g5-q01",
+    "type": "reading",
+    "format": "single",
+    "grade": 5,
+    "standard": "CCSS.ELA-LITERACY.RL.5.1",
+    "question": "Which inference about Elias is best supported by the passage?",
+    "passage": {
+      "id": "p-elias-workshop",
+      "text": "Elias stood before the workbench, the smell of cedar shavings filling his lungs. For months, he had meticulously carved each gear and pulley for the clock. His hands, though calloused, moved with the grace of a pianist. Today was the day he would finally wind the key. As he reached for it, his breath hitched. He noticed a slight misalignment in the escapement wheel—a fraction of a millimeter off. Slowly, he set the key down and picked up his smallest file. The sun was setting, but the clock could wait one more day for perfection.",
+      "source": "original"
+    },
+    "options": [
+      "He is impatient to finish the project.",
+      "He values high-quality craftsmanship over meeting a deadline.",
+      "He is worried that the clock will not work at all.",
+      "He prefers working with wood rather than metal."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Elias chooses to delay finishing the clock to fix a tiny misalignment, showing a commitment to perfection over speed."
+  },
+  {
+    "id": "g5-q02",
+    "type": "reading",
+    "format": "two-part",
+    "grade": 5,
+    "standard": "CCSS.ELA-LITERACY.RL.5.3",
+    "question": "Part A: How does Elias react when he sees the problem with the wheel?",
+    "passage": {
+      "id": "p-elias-workshop",
+      "text": "Elias stood before the workbench, the smell of cedar shavings filling his lungs. For months, he had meticulously carved each gear and pulley for the clock. His hands, though calloused, moved with the grace of a pianist. Today was the day he would finally wind the key. As he reached for it, his breath hitched. He noticed a slight misalignment in the escapement wheel—a fraction of a millimeter off. Slowly, he set the key down and picked up his smallest file. The sun was setting, but the clock could wait one more day for perfection.",
+      "source": "original"
+    },
+    "options": [
+      "He becomes frustrated and gives up.",
+      "He decides to ignore it and wind the clock anyway.",
+      "He remains calm and chooses to fix the error.",
+      "He seeks help from another clockmaker."
+    ],
+    "correctAnswer": 2,
+    "partBQuestion": "Part B: Which sentence from the passage best supports your answer in Part A?",
+    "partBOptions": [
+      "As he reached for it, his breath hitched.",
+      "Slowly, he set the key down and picked up his smallest file.",
+      "For months, he had meticulously carved each gear.",
+      "The sun was setting, but the clock could wait."
+    ],
+    "partBCorrectAnswer": 1,
+    "explanation": "Setting the key down slowly and picking up a file demonstrates a calm, methodical approach to solving the problem."
+  },
+  {
+    "id": "g5-q03",
+    "type": "reading",
+    "format": "multi-select",
+    "grade": 5,
+    "standard": "CCSS.ELA-LITERACY.RL.5.4",
+    "question": "Select TWO metaphors or similes used to describe Elias or his actions.",
+    "passage": {
+      "id": "p-elias-workshop",
+      "text": "Elias stood before the workbench, the smell of cedar shavings filling his lungs. For months, he had meticulously carved each gear and pulley for the clock. His hands, though calloused, moved with the grace of a pianist. Today was the day he would finally wind the key. As he reached for it, his breath hitched. He noticed a slight misalignment in the escapement wheel—a fraction of a millimeter off. Slowly, he set the key down and picked up his smallest file. The sun was setting, but the clock could wait one more day for perfection.",
+      "source": "original"
+    },
+    "options": [
+      "moved with the grace of a pianist",
+      "smell of cedar shavings filling his lungs",
+      "the clock could wait one more day",
+      "his breath hitched"
+    ],
+    "correctAnswer": [0, 3],
+    "explanation": "The passage compares his hand movements to a pianist (simile) and describes his breath 'hitching' to show physical reaction to stress/realization."
+  },
+  {
+    "id": "g5-q04",
+    "type": "reading",
+    "format": "single",
+    "grade": 5,
+    "standard": "CCSS.ELA-LITERACY.RI.5.2",
+    "question": "What is the main idea of the passage about the Great Barrier Reef?",
+    "passage": {
+      "id": "p-reef",
+      "text": "The Great Barrier Reef is the world's largest coral reef system, stretching over 1,400 miles off the coast of Australia. It is so large that it can be seen from outer space. This ecosystem supports thousands of species of fish, mollusks, and birds. However, the reef faces significant threats from rising ocean temperatures, which cause 'coral bleaching.' When the water is too warm, coral expels the algae living in its tissues, turning white and becoming vulnerable to disease. Conservationists are working to protect this natural wonder.",
+      "source": "original"
+    },
+    "options": [
+      "Coral bleaching is a process where coral turns white.",
+      "The Great Barrier Reef is a massive, diverse ecosystem that is currently in danger.",
+      "Scientists have found ways to cool the ocean water near Australia.",
+      "Outer space is the best place to view the Earth's oceans."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The passage describes the reef's size and diversity but emphasizes the threat of bleaching and the need for conservation."
+  },
+  {
+    "id": "g5-q05",
+    "type": "reading",
+    "format": "two-part",
+    "grade": 5,
+    "standard": "CCSS.ELA-LITERACY.RI.5.3",
+    "question": "Part A: Based on the passage, what is the relationship between water temperature and coral health?",
+    "passage": {
+      "id": "p-reef",
+      "text": "The Great Barrier Reef is the world's largest coral reef system, stretching over 1,400 miles off the coast of Australia. It is so large that it can be seen from outer space. This ecosystem supports thousands of species of fish, mollusks, and birds. However, the reef faces significant threats from rising ocean temperatures, which cause 'coral bleaching.' When the water is too warm, coral expels the algae living in its tissues, turning white and becoming vulnerable to disease. Conservationists are working to protect this natural wonder.",
+      "source": "original"
+    },
+    "options": [
+      "Warm water provides more food for the coral.",
+      "Rising temperatures lead to a loss of essential algae in the coral.",
+      "Cold water causes the coral to grow much faster.",
+      "Temperature has no effect on the color of the reef."
+    ],
+    "correctAnswer": 1,
+    "partBQuestion": "Part B: Which phrase from the passage best supports the answer in Part A?",
+    "partBOptions": [
+      "stretching over 1,400 miles",
+      "supports thousands of species",
+      "coral expels the algae living in its tissues",
+      "Conservationists are working to protect"
+    ],
+    "partBCorrectAnswer": 2,
+    "explanation": "The passage explicitly links warm water to the expulsion of algae, which leads to bleaching and poor health."
+  },
+  {
+    "id": "g5-q06",
+    "type": "reading",
+    "format": "multi-select",
+    "grade": 5,
+    "standard": "CCSS.ELA-LITERACY.RI.5.1",
+    "question": "Select TWO details that explain why the Great Barrier Reef is unique.",
+    "passage": {
+      "id": "p-reef",
+      "text": "The Great Barrier Reef is the world's largest coral reef system, stretching over 1,400 miles off the coast of Australia. It is so large that it can be seen from outer space. This ecosystem supports thousands of species of fish, mollusks, and birds. However, the reef faces significant threats from rising ocean temperatures, which cause 'coral bleaching.' When the water is too warm, coral expels the algae living in its tissues, turning white and becoming vulnerable to disease. Conservationists are working to protect this natural wonder.",
+      "source": "original"
+    },
+    "options": [
+      "It is visible from outer space.",
+      "It is the world's largest coral reef system.",
+      "The water temperature is rising.",
+      "Conservationists are working there."
+    ],
+    "correctAnswer": [0, 1],
+    "explanation": "Being the largest system and being visible from space are specific characteristics that highlight its uniqueness."
+  },
+  {
+    "id": "g5-q07",
+    "type": "reading",
+    "format": "single",
+    "grade": 5,
+    "standard": "CCSS.ELA-LITERACY.RL.5.2",
+    "question": "Which theme is most clearly developed in the story about the boy and the garden?",
+    "passage": {
+      "id": "p-garden",
+      "text": "Julian looked at the patch of dirt behind his apartment building. Everyone else saw weeds and broken glass, but Julian saw potential. Every day after school, he cleared debris and carried buckets of water from his kitchen. A neighbor, Mrs. Gable, watched him for weeks before coming down with a packet of sunflower seeds. 'The soil is hard, Julian,' she warned. 'It will take more than water.' Julian didn't stop. He dug deeper, mixed in compost, and waited. By July, the golden heads of the sunflowers towered over the fence, and the neighbors began to sit outside again.",
+      "source": "original"
+    },
+    "options": [
+      "Nature is dangerous and unpredictable.",
+      "Hard work and vision can transform a community.",
+      "It is important to listen to the warnings of elders.",
+      "Sunflowers are the easiest flowers to grow."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Julian's persistence and vision lead to a garden that changes how his neighbors interact with their environment."
+  },
+  {
+    "id": "g5-q08",
+    "type": "reading",
+    "format": "two-part",
+    "grade": 5,
+    "standard": "CCSS.ELA-LITERACY.RL.5.3",
+    "question": "Part A: How does Mrs. Gable's attitude toward Julian's garden change?",
+    "passage": {
+      "id": "p-garden",
+      "text": "Julian looked at the patch of dirt behind his apartment building. Everyone else saw weeds and broken glass, but Julian saw potential. Every day after school, he cleared debris and carried buckets of water from his kitchen. A neighbor, Mrs. Gable, watched him for weeks before coming down with a packet of sunflower seeds. 'The soil is hard, Julian,' she warned. 'It will take more than water.' Julian didn't stop. He dug deeper, mixed in compost, and waited. By July, the golden heads of the sunflowers towered over the fence, and the neighbors began to sit outside again.",
+      "source": "original"
+    },
+    "options": [
+      "She starts by helping him and then gets tired.",
+      "She moves from being skeptical to offering support.",
+      "She is angry at first but then becomes curious.",
+      "She ignores him until the flowers are fully grown."
+    ],
+    "correctAnswer": 1,
+    "partBQuestion": "Part B: Which detail from the passage supports this shift in attitude?",
+    "partBOptions": [
+      "Mrs. Gable watched him for weeks before coming down.",
+      "Everyone else saw weeds and broken glass.",
+      "A neighbor... watched him... before coming down with a packet of seeds.",
+      "Julian mixed in compost and waited."
+    ],
+    "partBCorrectAnswer": 2,
+    "explanation": "The fact that she watched for weeks (skepticism/observation) and then brought seeds (support) shows the change."
+  },
+  {
+    "id": "g5-q09",
+    "type": "reading",
+    "format": "single",
+    "grade": 5,
+    "standard": "CCSS.ELA-LITERACY.RI.5.5",
+    "question": "How does the author organize the information in the passage about the Invention of the Telephone?",
+    "passage": {
+      "id": "p-telephone",
+      "text": "In the mid-1800s, communication over long distances was slow, relying mostly on the telegraph. Alexander Graham Bell wanted to improve this. In 1875, he developed a device that could transmit sound over wires. However, the first experiments were unsuccessful. Bell persisted, and on March 10, 1876, he finally spoke the famous words to his assistant, 'Mr. Watson, come here—I want to see you.' This event marked the birth of the telephone, an invention that would eventually replace the telegraph and change how the world connected.",
+      "source": "original"
+    },
+    "options": [
+      "By comparing the telephone to the telegraph.",
+      "By describing the problems Bell faced and how he solved them.",
+      "By presenting the events in the order they happened.",
+      "By explaining the scientific causes of sound transmission."
+    ],
+    "correctAnswer": 2,
+    "explanation": "The passage follows a chronological timeline, starting from the mid-1800s through the specific date in 1876."
+  },
+  {
+    "id": "g5-q10",
+    "type": "reading",
+    "format": "multi-select",
+    "grade": 5,
+    "standard": "CCSS.ELA-LITERACY.RI.5.1",
+    "question": "Select TWO dates or time periods mentioned in the passage.",
+    "passage": {
+      "id": "p-telephone",
+      "text": "In the mid-1800s, communication over long distances was slow, relying mostly on the telegraph. Alexander Graham Bell wanted to improve this. In 1875, he developed a device that could transmit sound over wires. However, the first experiments were unsuccessful. Bell persisted, and on March 10, 1876, he finally spoke the famous words to his assistant, 'Mr. Watson, come here—I want to see you.' This event marked the birth of the telephone, an invention that would eventually replace the telegraph and change how the world connected.",
+      "source": "original"
+    },
+    "options": [
+      "Mid-1800s",
+      "March 10, 1876",
+      "Summer of 1875",
+      "January 1, 1900"
+    ],
+    "correctAnswer": [0, 1],
+    "explanation": "The text explicitly mentions the mid-1800s and March 10, 1876."
+  },
+  {
+    "id": "g5-q11",
+    "type": "reading",
+    "format": "single",
+    "grade": 5,
+    "standard": "CCSS.ELA-LITERACY.RL.5.4",
+    "question": "Read the sentence: 'The heavy rain was a curtain that hid the mountains from view.' What does the metaphor 'a curtain' suggest about the rain?",
+    "passage": {
+      "id": "p-mountain",
+      "text": "The storm rolled in without warning. Within minutes, the heavy rain was a curtain that hid the mountains from view. The hikers sought shelter under a rocky ledge, watching the gray sheets of water pour down. It was as if the world had been erased, leaving only the sound of the thunder echoing through the canyon.",
+      "source": "original"
+    },
+    "options": [
+      "The rain was soft and light.",
+      "The rain was completely blocking the hikers' sight.",
+      "The rain was falling in a straight line.",
+      "The rain was making a loud noise."
+    ],
+    "correctAnswer": 1,
+    "explanation": "A curtain is used to block or hide something; the metaphor indicates the rain was so thick the mountains couldn't be seen."
+  },
+  {
+    "id": "g5-q12",
+    "type": "reading",
+    "format": "two-part",
+    "grade": 5,
+    "standard": "CCSS.ELA-LITERACY.RL.5.1",
+    "question": "Part A: How do the hikers feel about the storm?",
+    "passage": {
+      "id": "p-mountain",
+      "text": "The storm rolled in without warning. Within minutes, the heavy rain was a curtain that hid the mountains from view. The hikers sought shelter under a rocky ledge, watching the gray sheets of water pour down. It was as if the world had been erased, leaving only the sound of the thunder echoing through the canyon.",
+      "source": "original"
+    },
+    "options": [
+      "They are excited to see the rain.",
+      "They are cautious and seeking safety.",
+      "They are annoyed that their hike is ruined.",
+      "They are confused about where they are."
+    ],
+    "correctAnswer": 1,
+    "partBQuestion": "Part B: Which detail from the passage supports this feeling?",
+    "partBOptions": [
+      "The storm rolled in without warning.",
+      "watching the gray sheets of water pour down",
+      "The hikers sought shelter under a rocky ledge",
+      "sound of the thunder echoing"
+    ],
+    "partBCorrectAnswer": 2,
+    "explanation": "Seeking shelter is a direct action taken to remain safe during a dangerous or uncomfortable situation."
+  },
+  {
+    "id": "g5-q13",
+    "type": "reading",
+    "format": "single",
+    "grade": 5,
+    "standard": "CCSS.ELA-LITERACY.RI.5.4",
+    "question": "What does the word 'expels' mean as used in the passage about the Great Barrier Reef?",
+    "passage": {
+      "id": "p-reef",
+      "text": "When the water is too warm, coral expels the algae living in its tissues, turning white and becoming vulnerable to disease.",
+      "source": "original"
+    },
+    "options": [
+      "To take in or swallow",
+      "To force out or eject",
+      "To change color",
+      "To protect or hide"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Contextual clues like 'turning white' and 'leaving its tissues' suggest the algae is being removed or forced out."
+  },
+  {
+    "id": "g5-q14",
+    "type": "reading",
+    "format": "two-part",
+    "grade": 5,
+    "standard": "CCSS.ELA-LITERACY.RI.5.2",
+    "question": "Part A: What is the main idea of the passage about the International Space Station (ISS)?",
+    "passage": {
+      "id": "p-iss",
+      "text": "The International Space Station (ISS) is a remarkable example of global cooperation. Five different space agencies representing 15 nations work together to maintain the station. It serves as a laboratory where astronauts conduct experiments that cannot be done on Earth, such as studying how plants grow in microgravity. These studies help scientists prepare for long-duration missions to Mars. Since 2000, the ISS has been continuously inhabited, proving that humans can live and work in space for long periods.",
+      "source": "original"
+    },
+    "options": [
+      "Astronauts like to grow plants in space.",
+      "The ISS is a unique lab that shows how nations can work together for space exploration.",
+      "Mars is the next destination for the ISS.",
+      "The ISS was built by a single country in 2000."
+    ],
+    "correctAnswer": 1,
+    "partBQuestion": "Part B: Which sentence from the passage best supports the main idea?",
+    "partBOptions": [
+      "representation of 15 nations work together",
+      "conduct experiments that cannot be done on Earth",
+      "preparing for missions to Mars",
+      "humans can live and work in space for long periods"
+    ],
+    "partBCorrectAnswer": 0,
+    "explanation": "The opening sentence and the mention of 15 nations emphasize the 'global cooperation' aspect of the ISS."
+  },
+  {
+    "id": "g5-q15",
+    "type": "reading",
+    "format": "multi-select",
+    "grade": 5,
+    "standard": "CCSS.ELA-LITERACY.RI.5.3",
+    "question": "Select TWO reasons why experiments are conducted on the ISS.",
+    "passage": {
+      "id": "p-iss",
+      "text": "The International Space Station (ISS) is a remarkable example of global cooperation. Five different space agencies representing 15 nations work together to maintain the station. It serves as a laboratory where astronauts conduct experiments that cannot be done on Earth, such as studying how plants grow in microgravity. These studies help scientists prepare for long-duration missions to Mars. Since 2000, the ISS has been continuously inhabited, proving that humans can live and work in space for long periods.",
+      "source": "original"
+    },
+    "options": [
+      "To study plant growth in microgravity.",
+      "To see if humans can live in space forever.",
+      "To prepare for missions to Mars.",
+      "To build more space stations for other nations."
+    ],
+    "correctAnswer": [0, 2],
+    "explanation": "The text explicitly mentions studying plant growth and preparing for missions to Mars as reasons for the experiments."
+  },
+  {
+    "id": "g5-q16",
+    "type": "vocabulary",
+    "format": "single",
+    "grade": 5,
+    "standard": "CCSS.ELA-LITERACY.L.5.4.A",
+    "question": "Read this sentence: 'The candidate’s speech was so ambiguous that no one knew where she stood on the issue.' What does the word 'ambiguous' mean?",
+    "passage": {
+      "id": "p-none",
+      "text": "N/A",
+      "source": "original"
+    },
+    "options": [
+      "Very loud and clear",
+      "Having more than one possible meaning; unclear",
+      "Extremely long and boring",
+      "Full of exciting promises"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The clue 'no one knew where she stood' indicates that the speech lacked clarity or had multiple interpretations."
+  },
+  {
+    "id": "g5-q17",
+    "type": "vocabulary",
+    "format": "single",
+    "grade": 5,
+    "standard": "CCSS.ELA-LITERACY.L.5.4.B",
+    "question": "What is the meaning of the word 'contradict' based on its roots? (contra = against, dict = speak)",
+    "passage": {
+      "id": "p-none",
+      "text": "N/A",
+      "source": "original"
+    },
+    "options": [
+      "To speak in favor of someone",
+      "To speak against or say the opposite",
+      "To speak very quietly",
+      "To write down a story"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Combining the root 'against' with 'speak' leads to the definition of saying the opposite."
+  },
+  {
+    "id": "g5-q18",
+    "type": "vocabulary",
+    "format": "single",
+    "grade": 5,
+    "standard": "CCSS.ELA-LITERACY.L.5.4.C",
+    "question": "Which word is a synonym for 'meticulous' as used in the passage about Elias?",
+    "passage": {
+      "id": "p-elias-workshop",
+      "text": "For months, he had meticulously carved each gear and pulley for the clock.",
+      "source": "original"
+    },
+    "options": [
+      "Carelessly",
+      "Quickly",
+      "Thoroughly",
+      "Accidentally"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Meticulous implies great attention to detail and being thorough."
+  },
+  {
+    "id": "g5-q19",
+    "type": "vocabulary",
+    "format": "single",
+    "grade": 5,
+    "standard": "CCSS.ELA-LITERACY.L.5.4.B",
+    "question": "What does the suffix '-able' mean in words like 'recyclable' and 'vulnerable'?",
+    "passage": {
+      "id": "p-none",
+      "text": "N/A",
+      "source": "original"
+    },
+    "options": [
+      "Without",
+      "Capable of or worthy of",
+      "The study of",
+      "A person who does"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The suffix '-able' indicates that something is capable of being acted upon (e.g., capable of being recycled)."
+  },
+  {
+    "id": "g5-q20",
+    "type": "vocabulary",
+    "format": "single",
+    "grade": 5,
+    "standard": "CCSS.ELA-LITERACY.L.5.4.C",
+    "question": "Which word is an antonym for 'vulnerable'?",
+    "passage": {
+      "id": "p-none",
+      "text": "N/A",
+      "source": "original"
+    },
+    "options": [
+      "Weak",
+      "Protected",
+      "Exposed",
+      "Sensitive"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Vulnerable means open to harm, so 'protected' is its opposite."
+  },
+  {
+    "id": "g5-q21",
+    "type": "grammar",
+    "format": "single",
+    "grade": 5,
+    "standard": "CCSS.ELA-LITERACY.L.5.1.A",
+    "question": "Which sentence uses a conjunction correctly to join two ideas?",
+    "passage": {
+      "id": "p-none",
+      "text": "N/A",
+      "source": "original"
+    },
+    "options": [
+      "I wanted to go to the park, but it started to rain.",
+      "I wanted to go to the park or it started to rain.",
+      "I wanted to go to the park because it started to rain.",
+      "I wanted to go to the park so it started to rain."
+    ],
+    "correctAnswer": 0,
+    "explanation": "'But' is the correct coordinating conjunction to show a contrast between wanting to go and the rain stopping it."
+  },
+  {
+    "id": "g5-q22",
+    "type": "grammar",
+    "format": "single",
+    "grade": 5,
+    "standard": "CCSS.ELA-LITERACY.L.5.1.B",
+    "question": "Which sentence uses the perfect verb tense correctly?",
+    "passage": {
+      "id": "p-none",
+      "text": "N/A",
+      "source": "original"
+    },
+    "options": [
+      "I have seen that movie three times already.",
+      "I had saw that movie three times already.",
+      "I have saw that movie three times already.",
+      "I have seeing that movie three times already."
+    ],
+    "correctAnswer": 0,
+    "explanation": "The present perfect tense uses 'have' + the past participle 'seen'."
+  },
+  {
+    "id": "g5-q23",
+    "type": "grammar",
+    "format": "single",
+    "grade": 5,
+    "standard": "CCSS.ELA-LITERACY.L.5.2.A",
+    "question": "Which sentence is punctuated correctly with commas?",
+    "passage": {
+      "id": "p-none",
+      "text": "N/A",
+      "source": "original"
+    },
+    "options": [
+      "Yes, I would like, another piece of cake.",
+      "Yes I would like another piece of cake.",
+      "Yes, I would like another piece of cake.",
+      "Yes I would, like another piece of cake."
+    ],
+    "correctAnswer": 2,
+    "explanation": "A comma should follow introductory words like 'Yes'."
+  },
+  {
+    "id": "g5-q24",
+    "type": "grammar",
+    "format": "multi-select",
+    "grade": 5,
+    "standard": "CCSS.ELA-LITERACY.L.5.1.C",
+    "question": "Select TWO sentences that use verb tenses correctly to show a sequence of events.",
+    "passage": {
+      "id": "p-none",
+      "text": "N/A",
+      "source": "original"
+    },
+    "options": [
+      "After I finish my homework, I will go outside.",
+      "After I finished my homework, I will go outside.",
+      "Before the sun set, we had found a place to camp.",
+      "Before the sun set, we find a place to camp."
+    ],
+    "correctAnswer": [0, 2],
+    "explanation": "Option A uses present/future correctly, and Option C uses past/past perfect correctly to show sequence."
+  },
+  {
+    "id": "g5-q25",
+    "type": "grammar",
+    "format": "single",
+    "grade": 5,
+    "standard": "CCSS.ELA-LITERACY.L.5.2.B",
+    "question": "Which sentence uses a comma to separate items in a series correctly?",
+    "passage": {
+      "id": "p-none",
+      "text": "N/A",
+      "source": "original"
+    },
+    "options": [
+      "I bought eggs, milk, bread and butter.",
+      "I bought eggs milk bread and butter.",
+      "I bought eggs, milk, bread, and butter.",
+      "I bought, eggs, milk, bread and butter."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Commas should separate every item in a list, including before the coordinating conjunction (Oxford comma)."
+  },
+  {
+    "id": "g5-q26",
+    "type": "writing",
+    "format": "single",
+    "grade": 5,
+    "standard": "CCSS.ELA-LITERACY.W.5.1",
+    "question": "Which sentence would be the best thesis statement for an opinion essay about banning plastic straws?",
+    "passage": {
+      "id": "p-none",
+      "text": "N/A",
+      "source": "original"
+    },
+    "options": [
+      "Many people use plastic straws every day.",
+      "Plastic straws are often made of polypropylene.",
+      "Our city should ban plastic straws because they harm marine life and take centuries to decompose.",
+      "Some restaurants have started using paper straws instead."
+    ],
+    "correctAnswer": 2,
+    "explanation": "A thesis statement for an opinion essay must state a clear claim and the reasons that will be discussed."
+  },
+  {
+    "id": "g5-q27",
+    "type": "writing",
+    "format": "multi-select",
+    "grade": 5,
+    "standard": "CCSS.ELA-LITERACY.W.5.2.B",
+    "question": "Select TWO pieces of evidence that would support an informative report about how the moon affects tides.",
+    "passage": {
+      "id": "p-none",
+      "text": "N/A",
+      "source": "original"
+    },
+    "options": [
+      "The moon's gravitational pull tugs on Earth's oceans.",
+      "Many people enjoy surfing when the tide is high.",
+      "The side of the Earth facing the moon experiences a high tide.",
+      "The moon is approximately 238,000 miles from Earth."
+    ],
+    "correctAnswer": [0, 2],
+    "explanation": "Both gravity and the position of the Earth relative to the moon are direct causes of tides."
+  },
+  {
+    "id": "g5-q28",
+    "type": "writing",
+    "format": "single",
+    "grade": 5,
+    "standard": "CCSS.ELA-LITERACY.W.5.1.C",
+    "question": "Which transition word or phrase is best for introducing an opposing viewpoint?",
+    "passage": {
+      "id": "p-none",
+      "text": "N/A",
+      "source": "original"
+    },
+    "options": [
+      "In addition",
+      "Furthermore",
+      "On the other hand",
+      "Consequently"
+    ],
+    "correctAnswer": 2,
+    "explanation": "'On the other hand' is specifically used to signal a contrast or a different point of view."
+  },
+  {
+    "id": "g5-q29",
+    "type": "writing",
+    "format": "multi-select",
+    "grade": 5,
+    "standard": "CCSS.ELA-LITERACY.W.5.2",
+    "question": "Select TWO ways to conclude an informative essay effectively.",
+    "passage": {
+      "id": "p-none",
+      "text": "N/A",
+      "source": "original"
+    },
+    "options": [
+      "Summarize the most important points discussed in the essay.",
+      "Introduce a new topic that was not mentioned before.",
+      "Provide a final thought that connects the topic to the reader's life.",
+      "List all the websites where the information was found."
+    ],
+    "correctAnswer": [0, 2],
+    "explanation": "Effective conclusions summarize the main ideas and provide a sense of closure or connection."
+  },
+  {
+    "id": "g5-q30",
+    "type": "writing",
+    "format": "single",
+    "grade": 5,
+    "standard": "CCSS.ELA-LITERACY.W.5.1.B",
+    "question": "In an opinion essay about school uniforms, which sentence provides the strongest reason to support the opinion that uniforms should be required?",
+    "passage": {
+      "id": "p-none",
+      "text": "N/A",
+      "source": "original"
+    },
+    "options": [
+      "Uniforms come in colors like blue, white, and khaki.",
+      "Uniforms can reduce bullying by making it harder to judge students based on their clothes.",
+      "Some students find uniforms to be uncomfortable during the summer.",
+      "My cousin has to wear a uniform at her private school."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Providing a social benefit like reducing bullying is a strong, logical reason for a policy change."
+  }
+]

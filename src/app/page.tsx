@@ -3,6 +3,8 @@
 import { useState, useEffect } from 'react';
 import { Question, TestResult } from '@/types/questions';
 import grade3Questions from '@/data/questions-grade3.json';
+import grade4Questions from '@/data/questions-grade4.json';
+import grade5Questions from '@/data/questions-grade5.json';
 
 type TestState = 'setup' | 'testing' | 'results';
 
@@ -19,8 +21,21 @@ export default function Home() {
   const [filteredQuestions, setFilteredQuestions] = useState<Question[]>([]);
 
   const loadQuestions = (grade: number): Question[] => {
-    const allQuestions = grade3Questions as unknown as Question[];
-    return allQuestions.filter(q => q.grade === grade);
+    let allQuestions: Question[] = [];
+    switch (grade) {
+      case 3:
+        allQuestions = grade3Questions as unknown as Question[];
+        break;
+      case 4:
+        allQuestions = grade4Questions as unknown as Question[];
+        break;
+      case 5:
+        allQuestions = grade5Questions as unknown as Question[];
+        break;
+      default:
+        allQuestions = grade3Questions as unknown as Question[];
+    }
+    return allQuestions;
   };
 
   const shuffleArray = <T,>(array: T[]): T[] => {
@@ -198,8 +213,8 @@ export default function Home() {
             className="w-full p-3 border border-zinc-300 rounded-lg mb-4 bg-white"
           >
             <option value={3}>Grade 3</option>
-            <option value={4} disabled>Grade 4 (coming soon)</option>
-            <option value={5} disabled>Grade 5 (coming soon)</option>
+            <option value={4}>Grade 4</option>
+            <option value={5}>Grade 5</option>
           </select>
 
           <label className="block text-sm font-medium text-zinc-700 mb-2">

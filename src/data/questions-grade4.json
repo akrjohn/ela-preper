@@ -1,1 +1,672 @@
-[]
+[
+  {
+    "id": "g4-q01",
+    "type": "reading",
+    "format": "single",
+    "grade": 4,
+    "standard": "CCSS.ELA-LITERACY.RL.4.1",
+    "question": "Based on the text, why did Clara decide to explore the attic?",
+    "passage": {
+      "id": "p-clara-attic",
+      "text": "Clara had lived in the old Victorian house for ten years, but she had never ventured into the attic. One rainy Tuesday, the Wi-Fi went out, leaving her with nothing to do. Remembering her grandmother’s stories about a hidden trunk filled with stage costumes, Clara grabbed a flashlight. The stairs creaked under her weight, and the air grew dusty and thick. As she reached the top, she saw a glimmer of silver under a pile of old quilts. Her heart raced with curiosity as she wondered if the stories were true.",
+      "source": "original"
+    },
+    "options": [
+      "She wanted to fix the Wi-Fi connection.",
+      "She was looking for a place to hide from the rain.",
+      "She was bored and wanted to find her grandmother's costumes.",
+      "She needed to find old quilts to stay warm."
+    ],
+    "correctAnswer": 2,
+    "explanation": "The text states that she had nothing to do because the Wi-Fi was out and she remembered stories about a trunk of costumes."
+  },
+  {
+    "id": "g4-q02",
+    "type": "reading",
+    "format": "two-part",
+    "grade": 4,
+    "standard": "CCSS.ELA-LITERACY.RL.4.3",
+    "question": "Part A: Which word best describes Clara's mood as she climbs the stairs?",
+    "passage": {
+      "id": "p-clara-attic",
+      "text": "Clara had lived in the old Victorian house for ten years, but she had never ventured into the attic. One rainy Tuesday, the Wi-Fi went out, leaving her with nothing to do. Remembering her grandmother’s stories about a hidden trunk filled with stage costumes, Clara grabbed a flashlight. The stairs creaked under her weight, and the air grew dusty and thick. As she reached the top, she saw a glimmer of silver under a pile of old quilts. Her heart raced with curiosity as she wondered if the stories were true.",
+      "source": "original"
+    },
+    "options": [
+      "Fearful",
+      "Eager",
+      "Exhausted",
+      "Grumpy"
+    ],
+    "correctAnswer": 1,
+    "partBQuestion": "Part B: Which sentence from the passage best supports your answer in Part A?",
+    "partBOptions": [
+      "The stairs creaked under her weight.",
+      "Clara grabbed a flashlight.",
+      "Her heart raced with curiosity as she wondered if the stories were true.",
+      "The air grew dusty and thick."
+    ],
+    "partBCorrectAnswer": 2,
+    "explanation": "Clara is eager to see if the stories are true, which is shown by her heart racing with curiosity."
+  },
+  {
+    "id": "g4-q03",
+    "type": "reading",
+    "format": "multi-select",
+    "grade": 4,
+    "standard": "CCSS.ELA-LITERACY.RL.4.1",
+    "question": "Select TWO details that describe the setting of the attic.",
+    "passage": {
+      "id": "p-clara-attic",
+      "text": "Clara had lived in the old Victorian house for ten years, but she had never ventured into the attic. One rainy Tuesday, the Wi-Fi went out, leaving her with nothing to do. Remembering her grandmother’s stories about a hidden trunk filled with stage costumes, Clara grabbed a flashlight. The stairs creaked under her weight, and the air grew dusty and thick. As she reached the top, she saw a glimmer of silver under a pile of old quilts. Her heart raced with curiosity as she wondered if the stories were true.",
+      "source": "original"
+    },
+    "options": [
+      "The air was dusty and thick.",
+      "It was filled with modern technology.",
+      "There were old quilts piled up.",
+      "The walls were painted bright yellow."
+    ],
+    "correctAnswer": [0, 2],
+    "explanation": "The text explicitly mentions the dusty air and the pile of old quilts in the attic."
+  },
+  {
+    "id": "g4-q04",
+    "type": "reading",
+    "format": "single",
+    "grade": 4,
+    "standard": "CCSS.ELA-LITERACY.RI.4.2",
+    "question": "What is the main idea of the passage about Sequoia trees?",
+    "passage": {
+      "id": "p-sequoia",
+      "text": "Giant Sequoias are among the largest and oldest living things on Earth. These massive trees grow only on the western slopes of the Sierra Nevada mountains in California. Their bark can be up to three feet thick, which protects them from forest fires. In fact, Sequoias actually need heat from fires to help their cones open and release seeds. Because they are so hardy, some Sequoias have lived for over 3,000 years, standing tall through centuries of storms and droughts.",
+      "source": "original"
+    },
+    "options": [
+      "Forest fires are dangerous to all trees in California.",
+      "Sequoia trees have thick bark that humans use for wood.",
+      "Giant Sequoias have unique features that help them survive for thousands of years.",
+      "The Sierra Nevada mountains are the best place for hiking."
+    ],
+    "correctAnswer": 2,
+    "explanation": "The passage details several survival features (thick bark, fire-dependent seeds, hardiness) that allow the trees to live for a long time."
+  },
+  {
+    "id": "g4-q05",
+    "type": "reading",
+    "format": "two-part",
+    "grade": 4,
+    "standard": "CCSS.ELA-LITERACY.RI.4.3",
+    "question": "Part A: How do forest fires help Giant Sequoia trees?",
+    "passage": {
+      "id": "p-sequoia",
+      "text": "Giant Sequoias are among the largest and oldest living things on Earth. These massive trees grow only on the western slopes of the Sierra Nevada mountains in California. Their bark can be up to three feet thick, which protects them from forest fires. In fact, Sequoias actually need heat from fires to help their cones open and release seeds. Because they are so hardy, some Sequoias have lived for over 3,000 years, standing tall through centuries of storms and droughts.",
+      "source": "original"
+    },
+    "options": [
+      "Fires clear the ground so more trees can grow.",
+      "The heat is necessary for the trees to reproduce.",
+      "Fires provide the trees with extra water.",
+      "Fires help the trees grow taller and wider."
+    ],
+    "correctAnswer": 1,
+    "partBQuestion": "Part B: Which sentence from the passage best supports your answer in Part A?",
+    "partBOptions": [
+      "Their bark can be up to three feet thick.",
+      "Sequoias actually need heat from fires to help their cones open and release seeds.",
+      "Giant Sequoias are among the largest and oldest living things on Earth.",
+      "Some Sequoias have lived for over 3,000 years."
+    ],
+    "partBCorrectAnswer": 1,
+    "explanation": "The text explains the trees need heat to release seeds, which is the process of reproduction."
+  },
+  {
+    "id": "g4-q06",
+    "type": "reading",
+    "format": "single",
+    "grade": 4,
+    "standard": "CCSS.ELA-LITERACY.RL.4.2",
+    "question": "What is the theme of the story 'The Tortoise and the Hare'?",
+    "passage": {
+      "id": "p-fable",
+      "text": "The Hare was always boasting of his speed. 'I have never yet been beaten,' he said. The Tortoise quietly replied, 'I will race you.' The Hare laughed and accepted. Soon, the Hare was so far ahead that he decided to take a nap. Meanwhile, the Tortoise kept going, step by step, never stopping. When the Hare woke up, he ran as fast as he could, but the Tortoise had already crossed the finish line. 'Slow and steady wins the race,' said the Tortoise.",
+      "source": "original"
+    },
+    "options": [
+      "It is better to be fast than slow.",
+      "Napping is important for athletes.",
+      "Consistency and perseverance lead to success.",
+      "You should never talk to people who boast."
+    ],
+    "correctAnswer": 2,
+    "explanation": "The theme is expressed by the Tortoise's victory through constant, steady effort despite being slower."
+  },
+  {
+    "id": "g4-q07",
+    "type": "reading",
+    "format": "multi-select",
+    "grade": 4,
+    "standard": "CCSS.ELA-LITERACY.RL.4.3",
+    "question": "Select TWO character traits that describe the Hare.",
+    "passage": {
+      "id": "p-fable",
+      "text": "The Hare was always boasting of his speed. 'I have never yet been beaten,' he said. The Tortoise quietly replied, 'I will race you.' The Hare laughed and accepted. Soon, the Hare was so far ahead that he decided to take a nap. Meanwhile, the Tortoise kept going, step by step, never stopping. When the Hare woke up, he ran as fast as he could, but the Tortoise had already crossed the finish line. 'Slow and steady wins the race,' said the Tortoise.",
+      "source": "original"
+    },
+    "options": [
+      "Arrogant",
+      "Determined",
+      "Overconfident",
+      "Humble"
+    ],
+    "correctAnswer": [0, 2],
+    "explanation": "The Hare boasts about his speed and is so sure he will win that he takes a nap, showing he is arrogant and overconfident."
+  },
+  {
+    "id": "g4-q08",
+    "type": "reading",
+    "format": "single",
+    "grade": 4,
+    "standard": "CCSS.ELA-LITERACY.RI.4.5",
+    "question": "How is the passage about the Water Cycle organized?",
+    "passage": {
+      "id": "p-water-cycle",
+      "text": "The water cycle describes how water moves through the Earth. First, the sun heats up water in oceans and lakes, causing evaporation. Next, the water vapor rises into the air and cools down, forming clouds through condensation. After that, the water falls back to Earth as precipitation, like rain or snow. Finally, the water collects again in oceans and lakes, and the entire process starts over.",
+      "source": "original"
+    },
+    "options": [
+      "Compare and Contrast",
+      "Problem and Solution",
+      "Chronological/Sequence",
+      "Cause and Effect"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The use of transition words like 'First,' 'Next,' 'After that,' and 'Finally' indicates a sequential structure."
+  },
+  {
+    "id": "g4-q09",
+    "type": "reading",
+    "format": "two-part",
+    "grade": 4,
+    "standard": "CCSS.ELA-LITERACY.RI.4.1",
+    "question": "Part A: What causes clouds to form in the water cycle?",
+    "passage": {
+      "id": "p-water-cycle",
+      "text": "The water cycle describes how water moves through the Earth. First, the sun heats up water in oceans and lakes, causing evaporation. Next, the water vapor rises into the air and cools down, forming clouds through condensation. After that, the water falls back to Earth as precipitation, like rain or snow. Finally, the water collects again in oceans and lakes, and the entire process starts over.",
+      "source": "original"
+    },
+    "options": [
+      "The sun heating the ocean",
+      "Rain falling from the sky",
+      "Water vapor cooling down in the air",
+      "Plants releasing water"
+    ],
+    "correctAnswer": 2,
+    "partBQuestion": "Part B: Which word from the passage names this specific part of the process?",
+    "partBOptions": [
+      "Evaporation",
+      "Condensation",
+      "Precipitation",
+      "Collection"
+    ],
+    "partBCorrectAnswer": 1,
+    "explanation": "The text states vapor cools to form clouds through condensation."
+  },
+  {
+    "id": "g4-q10",
+    "type": "reading",
+    "format": "multi-select",
+    "grade": 4,
+    "standard": "CCSS.ELA-LITERACY.RI.4.4",
+    "question": "Select TWO words from the passage that are scientific terms for types of water movement.",
+    "passage": {
+      "id": "p-water-cycle",
+      "text": "The water cycle describes how water moves through the Earth. First, the sun heats up water in oceans and lakes, causing evaporation. Next, the water vapor rises into the air and cools down, forming clouds through condensation. After that, the water falls back to Earth as precipitation, like rain or snow. Finally, the water collects again in oceans and lakes, and the entire process starts over.",
+      "source": "original"
+    },
+    "options": [
+      "Evaporation",
+      "Heating",
+      "Precipitation",
+      "Cooling"
+    ],
+    "correctAnswer": [0, 2],
+    "explanation": "Evaporation and Precipitation are specific scientific terms used to describe stages of the water cycle."
+  },
+  {
+    "id": "g4-q11",
+    "type": "reading",
+    "format": "single",
+    "grade": 4,
+    "standard": "CCSS.ELA-LITERACY.RL.4.4",
+    "question": "What does the phrase 'butterflies in her stomach' mean in the context of the story?",
+    "passage": {
+      "id": "p-stage-fright",
+      "text": "It was time for the talent show. Maya waited behind the curtain, clutching her violin. She had butterflies in her stomach as she heard the audience clapping. Her hands felt clammy, and she took deep breaths to calm her nerves. When the announcer called her name, she stepped out onto the stage. As soon as she began to play the first note, the fluttering feeling went away, and she felt strong and focused.",
+      "source": "original"
+    },
+    "options": [
+      "She was feeling hungry.",
+      "She was feeling nervous or anxious.",
+      "She had swallowed a bug.",
+      "She was feeling sick."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The context of performing in a talent show and having clammy hands indicates that the phrase describes nervousness."
+  },
+  {
+    "id": "g4-q12",
+    "type": "reading",
+    "format": "two-part",
+    "grade": 4,
+    "standard": "CCSS.ELA-LITERACY.RL.4.3",
+    "question": "Part A: How does Maya's feeling change once she starts playing the violin?",
+    "passage": {
+      "id": "p-stage-fright",
+      "text": "It was time for the talent show. Maya waited behind the curtain, clutching her violin. She had butterflies in her stomach as she heard the audience clapping. Her hands felt clammy, and she took deep breaths to calm her nerves. When the announcer called her name, she stepped out onto the stage. As soon as she began to play the first note, the fluttering feeling went away, and she felt strong and focused.",
+      "source": "original"
+    },
+    "options": [
+      "She becomes more scared of the audience.",
+      "She becomes confident and attentive.",
+      "She realizes she forgot the music.",
+      "She feels sleepy and relaxed."
+    ],
+    "correctAnswer": 1,
+    "partBQuestion": "Part B: Which phrase from the passage best supports your answer in Part A?",
+    "partBOptions": [
+      "she heard the audience clapping",
+      "she took deep breaths",
+      "she felt strong and focused",
+      "the announcer called her name"
+    ],
+    "partBCorrectAnswer": 2,
+    "explanation": "The text states the 'fluttering feeling went away' and she felt 'strong and focused,' which indicates confidence."
+  },
+  {
+    "id": "g4-q13",
+    "type": "reading",
+    "format": "single",
+    "grade": 4,
+    "standard": "CCSS.ELA-LITERACY.RL.4.7",
+    "question": "If this story were a play, which element would help the audience understand Maya's internal feelings?",
+    "passage": {
+      "id": "p-stage-fright",
+      "text": "It was time for the talent show. Maya waited behind the curtain, clutching her violin. She had butterflies in her stomach as she heard the audience clapping. Her hands felt clammy, and she took deep breaths to calm her nerves. When the announcer called her name, she stepped out onto the stage. As soon as she began to play the first note, the fluttering feeling went away, and she felt strong and focused.",
+      "source": "original"
+    },
+    "options": [
+      "The color of her dress",
+      "The volume of the violin music",
+      "Stage directions showing her taking deep breaths",
+      "The size of the stage"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Stage directions showing her physical actions (deep breaths, clutching the violin) communicate her anxiety visually to a play's audience."
+  },
+  {
+    "id": "g4-q14",
+    "type": "reading",
+    "format": "single",
+    "grade": 4,
+    "standard": "CCSS.ELA-LITERACY.RI.4.3",
+    "question": "What is the relationship between Thomas Edison and the light bulb according to historical records?",
+    "passage": {
+      "id": "p-edison",
+      "text": "Thomas Edison is famous for inventing the first practical electric light bulb. Before his invention, people used candles and oil lamps, which were dim and could be dangerous. Edison didn't just have one 'bright idea'; he tested over 6,000 different materials for the filament inside the bulb. In 1879, he finally found that a carbonized bamboo filament could last for over 1,200 hours. This breakthrough changed the world by making it possible to have safe, reliable light in homes and factories.",
+      "source": "original"
+    },
+    "options": [
+      "He was the first person to ever think of using electricity.",
+      "He improved the light bulb to make it useful for everyday life.",
+      "He discovered bamboo growing in his backyard.",
+      "He invented the first oil lamp."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The text notes he invented the first 'practical' bulb by testing thousands of materials to find one that lasted a long time."
+  },
+  {
+    "id": "g4-q15",
+    "type": "reading",
+    "format": "two-part",
+    "grade": 4,
+    "standard": "CCSS.ELA-LITERACY.RI.4.1",
+    "question": "Part A: Why was the discovery of the carbonized bamboo filament important?",
+    "passage": {
+      "id": "p-edison",
+      "text": "Thomas Edison is famous for inventing the first practical electric light bulb. Before his invention, people used candles and oil lamps, which were dim and could be dangerous. Edison didn't just have one 'bright idea'; he tested over 6,000 different materials for the filament inside the bulb. In 1879, he finally found that a carbonized bamboo filament could last for over 1,200 hours. This breakthrough changed the world by making it possible to have safe, reliable light in homes and factories.",
+      "source": "original"
+    },
+    "options": [
+      "It was cheaper than other materials.",
+      "It made the light bulb last long enough to be useful.",
+      "It made the bulb look more attractive.",
+      "It replaced the need for electricity."
+    ],
+    "correctAnswer": 1,
+    "partBQuestion": "Part B: Which detail from the passage supports your answer in Part A?",
+    "partBOptions": [
+      "he tested over 6,000 different materials",
+      "people used candles and oil lamps",
+      "it could last for over 1,200 hours",
+      "This breakthrough changed the world"
+    ],
+    "partBCorrectAnswer": 2,
+    "explanation": "The 1,200-hour lifespan made the bulb practical and reliable compared to previous attempts."
+  },
+  {
+    "id": "g4-q16",
+    "type": "vocabulary",
+    "format": "single",
+    "grade": 4,
+    "standard": "CCSS.ELA-LITERACY.L.4.4.A",
+    "question": "Read this sentence: 'The hiker felt exhausted after climbing the steep mountain all day.' What does the word 'exhausted' mean?",
+    "passage": {
+      "id": "p-none",
+      "text": "N/A",
+      "source": "original"
+    },
+    "options": [
+      "Excited",
+      "Thirsty",
+      "Extremely tired",
+      "Angry"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Context clues like 'climbing all day' and 'steep mountain' suggest that the hiker would be very tired."
+  },
+  {
+    "id": "g4-q17",
+    "type": "vocabulary",
+    "format": "single",
+    "grade": 4,
+    "standard": "CCSS.ELA-LITERACY.L.4.4.B",
+    "question": "What is the meaning of the word 'preheat' based on its prefix?",
+    "passage": {
+      "id": "p-none",
+      "text": "N/A",
+      "source": "original"
+    },
+    "options": [
+      "Heat again",
+      "Heat before",
+      "Not heat",
+      "Heat slowly"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The prefix 'pre-' means before, so preheat means to heat before doing something else."
+  },
+  {
+    "id": "g4-q18",
+    "type": "vocabulary",
+    "format": "single",
+    "grade": 4,
+    "standard": "CCSS.ELA-LITERACY.RI.4.4",
+    "question": "In the passage about Sequoia trees, what does the word 'hardy' mean?",
+    "passage": {
+      "id": "p-sequoia",
+      "text": "Because they are so hardy, some Sequoias have lived for over 3,000 years, standing tall through centuries of storms and droughts.",
+      "source": "original"
+    },
+    "options": [
+      "Easy to cut down",
+      "Strong and able to survive difficult conditions",
+      "Very soft and smooth",
+      "Tall and skinny"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The context of surviving 'centuries of storms and droughts' defines hardy as strong or resilient."
+  },
+  {
+    "id": "g4-q19",
+    "type": "vocabulary",
+    "format": "multi-select",
+    "grade": 4,
+    "standard": "CCSS.ELA-LITERACY.L.4.4.C",
+    "question": "Select TWO words that are synonyms for the word 'vast'.",
+    "passage": {
+      "id": "p-none",
+      "text": "N/A",
+      "source": "original"
+    },
+    "options": [
+      "Tiny",
+      "Immense",
+      "Enormous",
+      "Narrow"
+    ],
+    "correctAnswer": [1, 2],
+    "explanation": "Vast means very large, so immense and enormous are synonyms."
+  },
+  {
+    "id": "g4-q20",
+    "type": "vocabulary",
+    "format": "single",
+    "grade": 4,
+    "standard": "CCSS.ELA-LITERACY.L.4.4",
+    "question": "Which meaning of 'bill' is used in this sentence? 'The pelican used its long bill to scoop up fish from the water.'",
+    "passage": {
+      "id": "p-none",
+      "text": "N/A",
+      "source": "original"
+    },
+    "options": [
+      "A piece of paper money",
+      "A law that is being considered",
+      "The beak of a bird",
+      "A statement of money owed for a service"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The context of a 'pelican' and 'scooping up fish' refers to the bird's beak."
+  },
+  {
+    "id": "g4-q21",
+    "type": "grammar",
+    "format": "single",
+    "grade": 4,
+    "standard": "CCSS.ELA-LITERACY.L.4.1.A",
+    "question": "Which sentence uses a relative pronoun correctly?",
+    "passage": {
+      "id": "p-none",
+      "text": "N/A",
+      "source": "original"
+    },
+    "options": [
+      "This is the boy which won the race.",
+      "This is the boy who won the race.",
+      "This is the boy whom won the race.",
+      "This is the boy whose won the race."
+    ],
+    "correctAnswer": 1,
+    "explanation": "'Who' is the correct relative pronoun to use when referring to a person as the subject of the clause."
+  },
+  {
+    "id": "g4-q22",
+    "type": "grammar",
+    "format": "single",
+    "grade": 4,
+    "standard": "CCSS.ELA-LITERACY.L.4.1.B",
+    "question": "Which sentence uses the progressive verb tense correctly?",
+    "passage": {
+      "id": "p-none",
+      "text": "N/A",
+      "source": "original"
+    },
+    "options": [
+      "I was walk to the store yesterday.",
+      "I am walking to the store right now.",
+      "I walking to the store tomorrow.",
+      "I will walking to the store."
+    ],
+    "correctAnswer": 1,
+    "explanation": "'Am walking' is the present progressive tense, used for actions happening right now."
+  },
+  {
+    "id": "g4-q23",
+    "type": "grammar",
+    "format": "single",
+    "grade": 4,
+    "standard": "CCSS.ELA-LITERACY.L.4.2.A",
+    "question": "Which sentence uses capitalization correctly?",
+    "passage": {
+      "id": "p-none",
+      "text": "N/A",
+      "source": "original"
+    },
+    "options": [
+      "We visited the Golden Gate bridge in San Francisco.",
+      "We visited the golden gate bridge in san francisco.",
+      "We visited the Golden Gate Bridge in San Francisco.",
+      "We visited the Golden gate bridge in San francisco."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Proper names of landmarks (Golden Gate Bridge) and cities (San Francisco) must be capitalized."
+  },
+  {
+    "id": "g4-q24",
+    "type": "grammar",
+    "format": "multi-select",
+    "grade": 4,
+    "standard": "CCSS.ELA-LITERACY.L.4.1.G",
+    "question": "Select TWO sentences that use the correct homophone.",
+    "passage": {
+      "id": "p-none",
+      "text": "N/A",
+      "source": "original"
+    },
+    "options": [
+      "I can see the sea from my window.",
+      "They're going to there house later.",
+      "I have two much homework tonight.",
+      "The blue wind blew the leaves away."
+    ],
+    "correctAnswer": [0, 3],
+    "explanation": "Option A correctly uses 'see' (vision) and 'sea' (ocean). Option D correctly uses 'blue' (color) and 'blew' (past of blow)."
+  },
+  {
+    "id": "g4-q25",
+    "type": "grammar",
+    "format": "single",
+    "grade": 4,
+    "standard": "CCSS.ELA-LITERACY.L.4.2.C",
+    "question": "Which sentence is punctuated correctly?",
+    "passage": {
+      "id": "p-none",
+      "text": "N/A",
+      "source": "original"
+    },
+    "options": [
+      "“I am so excited!” shouted Leo.",
+      "“I am so excited! shouted Leo.”",
+      "I am so excited! “shouted Leo.”",
+      "“I am so excited” shouted Leo!"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Quotation marks go around the words being spoken, and the tag follows the closing quote."
+  },
+  {
+    "id": "g4-q26",
+    "type": "writing",
+    "format": "single",
+    "grade": 4,
+    "standard": "CCSS.ELA-LITERACY.W.4.1",
+    "question": "Which sentence would be the best introduction for an opinion essay about school lunches?",
+    "passage": {
+      "id": "p-none",
+      "text": "N/A",
+      "source": "original"
+    },
+    "options": [
+      "Lunches are served in the cafeteria every day at noon.",
+      "Some schools serve pizza on Fridays.",
+      "In my opinion, our school should offer more fresh fruit options at lunch.",
+      "There are many students who bring their lunch from home."
+    ],
+    "correctAnswer": 2,
+    "explanation": "An introduction for an opinion essay should clearly state the writer's claim or stance."
+  },
+  {
+    "id": "g4-q27",
+    "type": "writing",
+    "format": "multi-select",
+    "grade": 4,
+    "standard": "CCSS.ELA-LITERACY.W.4.2.B",
+    "question": "Select TWO details that would best support an informative paragraph about how bees make honey.",
+    "passage": {
+      "id": "p-none",
+      "text": "N/A",
+      "source": "original"
+    },
+    "options": [
+      "Bees collect nectar from various flowers.",
+      "Many people are afraid of getting stung by bees.",
+      "Bees flap their wings to evaporate water from the nectar.",
+      "Honey is sold in glass jars at the grocery store."
+    ],
+    "correctAnswer": [0, 2],
+    "explanation": "Collecting nectar and evaporating water are parts of the actual process of making honey."
+  },
+  {
+    "id": "g4-q28",
+    "type": "writing",
+    "format": "single",
+    "grade": 4,
+    "standard": "CCSS.ELA-LITERACY.W.4.3.A",
+    "question": "Which sentence is the best way to start a narrative story about a lost dog?",
+    "passage": {
+      "id": "p-none",
+      "text": "N/A",
+      "source": "original"
+    },
+    "options": [
+      "Dogs are mammals that need food and water.",
+      "There are many different breeds of dogs in the world.",
+      "I looked everywhere for Buster, but all I found was his empty collar on the porch.",
+      "A leash is a tool used to walk a dog."
+    ],
+    "correctAnswer": 2,
+    "explanation": "A narrative start should establish the plot, characters, or conflict; finding an empty collar immediately creates a conflict."
+  },
+  {
+    "id": "g4-q29",
+    "type": "writing",
+    "format": "multi-select",
+    "grade": 4,
+    "standard": "CCSS.ELA-LITERACY.W.4.1.C",
+    "question": "Select TWO transition words or phrases that are best for linking an opinion to a reason.",
+    "passage": {
+      "id": "p-none",
+      "text": "N/A",
+      "source": "original"
+    },
+    "options": [
+      "For example",
+      "Suddenly",
+      "Because",
+      "Yesterday"
+    ],
+    "correctAnswer": [0, 2],
+    "explanation": "'For example' and 'Because' are used to connect a claim to the evidence or reasons that support it."
+  },
+  {
+    "id": "g4-q30",
+    "type": "writing",
+    "format": "single",
+    "grade": 4,
+    "standard": "CCSS.ELA-LITERACY.W.4.2.E",
+    "question": "What is the purpose of a concluding statement in an informative report?",
+    "passage": {
+      "id": "p-none",
+      "text": "N/A",
+      "source": "original"
+    },
+    "options": [
+      "To introduce a brand new topic",
+      "To ask the reader a funny question",
+      "To summarize the information and provide closure",
+      "To list all the books the author read"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The conclusion of an informative text should wrap up the main points and leave the reader with a final thought on the subject."
+  }
+]
