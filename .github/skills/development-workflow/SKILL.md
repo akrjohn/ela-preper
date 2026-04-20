@@ -111,10 +111,12 @@ git push -u origin <branch>
 gh pr create --title "<issue>: <title>" --base main --body-file /tmp/pr.md
 ```
 
-4. **Close Issue:**
-```bash
-gh issue close #<number> --comment "Completed in <commit>"
-```
+4. **Wait for PR to Close:**
+   - Do NOT close the issue until the PR is merged/closed
+   - After PR merge, close the issue:
+   ```bash
+   gh issue close #<number> --comment "Completed in PR #<pr>"
+   ```
 
 ---
 

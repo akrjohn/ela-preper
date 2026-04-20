@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef, useCallback } from 'react';
 import { Question, TestResult } from '@/types/questions';
 import { formatTime } from '@/utils/questions';
 import grade3Questions from '@/data/questions-grade3.json';
@@ -33,6 +33,18 @@ export default function Home() {
   const [reviewMode, setReviewMode] = useState<ReviewMode>('full');
   const [filteredQuestions, setFilteredQuestions] = useState<Question[]>([]);
   const timerRef = useRef<NodeJS.Timeout | null>(null);
+  const [darkMode, setDarkMode] = useState<boolean>(false);
+
+  const saveProgress = useCallback((currentAnswers: Map<string, number | number[]>) => {
+    const progressData = {
+      grade: selectedGrade,
+      answers: Array.from(currentAnswers.entries()),
+      partBAnswers: Array.from(partBAnswers.entries()),
+      questionCount,
+      timerMinutes,
+    };
+    localStorage.setItem('ela-saved-progress', JSON.stringify(progressData));
+  }, [selectedGrade, partBAnswers, questionCount, timerMinutes]);
 
   const loadQuestions = (grade: number): Question[] => {
     let allQuestions: Question[] = [];
@@ -83,6 +95,23 @@ export default function Home() {
       console.log('Found saved test results');
     }
   }, []);
+
+  useEffect(() => {
+    const saved = localStorage.getItem('ela-dark-mode');
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const shouldBeDark = saved === 'true' || (saved === null && prefersDark);
+    requestAnimationFrame(() => setDarkMode(shouldBeDark));
+  }, []);
+
+  useEffect(() => {
+    if (darkMode) {
+      document.documentElement.classList.add('dark');
+      localStorage.setItem('ela-dark-mode', 'true');
+    } else {
+      document.documentElement.classList.remove('dark');
+      localStorage.setItem('ela-dark-mode', 'false');
+    }
+  }, [darkMode]);
 
   const submitTest = () => {
     const testResults: TestResult[] = filteredQuestions.map(q => {
@@ -174,6 +203,42 @@ export default function Home() {
     };
   }, [testState, timerMinutes, timeRemaining]);
 
+  useEffect(() => {
+    if (testState !== 'testing') return;
+    
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'ArrowRight' || e.key === 'ArrowDown') {
+        e.preventDefault();
+        if (currentQuestionIndex < filteredQuestions.length - 1) {
+          setCurrentQuestionIndex(prev => prev + 1);
+        }
+      } else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') {
+        e.preventDefault();
+        if (currentQuestionIndex > 0) {
+          setCurrentQuestionIndex(prev => prev - 1);
+        }
+      } else if (e.key >= '1' && e.key <= '4') {
+        e.preventDefault();
+        const optionIndex = parseInt(e.key) - 1;
+        if (currentQuestionIndex < filteredQuestions.length && 
+            optionIndex < filteredQuestions[currentQuestionIndex]?.options.length) {
+          setAnswers(prev => {
+            const q = filteredQuestions[currentQuestionIndex];
+            const updated = new Map(prev).set(q.id, optionIndex);
+            saveProgress(updated);
+            return updated;
+          });
+        }
+      } else if (e.key === 'Enter') {
+        e.preventDefault();
+        submitTestRef.current();
+      }
+    };
+    
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [testState, currentQuestionIndex, filteredQuestions.length]);
+
   const startTest = () => {
     const allQuestions = loadQuestions(selectedGrade);
     const shuffled = shuffleArray(allQuestions);
@@ -198,9 +263,17 @@ export default function Home() {
       const newSelection = current.includes(answerIndex)
         ? current.filter(i => i !== answerIndex)
         : [...current, answerIndex];
-      setAnswers(prev => new Map(prev).set(question.id, newSelection));
+      setAnswers(prev => {
+        const updated = new Map(prev).set(question.id, newSelection);
+        saveProgress(updated);
+        return updated;
+      });
     } else {
-      setAnswers(prev => new Map(prev).set(question.id, answerIndex));
+      setAnswers(prev => {
+        const updated = new Map(prev).set(question.id, answerIndex);
+        saveProgress(updated);
+        return updated;
+      });
     }
   };
 
@@ -257,7 +330,14 @@ export default function Home() {
           <div className="flex justify-center mb-4">
             <img src="/logo.svg" alt="ELA Prep Logo" className="w-24 h-24" />
           </div>
-          <h1 className="text-3xl font-bold text-zinc-800 mb-2 text-center">ELA Practice Test</h1>
+          <button
+            onClick={() => setDarkMode(!darkMode)}
+            className="absolute top-4 right-4 p-2 rounded-lg bg-zinc-100 hover:bg-zinc-200 dark:bg-zinc-800 dark:hover:bg-zinc-700"
+            aria-label="Toggle dark mode"
+          >
+            {darkMode ? '☀️' : '🌙'}
+          </button>
+          <h1 className="text-3xl font-bold text-zinc-800 dark:text-zinc-100 mb-2 text-center">ELA Practice Test</h1>
           <p className="text-zinc-600 mb-6">California State Standards aligned questions</p>
 
           <label className="block text-sm font-medium text-zinc-700 mb-2">
