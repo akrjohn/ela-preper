@@ -1,4 +1,5 @@
 import {
+  formatTime,
   shuffleArray,
   shuffleOptions,
   selectRandomQuestions,
@@ -8,6 +9,28 @@ import {
   calculateScore,
 } from './questions';
 import { Question } from '@/types/questions';
+
+describe('formatTime', () => {
+  it('should format 0 seconds', () => {
+    expect(formatTime(0)).toBe('0:00');
+  });
+
+  it('should format seconds under a minute', () => {
+    expect(formatTime(45)).toBe('0:45');
+  });
+
+  it('should format exact minutes', () => {
+    expect(formatTime(60)).toBe('1:00');
+  });
+
+  it('should format minutes and seconds', () => {
+    expect(formatTime(125)).toBe('2:05');
+  });
+
+  it('should pad single digit seconds with zero', () => {
+    expect(formatTime(61)).toBe('1:01');
+  });
+});
 
 const mockQuestion: Question = {
   id: 'q1',

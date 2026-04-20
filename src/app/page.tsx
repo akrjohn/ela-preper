@@ -1,7 +1,8 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { Question, TestResult } from '@/types/questions';
+import { formatTime } from '@/utils/questions';
 import grade3Questions from '@/data/questions-grade3.json';
 import grade4Questions from '@/data/questions-grade4.json';
 import grade5Questions from '@/data/questions-grade5.json';
@@ -9,16 +10,26 @@ import grade5Questions from '@/data/questions-grade5.json';
 type TestState = 'setup' | 'testing' | 'results';
 
 const QUESTION_COUNT_OPTIONS = [5, 8, 10, 15];
+const TIMER_OPTIONS = [
+  { value: 0, label: 'No timer' },
+  { value: 15, label: '15 minutes' },
+  { value: 30, label: '30 minutes' },
+  { value: 45, label: '45 minutes' },
+];
 
 export default function Home() {
   const [testState, setTestState] = useState<TestState>('setup');
   const [selectedGrade, setSelectedGrade] = useState<number>(3);
   const [questionCount, setQuestionCount] = useState<number>(8);
+  const [timerMinutes, setTimerMinutes] = useState<number>(0);
+  const [timeRemaining, setTimeRemaining] = useState<number>(0);
+  const submitTestRef = useRef<() => void>(() => {});
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState<number>(0);
   const [answers, setAnswers] = useState<Map<string, number | number[]>>(new Map());
   const [partBAnswers, setPartBAnswers] = useState<Map<string, number>>(new Map());
   const [results, setResults] = useState<TestResult[]>([]);
   const [filteredQuestions, setFilteredQuestions] = useState<Question[]>([]);
+  const timerRef = useRef<NodeJS.Timeout | null>(null);
 
   const loadQuestions = (grade: number): Question[] => {
     let allQuestions: Question[] = [];
@@ -69,64 +80,6 @@ export default function Home() {
       console.log('Found saved test results');
     }
   }, []);
-
-  const startTest = () => {
-    const allQuestions = loadQuestions(selectedGrade);
-    const shuffled = shuffleArray(allQuestions);
-    const selected = shuffled.slice(0, questionCount);
-    const withShuffledOptions = selected.map(shuffleOptions);
-    setFilteredQuestions(withShuffledOptions);
-    setAnswers(new Map());
-    setPartBAnswers(new Map());
-    setCurrentQuestionIndex(0);
-    setResults([]);
-    setTestState('testing');
-  };
-
-  const selectAnswer = (answerIndex: number) => {
-    if (testState !== 'testing') return;
-    const question = filteredQuestions[currentQuestionIndex];
-    const format = question.format || 'single';
-    
-    if (format === 'multi-select') {
-      const current = (answers.get(question.id) as number[]) || [];
-      const newSelection = current.includes(answerIndex)
-        ? current.filter(i => i !== answerIndex)
-        : [...current, answerIndex];
-      setAnswers(prev => new Map(prev).set(question.id, newSelection));
-    } else {
-      setAnswers(prev => new Map(prev).set(question.id, answerIndex));
-    }
-  };
-
-  const selectPartBAnswer = (answerIndex: number) => {
-    if (testState !== 'testing') return;
-    const question = filteredQuestions[currentQuestionIndex];
-    setPartBAnswers(prev => new Map(prev).set(question.id, answerIndex));
-  };
-
-  const isOptionSelected = (answerIndex: number): boolean => {
-    const question = filteredQuestions[currentQuestionIndex];
-    const format = question.format || 'single';
-    const answer = answers.get(question.id) ?? null;
-    
-    if (format === 'multi-select') {
-      return (answer as number[])?.includes(answerIndex) || false;
-    }
-    return answer === answerIndex;
-  };
-
-  const nextQuestion = () => {
-    if (currentQuestionIndex < filteredQuestions.length - 1) {
-      setCurrentQuestionIndex(prev => prev + 1);
-    }
-  };
-
-  const prevQuestion = () => {
-    if (currentQuestionIndex > 0) {
-      setCurrentQuestionIndex(prev => prev - 1);
-    }
-  };
 
   const submitTest = () => {
     const testResults: TestResult[] = filteredQuestions.map(q => {
@@ -179,6 +132,87 @@ export default function Home() {
     setTestState('results');
   };
 
+  useEffect(() => {
+    submitTestRef.current = submitTest;
+  }, [submitTest]);
+
+  useEffect(() => {
+    if (testState === 'testing' && timerMinutes > 0 && timeRemaining > 0) {
+      timerRef.current = setInterval(() => {
+        setTimeRemaining(prev => {
+          if (prev <= 1) {
+            if (timerRef.current) clearInterval(timerRef.current);
+            submitTestRef.current();
+            return 0;
+          }
+          return prev - 1;
+        });
+      }, 1000);
+    }
+    return () => {
+      if (timerRef.current) clearInterval(timerRef.current);
+    };
+  }, [testState, timerMinutes, timeRemaining]);
+
+  const startTest = () => {
+    const allQuestions = loadQuestions(selectedGrade);
+    const shuffled = shuffleArray(allQuestions);
+    const selected = shuffled.slice(0, questionCount);
+    const withShuffledOptions = selected.map(shuffleOptions);
+    setFilteredQuestions(withShuffledOptions);
+    setAnswers(new Map());
+    setPartBAnswers(new Map());
+    setCurrentQuestionIndex(0);
+    setResults([]);
+    setTimeRemaining(timerMinutes > 0 ? timerMinutes * 60 : 0);
+    setTestState('testing');
+  };
+
+  const selectAnswer = (answerIndex: number) => {
+    if (testState !== 'testing') return;
+    const question = filteredQuestions[currentQuestionIndex];
+    const format = question.format || 'single';
+    
+    if (format === 'multi-select') {
+      const current = (answers.get(question.id) as number[]) || [];
+      const newSelection = current.includes(answerIndex)
+        ? current.filter(i => i !== answerIndex)
+        : [...current, answerIndex];
+      setAnswers(prev => new Map(prev).set(question.id, newSelection));
+    } else {
+      setAnswers(prev => new Map(prev).set(question.id, answerIndex));
+    }
+  };
+
+  const selectPartBAnswer = (answerIndex: number) => {
+    if (testState !== 'testing') return;
+    const question = filteredQuestions[currentQuestionIndex];
+    setPartBAnswers(prev => new Map(prev).set(question.id, answerIndex));
+  };
+
+  const isOptionSelected = (answerIndex: number): boolean => {
+    const question = filteredQuestions[currentQuestionIndex];
+    const format = question.format || 'single';
+    const answer = answers.get(question.id) ?? null;
+    
+    if (format === 'multi-select') {
+      return (answer as number[])?.includes(answerIndex) || false;
+    }
+    return answer === answerIndex;
+  };
+
+  const nextQuestion = () => {
+    if (currentQuestionIndex < filteredQuestions.length - 1) {
+      setCurrentQuestionIndex(prev => prev + 1);
+    }
+  };
+
+  const prevQuestion = () => {
+    if (currentQuestionIndex > 0) {
+      setCurrentQuestionIndex(prev => prev - 1);
+    }
+  };
+
   const restartTest = () => {
     setTestState('setup');
     setResults([]);
@@ -223,10 +257,23 @@ export default function Home() {
           <select
             value={questionCount}
             onChange={(e) => setQuestionCount(Number(e.target.value))}
-            className="w-full p-3 border border-zinc-300 rounded-lg mb-6 bg-white"
+            className="w-full p-3 border border-zinc-300 rounded-lg mb-4 bg-white"
           >
             {QUESTION_COUNT_OPTIONS.map(count => (
               <option key={count} value={count}>{count} questions</option>
+            ))}
+          </select>
+
+          <label className="block text-sm font-medium text-zinc-700 mb-2">
+            Timer (optional)
+          </label>
+          <select
+            value={timerMinutes}
+            onChange={(e) => setTimerMinutes(Number(e.target.value))}
+            className="w-full p-3 border border-zinc-300 rounded-lg mb-6 bg-white"
+          >
+            {TIMER_OPTIONS.map(opt => (
+              <option key={opt.value} value={opt.value}>{opt.label}</option>
             ))}
           </select>
 
@@ -258,6 +305,12 @@ export default function Home() {
       <div className="min-h-screen bg-zinc-50 font-sans p-4">
         <div className="max-w-2xl mx-auto">
           <div className="flex justify-between items-center mb-4">
+            {timerMinutes > 0 && (
+              <span className={`font-mono font-bold ${timeRemaining < 300 ? 'text-red-600' : 'text-zinc-600'}`}>
+                Time: {formatTime(timeRemaining)}
+              </span>
+            )}
+            {timerMinutes === 0 && <span></span>}
             <span className="text-zinc-600">
               Question {currentQuestionIndex + 1} of {totalQuestions}
             </span>
