@@ -244,7 +244,7 @@ export default function Home() {
           <select
             value={selectedGrade}
             onChange={(e) => setSelectedGrade(Number(e.target.value))}
-            className="w-full p-3 border border-zinc-300 rounded-lg mb-4 bg-white"
+            className="w-full p-3 border border-zinc-300 rounded-lg mb-4 bg-white text-zinc-900"
           >
             <option value={3}>Grade 3</option>
             <option value={4}>Grade 4</option>
@@ -257,7 +257,7 @@ export default function Home() {
           <select
             value={questionCount}
             onChange={(e) => setQuestionCount(Number(e.target.value))}
-            className="w-full p-3 border border-zinc-300 rounded-lg mb-4 bg-white"
+            className="w-full p-3 border border-zinc-300 rounded-lg mb-4 bg-white text-zinc-900"
           >
             {QUESTION_COUNT_OPTIONS.map(count => (
               <option key={count} value={count}>{count} questions</option>
@@ -270,7 +270,7 @@ export default function Home() {
           <select
             value={timerMinutes}
             onChange={(e) => setTimerMinutes(Number(e.target.value))}
-            className="w-full p-3 border border-zinc-300 rounded-lg mb-6 bg-white"
+            className="w-full p-3 border border-zinc-300 rounded-lg mb-6 bg-white text-zinc-900"
           >
             {TIMER_OPTIONS.map(opt => (
               <option key={opt.value} value={opt.value}>{opt.label}</option>

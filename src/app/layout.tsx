@@ -15,6 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "ELA Practice Test - California State Standards",
   description: "Interactive English Language Arts practice for California students grades 3-5, aligned to SBAC standards",
+  viewport: "width=device-width, initial-scale=1, maximum-scale=5",
   icons: {
     icon: "/favicon.svg",
   },
