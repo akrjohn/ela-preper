@@ -2,10 +2,10 @@
 
 ## Quick Wins
 
-- [ ] Timer - Add countdown timer to simulate test conditions
+- [x] Timer - Add countdown timer to simulate test conditions
 - [ ] Progress summary - Show correct/incorrect breakdown at end
 - [ ] Review mode - Retake only missed questions
-- [ ] Question count selector - Already done
+- [x] Question count selector - Already done
 
 ## Data & Content
 

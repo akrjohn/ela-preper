@@ -436,16 +436,29 @@ export default function Home() {
 
   if (testState === 'results') {
     const percentage = Math.round((score / totalQuestions) * 100);
+    const incorrectCount = totalQuestions - score;
 
     return (
       <div className="min-h-screen bg-zinc-50 font-sans p-4">
         <div className="max-w-2xl mx-auto">
           <div className="bg-white rounded-xl shadow-lg p-6 mb-6 text-center">
-            <h2 className="text-2xl font-bold text-zinc-800 mb-2">Test Complete!</h2>
+            <h2 className="text-2xl font-bold text-zinc-800 mb-4">Test Complete!</h2>
+            
             <div className="text-5xl font-bold text-emerald-600 mb-2">{percentage}%</div>
-            <p className="text-zinc-600">
-              You got {score} out of {totalQuestions} questions correct
+            <p className="text-zinc-600 mb-6">
+              {score} out of {totalQuestions} correct
             </p>
+            
+            <div className="flex justify-center gap-8 mb-4">
+              <div className="text-center">
+                <div className="text-3xl font-bold text-emerald-600">{score}</div>
+                <div className="text-sm text-zinc-500">Correct</div>
+              </div>
+              <div className="text-center">
+                <div className="text-3xl font-bold text-red-600">{incorrectCount}</div>
+                <div className="text-sm text-zinc-500">Incorrect</div>
+              </div>
+            </div>
           </div>
 
           <div className="space-y-4 mb-6">
