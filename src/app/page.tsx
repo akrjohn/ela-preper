@@ -363,7 +363,7 @@ export default function Home() {
                       : 'border-zinc-200 hover:border-zinc-300'
                   }`}
                 >
-                  <span className="inline-block w-8 h-8 rounded-full bg-zinc-100 text-zinc-700 text-center leading-8 mr-3 font-medium">
+                  <span className="inline-block w-8 h-8 rounded-full bg-zinc-100 text-zinc-900 text-center leading-8 mr-3 font-medium">
                     {isMultiSelect ? (
                       <span className={isOptionSelected(index) ? 'text-emerald-600' : ''}>
                         {isOptionSelected(index) ? '✓' : String.fromCharCode(65 + index)}
@@ -372,7 +372,7 @@ export default function Home() {
                       String.fromCharCode(65 + index)
                     )}
                   </span>
-                  {option}
+                  <span className="text-zinc-900">{option}</span>
                 </button>
               ))}
             </div>
@@ -392,10 +392,10 @@ export default function Home() {
                           : 'border-zinc-200 hover:border-zinc-300'
                       }`}
                     >
-                      <span className="inline-block w-8 h-8 rounded-full bg-zinc-100 text-zinc-700 text-center leading-8 mr-3 font-medium">
+                      <span className="inline-block w-8 h-8 rounded-full bg-zinc-100 text-zinc-900 text-center leading-8 mr-3 font-medium">
                         {String.fromCharCode(65 + index)}
                       </span>
-                      {option}
+                      <span className="text-zinc-900">{option}</span>
                     </button>
                   ))}
                 </div>
