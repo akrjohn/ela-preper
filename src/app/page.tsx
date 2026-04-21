@@ -379,10 +379,10 @@ export default function Home() {
                 }
                 setShowAnalytics(true);
               }}
-              className="p-2 rounded-lg bg-zinc-100 hover:bg-zinc-200 dark:bg-zinc-800 dark:hover:bg-zinc-700"
+              className="p-2 rounded-lg bg-emerald-100 hover:bg-emerald-200 text-emerald-700 text-sm font-medium"
               aria-label="View Analytics"
             >
-              📊
+              Analytics
             </button>
             <button
               onClick={() => setDarkMode(!darkMode)}
