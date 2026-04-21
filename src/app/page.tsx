@@ -359,7 +359,7 @@ export default function Home() {
           <div className="flex justify-center mb-4">
             <img src="/logo.svg" alt="ELA Prep Logo" className="w-24 h-24" />
           </div>
-          <div className="absolute top-4 right-4 flex gap-2">
+          <div className="absolute top-4 right-4">
             <button
               onClick={() => {
                 if (typeof window !== 'undefined') {
@@ -379,17 +379,10 @@ export default function Home() {
                 }
                 setShowAnalytics(true);
               }}
-              className="p-2 rounded-lg bg-emerald-100 hover:bg-emerald-200 text-emerald-700 text-sm font-medium"
+              className="px-3 py-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-700 text-white text-sm font-medium"
               aria-label="View Analytics"
             >
-              Analytics
-            </button>
-            <button
-              onClick={() => setDarkMode(!darkMode)}
-              className="p-2 rounded-lg bg-zinc-100 hover:bg-zinc-200 dark:bg-zinc-800 dark:hover:bg-zinc-700"
-              aria-label="Toggle dark mode"
-            >
-              {darkMode ? '☀️' : '🌙'}
+              View Past Scores
             </button>
           </div>
           <h1 className="text-3xl font-bold text-zinc-800 dark:text-zinc-100 mb-2 text-center">ELA Practice Test</h1>
