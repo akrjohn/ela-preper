@@ -629,7 +629,7 @@ export default function Home() {
                     <div key={standard}>
                       <div className="flex justify-between text-sm mb-1">
                         <span className="text-zinc-700">{standard.replace('CCSS.ELA-LITERACY.', '')}</span>
-                        <span className="text-zinc-600">{data.countCorrect}/{data.total} ({percentage}%)</span>
+                        <span className="text-zinc-600">{data.correct}/{data.total} ({percentage}%)</span>
                       </div>
                       <div className="h-3 bg-zinc-200 rounded-full overflow-hidden">
                         <div
