@@ -582,7 +582,98 @@ export default function Home() {
     );
   }
 
-  if (testState === 'results') {
+  if (testState === 'results' || showAnalytics) {
+    if (showAnalytics) {
+      const standardData = processSessionByStandard();
+      const weakStandards = getWeakStandards();
+      
+      return (
+        <div className="min-h-screen bg-zinc-50 font-sans p-4">
+          <div className="max-w-2xl mx-auto">
+            <div className="bg-white rounded-xl shadow-lg p-6 mb-6">
+              <div className="flex justify-between items-center mb-6">
+                <h2 className="text-2xl font-bold text-zinc-800">Session Analytics</h2>
+                <button
+                  onClick={() => setShowAnalytics(false)}
+                  className="text-zinc-500 hover:text-zinc-700 text-xl"
+                >
+                  ✕
+                </button>
+              </div>
+              
+              {weakStandards.length > 0 && (
+                <div className="mb-6 p-4 bg-amber-50 border border-amber-200 rounded-lg">
+                  <h3 className="font-medium text-amber-800 mb-2">Focus on these standards:</h3>
+                  <div className="flex flex-wrap gap-2">
+                    {weakStandards.map(standard => (
+                      <span
+                        key={standard}
+                        className="px-3 py-1 bg-amber-100 text-amber-800 rounded-full text-sm"
+                      >
+                        {standard.replace('CCSS.ELA-LITERACY.', '')}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              )}
+              
+              <h3 className="font-medium text-zinc-700 mb-4">Performance by Standard</h3>
+              <div className="space-y-3">
+                {Object.entries(standardData).map(([standard, data]) => {
+                  const percentage = Math.round((data.correct / data.total) * 100);
+                  const colorClass = percentage >= 70 ? 'bg-emerald-500' : percentage >= 50 ? 'bg-amber-500' : 'bg-red-500';
+                  
+                  return (
+                    <div key={standard}>
+                      <div className="flex justify-between text-sm mb-1">
+                        <span className="text-zinc-700">{standard.replace('CCSS.ELA-LITERACY.', '')}</span>
+                        <span className="text-zinc-600">{data.countCorrect}/{data.total} ({percentage}%)</span>
+                      </div>
+                      <div className="h-3 bg-zinc-200 rounded-full overflow-hidden">
+                        <div
+                          className={`h-full ${colorClass} rounded-full transition-all`}
+                          style={{ width: `${percentage}%` }}
+                        />
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+              
+              {sessionHistory.length > 0 && (
+                <div className="mt-6 pt-6 border-t border-zinc-200">
+                  <h3 className="font-medium text-zinc-700 mb-4">Session History</h3>
+                  <div className="space-y-2">
+                    {sessionHistory.map((session, index) => (
+                      <div key={index} className="flex justify-between text-sm p-3 bg-zinc-50 rounded-lg">
+                        <span className="text-zinc-600">
+                          {new Date(session.date).toLocaleDateString()} - Grade {session.grade}
+                        </span>
+                        <span className="font-medium">
+                          {session.score}/{session.total} ({session.percentage}%)
+                        </span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+              
+              <button
+                onClick={() => {
+                  localStorage.removeItem('ela-test-results');
+                  setSessionHistory([]);
+                  alert('History cleared');
+                }}
+                className="w-full mt-6 bg-zinc-200 text-zinc-700 py-2 px-4 rounded-lg font-medium hover:bg-zinc-300 transition-colors text-sm"
+              >
+                Clear History
+              </button>
+            </div>
+          </div>
+        </div>
+      );
+    }
+
     const percentage = Math.round((score / totalQuestions) * 100);
     const incorrectCount = totalQuestions - score;
 
@@ -703,97 +794,6 @@ export default function Home() {
               className="w-full bg-zinc-600 text-white py-3 px-6 rounded-lg font-medium hover:bg-zinc-700 transition-colors"
             >
               View Analytics
-            </button>
-          </div>
-        </div>
-      </div>
-    );
-  }
-
-  if (showAnalytics) {
-    const standardData = processSessionByStandard();
-    const weakStandards = getWeakStandards();
-    
-    return (
-      <div className="min-h-screen bg-zinc-50 font-sans p-4">
-        <div className="max-w-2xl mx-auto">
-          <div className="bg-white rounded-xl shadow-lg p-6 mb-6">
-            <div className="flex justify-between items-center mb-6">
-              <h2 className="text-2xl font-bold text-zinc-800">Session Analytics</h2>
-              <button
-                onClick={() => setShowAnalytics(false)}
-                className="text-zinc-500 hover:text-zinc-700 text-xl"
-              >
-                ✕
-              </button>
-            </div>
-            
-            {weakStandards.length > 0 && (
-              <div className="mb-6 p-4 bg-amber-50 border border-amber-200 rounded-lg">
-                <h3 className="font-medium text-amber-800 mb-2">Focus on these standards:</h3>
-                <div className="flex flex-wrap gap-2">
-                  {weakStandards.map(standard => (
-                    <span
-                      key={standard}
-                      className="px-3 py-1 bg-amber-100 text-amber-800 rounded-full text-sm"
-                    >
-                      {standard.replace('CCSS.ELA-LITERACY.', '')}
-                    </span>
-                  ))}
-                </div>
-              </div>
-            )}
-            
-            <h3 className="font-medium text-zinc-700 mb-4">Performance by Standard</h3>
-            <div className="space-y-3">
-              {Object.entries(standardData).map(([standard, data]) => {
-                const percentage = Math.round((data.correct / data.total) * 100);
-                const colorClass = percentage >= 70 ? 'bg-emerald-500' : percentage >= 50 ? 'bg-amber-500' : 'bg-red-500';
-                
-                return (
-                  <div key={standard}>
-                    <div className="flex justify-between text-sm mb-1">
-                      <span className="text-zinc-700">{standard.replace('CCSS.ELA-LITERACY.', '')}</span>
-                      <span className="text-zinc-600">{data.correct}/{data.total} ({percentage}%)</span>
-                    </div>
-                    <div className="h-3 bg-zinc-200 rounded-full overflow-hidden">
-                      <div
-                        className={`h-full ${colorClass} rounded-full transition-all`}
-                        style={{ width: `${percentage}%` }}
-                      />
-                    </div>
-                  </div>
-                );
-              })}
-            </div>
-            
-            {sessionHistory.length > 0 && (
-              <div className="mt-6 pt-6 border-t border-zinc-200">
-                <h3 className="font-medium text-zinc-700 mb-4">Session History</h3>
-                <div className="space-y-2">
-                  {sessionHistory.map((session, index) => (
-                    <div key={index} className="flex justify-between text-sm p-3 bg-zinc-50 rounded-lg">
-                      <span className="text-zinc-600">
-                        {new Date(session.date).toLocaleDateString()} - Grade {session.grade}
-                      </span>
-                      <span className="font-medium">
-                        {session.score}/{session.total} ({session.percentage}%)
-                      </span>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            )}
-            
-            <button
-              onClick={() => {
-                localStorage.removeItem('ela-test-results');
-                setSessionHistory([]);
-                alert('History cleared');
-              }}
-              className="w-full mt-6 bg-zinc-200 text-zinc-700 py-2 px-4 rounded-lg font-medium hover:bg-zinc-300 transition-colors text-sm"
-            >
-              Clear History
             </button>
           </div>
         </div>
