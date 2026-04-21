@@ -359,13 +359,39 @@ export default function Home() {
           <div className="flex justify-center mb-4">
             <img src="/logo.svg" alt="ELA Prep Logo" className="w-24 h-24" />
           </div>
-          <button
-            onClick={() => setDarkMode(!darkMode)}
-            className="absolute top-4 right-4 p-2 rounded-lg bg-zinc-100 hover:bg-zinc-200 dark:bg-zinc-800 dark:hover:bg-zinc-700"
-            aria-label="Toggle dark mode"
-          >
-            {darkMode ? '☀️' : '🌙'}
-          </button>
+          <div className="absolute top-4 right-4 flex gap-2">
+            <button
+              onClick={() => {
+                if (typeof window !== 'undefined') {
+                  try {
+                    const saved = localStorage.getItem('ela-test-results');
+                    if (saved) {
+                      const data = JSON.parse(saved);
+                      setSessionHistory([{
+                        date: data.date,
+                        grade: data.grade,
+                        score: data.score,
+                        total: data.total,
+                        percentage: data.percentage,
+                      }]);
+                    }
+                  } catch {}
+                }
+                setShowAnalytics(true);
+              }}
+              className="p-2 rounded-lg bg-zinc-100 hover:bg-zinc-200 dark:bg-zinc-800 dark:hover:bg-zinc-700"
+              aria-label="View Analytics"
+            >
+              📊
+            </button>
+            <button
+              onClick={() => setDarkMode(!darkMode)}
+              className="p-2 rounded-lg bg-zinc-100 hover:bg-zinc-200 dark:bg-zinc-800 dark:hover:bg-zinc-700"
+              aria-label="Toggle dark mode"
+            >
+              {darkMode ? '☀️' : '🌙'}
+            </button>
+          </div>
           <h1 className="text-3xl font-bold text-zinc-800 dark:text-zinc-100 mb-2 text-center">ELA Practice Test</h1>
           <p className="text-zinc-600 mb-6">California State Standards aligned questions</p>
 
