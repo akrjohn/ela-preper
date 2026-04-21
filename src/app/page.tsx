@@ -35,24 +35,7 @@ export default function Home() {
   const timerRef = useRef<NodeJS.Timeout | null>(null);
   const [darkMode, setDarkMode] = useState<boolean>(false);
   const [showAnalytics, setShowAnalytics] = useState<boolean>(false);
-  const [sessionHistory, setSessionHistory] = useState<{date: string; grade: number; score: number; total: number; percentage: number}[]>(() => {
-    const saved = localStorage.getItem('ela-test-results');
-    if (saved) {
-      try {
-        const data = JSON.parse(saved);
-        return [{
-          date: data.date,
-          grade: data.grade,
-          score: data.score,
-          total: data.total,
-          percentage: data.percentage,
-        }];
-      } catch {
-        return [];
-      }
-    }
-    return [];
-  });
+  const [sessionHistory, setSessionHistory] = useState<{date: string; grade: number; score: number; total: number; percentage: number}[]>([]);
 
   const processSessionByStandard = useCallback(() => {
     const standardCounts: Record<string, {correct: number; total: number}> = {};
@@ -790,7 +773,24 @@ export default function Home() {
             )}
             
             <button
-              onClick={() => setShowAnalytics(true)}
+              onClick={() => {
+                if (typeof window !== 'undefined') {
+                  try {
+                    const saved = localStorage.getItem('ela-test-results');
+                    if (saved) {
+                      const data = JSON.parse(saved);
+                      setSessionHistory([{
+                        date: data.date,
+                        grade: data.grade,
+                        score: data.score,
+                        total: data.total,
+                        percentage: data.percentage,
+                      }]);
+                    }
+                  } catch {}
+                }
+                setShowAnalytics(true);
+              }}
               className="w-full bg-zinc-600 text-white py-3 px-6 rounded-lg font-medium hover:bg-zinc-700 transition-colors"
             >
               View Analytics
