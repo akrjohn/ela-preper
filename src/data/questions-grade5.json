@@ -67,7 +67,10 @@
       "the clock could wait one more day",
       "his breath hitched"
     ],
-    "correctAnswer": [0, 3],
+    "correctAnswer": [
+      0,
+      3
+    ],
     "explanation": "The passage compares his hand movements to a pianist (simile) and describes his breath 'hitching' to show physical reaction to stress/realization."
   },
   {
@@ -138,7 +141,10 @@
       "The water temperature is rising.",
       "Conservationists are working there."
     ],
-    "correctAnswer": [0, 1],
+    "correctAnswer": [
+      0,
+      1
+    ],
     "explanation": "Being the largest system and being visible from space are specific characteristics that highlight its uniqueness."
   },
   {
@@ -230,7 +236,10 @@
       "Summer of 1875",
       "January 1, 1900"
     ],
-    "correctAnswer": [0, 1],
+    "correctAnswer": [
+      0,
+      1
+    ],
     "explanation": "The text explicitly mentions the mid-1800s and March 10, 1876."
   },
   {
@@ -351,7 +360,10 @@
       "To prepare for missions to Mars.",
       "To build more space stations for other nations."
     ],
-    "correctAnswer": [0, 2],
+    "correctAnswer": [
+      0,
+      2
+    ],
     "explanation": "The text explicitly mentions studying plant growth and preparing for missions to Mars as reasons for the experiments."
   },
   {
@@ -540,7 +552,10 @@
       "Before the sun set, we had found a place to camp.",
       "Before the sun set, we find a place to camp."
     ],
-    "correctAnswer": [0, 2],
+    "correctAnswer": [
+      0,
+      2
+    ],
     "explanation": "Option A uses present/future correctly, and Option C uses past/past perfect correctly to show sequence."
   },
   {
@@ -603,7 +618,10 @@
       "The side of the Earth facing the moon experiences a high tide.",
       "The moon is approximately 238,000 miles from Earth."
     ],
-    "correctAnswer": [0, 2],
+    "correctAnswer": [
+      0,
+      2
+    ],
     "explanation": "Both gravity and the position of the Earth relative to the moon are direct causes of tides."
   },
   {
@@ -645,7 +663,10 @@
       "Provide a final thought that connects the topic to the reader's life.",
       "List all the websites where the information was found."
     ],
-    "correctAnswer": [0, 2],
+    "correctAnswer": [
+      0,
+      2
+    ],
     "explanation": "Effective conclusions summarize the main ideas and provide a sense of closure or connection."
   },
   {
@@ -668,5 +689,921 @@
     ],
     "correctAnswer": 1,
     "explanation": "Providing a social benefit like reducing bullying is a strong, logical reason for a policy change."
+  },
+  {
+    "id": "g5-q31",
+    "type": "reading",
+    "format": "single",
+    "grade": 5,
+    "standard": "CCSS.ELA-LITERACY.RL.5.1",
+    "question": "What happens to the sky when Aella weaves her tapestry?",
+    "passage": {
+      "id": "p-myth",
+      "text": "In the ancient valley of Orestes, the elders spoke of Aella, the Weaver of the Winds. Legend tells that Aella lived atop the highest peak, where the clouds met the earth. She possessed a loom made of silver cedar and thread spun from the breath of the mountains. When Aella wove her tapestry with golden silk, the valley enjoyed warm, gentle breezes that carried the scent of jasmine. However, when she used the jagged, gray wool of the storm-clouds, the sky would bruise deep purple, and thunder would shake the valley floors. One year, a great drought parched the land. A young girl climbed the peak to find Aella weeping; her loom was broken. The girl offered her own hair to mend the frame, and in gratitude, Aella wove a pattern of deep blue, bringing the first rain the valley had seen in seasons.",
+      "source": "original"
+    },
+    "options": [
+      "It turns a bright, sunny yellow.",
+      "It becomes a bruised deep purple color.",
+      "It fills with golden silk threads.",
+      "It turns clear and remains dry."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The text states that when she uses gray wool, the sky would 'bruise deep purple'."
+  },
+  {
+    "id": "g5-q32",
+    "type": "reading",
+    "format": "two-part",
+    "grade": 5,
+    "standard": "CCSS.ELA-LITERACY.RL.5.2",
+    "question": "Part A: What is a central theme of the story of Aella?",
+    "passage": {
+      "id": "p-myth",
+      "text": "In the ancient valley of Orestes, the elders spoke of Aella, the Weaver of the Winds. Legend tells that Aella lived atop the highest peak, where the clouds met the earth. She possessed a loom made of silver cedar and thread spun from the breath of the mountains. When Aella wove her tapestry with golden silk, the valley enjoyed warm, gentle breezes that carried the scent of jasmine. However, when she used the jagged, gray wool of the storm-clouds, the sky would bruise deep purple, and thunder would shake the valley floors. One year, a great drought parched the land. A young girl climbed the peak to find Aella weeping; her loom was broken. The girl offered her own hair to mend the frame, and in gratitude, Aella wove a pattern of deep blue, bringing the first rain the valley had seen in seasons.",
+      "source": "original"
+    },
+    "options": [
+      "Magic is dangerous and should be avoided.",
+      "Selfless sacrifice can lead to restoration and hope.",
+      "The highest peaks are impossible to climb.",
+      "Storms are necessary for the survival of the valley."
+    ],
+    "correctAnswer": 1,
+    "partBQuestion": "Part B: Which detail from the story best supports the theme in Part A?",
+    "partBOptions": [
+      "Aella lived atop the highest peak.",
+      "When she used the jagged, gray wool, thunder would shake the valley.",
+      "The girl offered her own hair to mend the frame.",
+      "The elders spoke of Aella, the Weaver of the Winds."
+    ],
+    "partBCorrectAnswer": 2,
+    "explanation": "The girl's sacrifice of her hair to fix the loom resulted in the rain the valley needed."
+  },
+  {
+    "id": "g5-q33",
+    "type": "reading",
+    "format": "multi-select",
+    "grade": 5,
+    "standard": "CCSS.ELA-LITERACY.RL.5.3",
+    "question": "Select TWO ways the young girl's actions affected Aella.",
+    "passage": {
+      "id": "p-myth",
+      "text": "In the ancient valley of Orestes, the elders spoke of Aella, the Weaver of the Winds... One year, a great drought parched the land. A young girl climbed the peak to find Aella weeping; her loom was broken. The girl offered her own hair to mend the frame, and in gratitude, Aella wove a pattern of deep blue, bringing the first rain the valley had seen in seasons.",
+      "source": "original"
+    },
+    "options": [
+      "The girl made Aella feel angry about the drought.",
+      "The girl provided the materials needed to fix Aella's loom.",
+      "The girl caused Aella to stop weeping and feel grateful.",
+      "The girl forced Aella to weave a storm."
+    ],
+    "correctAnswer": [
+      1,
+      2
+    ],
+    "explanation": "The girl mended the frame (fixed the loom) and Aella showed gratitude by weaving rain."
+  },
+  {
+    "id": "g5-q34",
+    "type": "reading",
+    "format": "single",
+    "grade": 5,
+    "standard": "CCSS.ELA-LITERACY.RL.5.4",
+    "question": "What does the phrase 'the sky would bruise deep purple' suggest about the storm?",
+    "passage": {
+      "id": "p-myth",
+      "text": "However, when she used the jagged, gray wool of the storm-clouds, the sky would bruise deep purple, and thunder would shake the valley floors.",
+      "source": "original"
+    },
+    "options": [
+      "The storm was gentle and colorful.",
+      "The sky was literally injured by the wind.",
+      "The storm was dark, intense, and perhaps frightening.",
+      "The sky was covered in purple silk threads."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Comparing the sky to a bruise suggests a dark, heavy, and intense atmosphere associated with storms."
+  },
+  {
+    "id": "g5-q35",
+    "type": "reading",
+    "format": "single",
+    "grade": 5,
+    "standard": "CCSS.ELA-LITERACY.RL.5.5",
+    "question": "How does the author use the structure of the science fiction story to build suspense?",
+    "passage": {
+      "id": "p-scifi",
+      "text": "Kaelen adjusted his oxygen mask as the Red Sands of Mars swirled around the base of the habitat. Inside, the bioluminescent plants flickered—the power was failing. 'T-minus ten minutes until total blackout,' the station AI announced in a calm, mechanical voice. Kaelen looked at the experimental core. It was glowing a dangerous orange. He had spent years designing the 'Nova Engine' to terraform this planet, but one loose wire was threatening to turn the dream into a crater. His hands shook as he reached into the high-voltage bay. 'Nine minutes,' the AI pulsed. He remembered his father's words: 'Focus on the connection, not the consequence.' With a steady breath, Kaelen bypassed the primary circuit just as the lights dimmed to a faint ember. A hum vibrated through the floor, and the core settled into a soft, steady blue.",
+      "source": "original"
+    },
+    "options": [
+      "By describing the history of the Mars mission.",
+      "By using a countdown from the station AI.",
+      "By explaining the science behind the Nova Engine.",
+      "By describing Kaelen's father's childhood."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The countdown ('T-minus ten minutes', 'Nine minutes') creates a sense of urgency and suspense."
+  },
+  {
+    "id": "g5-q36",
+    "type": "reading",
+    "format": "two-part",
+    "grade": 5,
+    "standard": "CCSS.ELA-LITERACY.RL.5.3",
+    "question": "Part A: How does Kaelen's character change during the crisis?",
+    "passage": {
+      "id": "p-scifi",
+      "text": "Kaelen adjusted his oxygen mask as the Red Sands of Mars swirled around the base of the habitat... His hands shook as he reached into the high-voltage bay. 'Nine minutes,' the AI pulsed. He remembered his father's words: 'Focus on the connection, not the consequence.' With a steady breath, Kaelen bypassed the primary circuit just as the lights dimmed to a faint ember.",
+      "source": "original"
+    },
+    "options": [
+      "He becomes more afraid as the time runs out.",
+      "He moves from fear and shaking to focused calmness.",
+      "He decides to give up and wait for the AI to fix the problem.",
+      "He becomes angry at his father for giving him advice."
+    ],
+    "correctAnswer": 1,
+    "partBQuestion": "Part B: Which phrase from the passage supports this shift?",
+    "partBOptions": [
+      "His hands shook as he reached into the bay.",
+      "Kaelen looked at the experimental core.",
+      "With a steady breath, Kaelen bypassed the primary circuit.",
+      "The station AI announced in a calm voice."
+    ],
+    "partBCorrectAnswer": 2,
+    "explanation": "The 'steady breath' signals he has regained his focus and calm."
+  },
+  {
+    "id": "g5-q37",
+    "type": "reading",
+    "format": "multi-select",
+    "grade": 5,
+    "standard": "CCSS.ELA-LITERACY.RL.5.1",
+    "question": "Select TWO details that describe the setting of the science fiction story.",
+    "passage": {
+      "id": "p-scifi",
+      "text": "Kaelen adjusted his oxygen mask as the Red Sands of Mars swirled around the base of the habitat. Inside, the bioluminescent plants flickered—the power was failing. 'T-minus ten minutes until total blackout,' the station AI announced in a calm, mechanical voice. Kaelen looked at the experimental core. It was glowing a dangerous orange.",
+      "source": "original"
+    },
+    "options": [
+      "A lush forest on Earth.",
+      "The Red Sands of Mars.",
+      "A high-tech habitat with bioluminescent plants.",
+      "An ancient cedar valley."
+    ],
+    "correctAnswer": [
+      1,
+      2
+    ],
+    "explanation": "The text mentions Mars and a habitat with bioluminescent plants."
+  },
+  {
+    "id": "g5-q38",
+    "type": "reading",
+    "format": "single",
+    "grade": 5,
+    "standard": "CCSS.ELA-LITERACY.RI.5.2",
+    "question": "What is the main idea of the passage about Hedy Lamarr?",
+    "passage": {
+      "id": "p-bio",
+      "text": "While many know Hedy Lamarr as a glamorous 1940s movie star, she was also a brilliant inventor who changed the course of history. During World War II, Lamarr learned that radio-controlled torpedoes were easily jammed by the enemy, causing them to miss their targets. Working with composer George Antheil, she developed 'frequency hopping.' This invention allowed radio signals to jump between different frequencies, making it nearly impossible for enemies to block the signal. Although the Navy didn't use the technology immediately, her work became the foundation for modern Wi-Fi, Bluetooth, and GPS. Lamarr often spent her nights between filming scenes working on inventions, proving that one could possess both artistic talent and a deep scientific mind. She was not officially recognized for her contribution until late in her life, but her legacy lives on in every wireless device we use today.",
+      "source": "original"
+    },
+    "options": [
+      "Hedy Lamarr was the most famous movie star of the 1940s.",
+      "Lamarr's invention of frequency hopping paved the way for modern wireless technology.",
+      "Radio-controlled torpedoes were the most important weapon in World War II.",
+      "George Antheil was the primary inventor of Wi-Fi technology."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The passage focuses on her scientific contributions and how they led to modern technology."
+  },
+  {
+    "id": "g5-q39",
+    "type": "reading",
+    "format": "two-part",
+    "grade": 5,
+    "standard": "CCSS.ELA-LITERACY.RI.5.3",
+    "question": "Part A: How did 'frequency hopping' solve the problem of signal jamming?",
+    "passage": {
+      "id": "p-bio",
+      "text": "During World War II, Lamarr learned that radio-controlled torpedoes were easily jammed by the enemy... she developed 'frequency hopping.' This invention allowed radio signals to jump between different frequencies, making it nearly impossible for enemies to block the signal.",
+      "source": "original"
+    },
+    "options": [
+      "By making the radio signals much louder.",
+      "By sending signals through underwater cables.",
+      "By moving the signal across various frequencies so it couldn't be tracked.",
+      "By using movie cameras to record the torpedoes."
+    ],
+    "correctAnswer": 2,
+    "partBQuestion": "Part B: Which phrase from the text describes this process?",
+    "partBOptions": [
+      "causing them to miss their targets",
+      "allowed radio signals to jump between different frequencies",
+      "nearly impossible for enemies to block",
+      "foundation for modern Wi-Fi"
+    ],
+    "partBCorrectAnswer": 1,
+    "explanation": "The text explains the signals 'jump' to avoid being blocked."
+  },
+  {
+    "id": "g5-q40",
+    "type": "reading",
+    "format": "multi-select",
+    "grade": 5,
+    "standard": "CCSS.ELA-LITERACY.RI.5.1",
+    "question": "Select TWO modern technologies that are based on Hedy Lamarr's work.",
+    "passage": {
+      "id": "p-bio",
+      "text": "Although the Navy didn't use the technology immediately, her work became the foundation for modern Wi-Fi, Bluetooth, and GPS.",
+      "source": "original"
+    },
+    "options": [
+      "Television",
+      "Bluetooth",
+      "Wi-Fi",
+      "Radio-controlled torpedoes"
+    ],
+    "correctAnswer": [
+      1,
+      2
+    ],
+    "explanation": "The text explicitly lists Wi-Fi, Bluetooth, and GPS as technologies using her foundation."
+  },
+  {
+    "id": "g5-q41",
+    "type": "reading",
+    "format": "single",
+    "grade": 5,
+    "standard": "CCSS.ELA-LITERACY.RI.5.4",
+    "question": "What does the word 'terraforming' most likely mean in the science fiction passage?",
+    "passage": {
+      "id": "p-scifi",
+      "text": "He had spent years designing the 'Nova Engine' to terraform this planet, but one loose wire was threatening to turn the dream into a crater.",
+      "source": "original"
+    },
+    "options": [
+      "To destroy a planet's surface.",
+      "To transform a planet to make it like Earth.",
+      "To map the coordinates of a new star.",
+      "To build houses on Mars."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Contextually, he is working on an engine to make Mars habitable; 'terra' refers to Earth."
+  },
+  {
+    "id": "g5-q42",
+    "type": "reading",
+    "format": "two-part",
+    "grade": 5,
+    "standard": "CCSS.ELA-LITERACY.RI.5.5",
+    "question": "Part A: How is the information about the Everglades ecosystem organized?",
+    "passage": {
+      "id": "p-eco",
+      "text": "The Florida Everglades is a unique ecosystem often called the 'River of Grass.' Unlike typical rivers, this vast wetland moves extremely slowly, flowing southward from Lake Okeechobee to the Florida Bay. This slow-moving water creates a home for thousands of species. In the sawgrass marshes, alligators act as 'ecosystem engineers.' During the dry season, they dig 'gator holes' in the mud. These holes remain filled with water even when the rest of the marsh dries up, providing a vital refuge for fish, turtles, and birds. However, the Everglades faces a significant threat: invasive Burmese pythons. These snakes, not native to Florida, compete with alligators for food and prey on local wildlife. Scientists are working to remove these snakes to restore the natural balance. Understanding the delicate relationship between the water, the engineers, and the invaders is key to saving this national treasure.",
+      "source": "original"
+    },
+    "options": [
+      "By comparing the Everglades to a mountain range.",
+      "By describing the ecosystem and the problems it faces.",
+      "By listing the history of Florida in chronological order.",
+      "By explaining how to catch Burmese pythons."
+    ],
+    "correctAnswer": 1,
+    "partBQuestion": "Part B: Which transition word from the text signals a change from describing the ecosystem to discussing its problems?",
+    "partBOptions": [
+      "Unlike",
+      "During",
+      "However",
+      "Flowing"
+    ],
+    "partBCorrectAnswer": 2,
+    "explanation": "The word 'However' introduces the threat of the pythons."
+  },
+  {
+    "id": "g5-q43",
+    "type": "reading",
+    "format": "multi-select",
+    "grade": 5,
+    "standard": "CCSS.ELA-LITERACY.RI.5.1",
+    "question": "Select TWO reasons why alligators are called 'ecosystem engineers.'",
+    "passage": {
+      "id": "p-eco",
+      "text": "In the sawgrass marshes, alligators act as 'ecosystem engineers.' During the dry season, they dig 'gator holes' in the mud. These holes remain filled with water even when the rest of the marsh dries up, providing a vital refuge for fish, turtles, and birds.",
+      "source": "original"
+    },
+    "options": [
+      "They hunt invasive pythons.",
+      "They create water-filled holes that help other animals survive.",
+      "They change the physical environment of the marsh.",
+      "They slow down the flow of the water."
+    ],
+    "correctAnswer": [
+      1,
+      2
+    ],
+    "explanation": "Digging holes that provide refuge changes the environment and helps others."
+  },
+  {
+    "id": "g5-q44",
+    "type": "reading",
+    "format": "single",
+    "grade": 5,
+    "standard": "CCSS.ELA-LITERACY.RL.5.1",
+    "question": "What is the main challenge Maya faces in the realistic fiction story?",
+    "passage": {
+      "id": "p-fiction",
+      "text": "Maya stood at the edge of the community garden, looking at the mountain of tangled weeds and rusted equipment. The city had promised a grant to turn this vacant lot into a park, but only if the neighborhood could clear it by the end of the month. 'It's impossible, Maya,' her brother Sam sighed, kicking a discarded tire. Maya didn't answer. She remembered her grandmother's garden in Mexico—the way the soil felt like silk. She started small, clearing a single square yard. Slowly, neighbors began to notice. Mr. Henderson brought a wheelbarrow. The Garcia twins brought shovels. By the final week, the 'mountain' was gone, replaced by neat rows of tilled earth. Maya realized that a massive task is just a collection of small victories, and that hope is the best tool for any job.",
+      "source": "original"
+    },
+    "options": [
+      "She needs to find her grandmother's garden in Mexico.",
+      "She has to clear a vacant lot to get a city grant.",
+      "She is trying to convince her brother to move to the city.",
+      "She wants to win a prize for the best tomatoes."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The story centers on the neighborhood's effort to clear the lot by the month's end."
+  },
+  {
+    "id": "g5-q45",
+    "type": "reading",
+    "format": "two-part",
+    "grade": 5,
+    "standard": "CCSS.ELA-LITERACY.RL.5.3",
+    "question": "Part A: How does Maya motivate her neighbors to help?",
+    "passage": {
+      "id": "p-fiction",
+      "text": "Maya didn't answer... She started small, clearing a single square yard. Slowly, neighbors began to notice. Mr. Henderson brought a wheelbarrow. The Garcia twins brought shovels.",
+      "source": "original"
+    },
+    "options": [
+      "She gives a loud speech in the middle of the street.",
+      "She leads by example by starting the work herself.",
+      "She pays them with the grant money from the city.",
+      "She asks her brother Sam to call everyone."
+    ],
+    "correctAnswer": 1,
+    "partBQuestion": "Part B: Which detail from the story best supports the answer in Part A?",
+    "partBOptions": [
+      "Maya stood at the edge of the community garden.",
+      "The city had promised a grant.",
+      "She started small, clearing a single square yard.",
+      "The Garcia twins brought shovels."
+    ],
+    "partBCorrectAnswer": 2,
+    "explanation": "Maya’s quiet start ('clearing a single square yard') is what the neighbors noticed."
+  },
+  {
+    "id": "g5-q46",
+    "type": "reading",
+    "format": "multi-select",
+    "grade": 5,
+    "standard": "CCSS.ELA-LITERACY.RL.5.2",
+    "question": "Select TWO themes present in Maya's story.",
+    "passage": {
+      "id": "p-fiction",
+      "text": "Maya realized that a massive task is just a collection of small victories, and that hope is the best tool for any job.",
+      "source": "original"
+    },
+    "options": [
+      "Perseverance through small actions leads to success.",
+      "Cities should always provide grants for parks.",
+      "Community cooperation can overcome large obstacles.",
+      "Mexican gardens are better than city gardens."
+    ],
+    "correctAnswer": [
+      0,
+      2
+    ],
+    "explanation": "The ending summarizes the importance of small victories (perseverance) and working together (community)."
+  },
+  {
+    "id": "g5-q47",
+    "type": "reading",
+    "format": "single",
+    "grade": 5,
+    "standard": "CCSS.ELA-LITERACY.RL.5.7",
+    "question": "How would a visual illustration of Aella's 'loom of silver cedar' most likely help the reader?",
+    "passage": {
+      "id": "p-myth",
+      "text": "She possessed a loom made of silver cedar and thread spun from the breath of the mountains.",
+      "source": "original"
+    },
+    "options": [
+      "By explaining how to build a loom.",
+      "By showing the magical and majestic nature of her tools.",
+      "By proving that the story is a true historical event.",
+      "By identifying the specific type of cedar tree used."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Illustrating a magical loom made of mountain breath helps emphasize the legend's fantastic elements."
+  },
+  {
+    "id": "g5-q48",
+    "type": "reading",
+    "format": "two-part",
+    "grade": 5,
+    "standard": "CCSS.ELA-LITERACY.RI.5.2",
+    "question": "Part A: What is the main idea of the Everglades passage?",
+    "passage": {
+      "id": "p-eco",
+      "text": "The Florida Everglades is a unique ecosystem often called the 'River of Grass.'... Understanding the delicate relationship between the water, the engineers, and the invaders is key to saving this national treasure.",
+      "source": "original"
+    },
+    "options": [
+      "Burmese pythons are the largest snakes in Florida.",
+      "The Everglades is a complex, slow-moving wetland that needs protection from invasive species.",
+      "Alligators are dangerous predators that people should avoid.",
+      "Lake Okeechobee is the source of all water in Florida."
+    ],
+    "correctAnswer": 1,
+    "partBQuestion": "Part B: Which sentence from the passage best supports the main idea?",
+    "partBOptions": [
+      "This vast wetland moves extremely slowly.",
+      "Burmese pythons are not native to Florida.",
+      "Understanding the delicate relationship... is key to saving this national treasure.",
+      "Alligators act as 'ecosystem engineers'."
+    ],
+    "partBCorrectAnswer": 2,
+    "explanation": "The final sentence ties together the ecosystem's parts and the need for conservation."
+  },
+  {
+    "id": "g5-q49",
+    "type": "reading",
+    "format": "single",
+    "grade": 5,
+    "standard": "CCSS.ELA-LITERACY.RI.5.3",
+    "question": "Based on the Hedy Lamarr passage, why did the Navy initially ignore her invention?",
+    "passage": {
+      "id": "p-bio",
+      "text": "Although the Navy didn't use the technology immediately, her work became the foundation for modern Wi-Fi, Bluetooth, and GPS... She was not officially recognized for her contribution until late in her life.",
+      "source": "original"
+    },
+    "options": [
+      "The technology was too expensive to build.",
+      "They did not value the scientific mind of a female movie star at the time.",
+      "George Antheil told them the invention wouldn't work.",
+      "Wireless signals had not been invented yet."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The text suggests the conflict between her artistic talent and her scientific mind, and notes she wasn't recognized until much later."
+  },
+  {
+    "id": "g5-q50",
+    "type": "reading",
+    "format": "multi-select",
+    "grade": 5,
+    "standard": "CCSS.ELA-LITERACY.RL.5.5",
+    "question": "Select TWO phrases from the science fiction story that show the danger Kaelen was in.",
+    "passage": {
+      "id": "p-scifi",
+      "text": "Inside, the bioluminescent plants flickered—the power was failing... It was glowing a dangerous orange... high-voltage bay.",
+      "source": "original"
+    },
+    "options": [
+      "Bioluminescent plants flickered",
+      "Glowing a dangerous orange",
+      "Station AI announced in a calm voice",
+      "High-voltage bay"
+    ],
+    "correctAnswer": [
+      1,
+      3
+    ],
+    "explanation": "A 'dangerous' glow and a 'high-voltage' bay indicate immediate physical peril."
+  },
+  {
+    "id": "g5-q51",
+    "type": "vocabulary",
+    "format": "single",
+    "grade": 5,
+    "standard": "CCSS.ELA-LITERACY.L.5.4",
+    "question": "In the Everglades passage, what does the word 'refuge' mean?",
+    "passage": {
+      "id": "p-eco",
+      "text": "These holes remain filled with water... providing a vital refuge for fish, turtles, and birds."
+    },
+    "options": [
+      "A place of danger.",
+      "A place of shelter or safety.",
+      "A type of food for animals.",
+      "A deep hole in the mud."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Context shows the holes provide water when the marsh is dry, acting as a safe spot to survive."
+  },
+  {
+    "id": "g5-q52",
+    "type": "vocabulary",
+    "format": "single",
+    "grade": 5,
+    "standard": "CCSS.ELA-LITERACY.L.5.4.A",
+    "question": "In the Maya story, what does the word 'vacant' mean in the phrase 'vacant lot'?",
+    "passage": {
+      "id": "p-fiction",
+      "text": "The city had promised a grant to turn this vacant lot into a park."
+    },
+    "options": [
+      "Very large.",
+      "Empty or not being used.",
+      "Filled with flowers.",
+      "Belonging to the city."
+    ],
+    "correctAnswer": 1,
+    "explanation": "A 'vacant lot' describes the unused land before it is turned into a park."
+  },
+  {
+    "id": "g5-q53",
+    "type": "vocabulary",
+    "format": "single",
+    "grade": 5,
+    "standard": "CCSS.ELA-LITERACY.L.5.4.B",
+    "question": "Using the root word 'vibr', what does 'vibrated' mean in the science fiction story?",
+    "passage": {
+      "id": "p-scifi",
+      "text": "A hum vibrated through the floor, and the core settled into a soft, steady blue."
+    },
+    "options": [
+      "To produce a loud noise.",
+      "To move back and forth rapidly.",
+      "To become very cold.",
+      "To break into pieces."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The root 'vibr' relates to shaking or oscillating motion."
+  },
+  {
+    "id": "g5-q54",
+    "type": "vocabulary",
+    "format": "multi-select",
+    "grade": 5,
+    "standard": "CCSS.ELA-LITERACY.L.5.4",
+    "question": "Select TWO words that are synonyms for 'meticulously' as it relates to the weaver Aella's work.",
+    "passage": {
+      "id": "p-myth",
+      "text": "N/A - General Knowledge context"
+    },
+    "options": [
+      "Carefully",
+      "Quickly",
+      "Thoroughly",
+      "Messily"
+    ],
+    "correctAnswer": [
+      0,
+      2
+    ],
+    "explanation": "Meticulously means doing something with great care and thoroughness."
+  },
+  {
+    "id": "g5-q55",
+    "type": "vocabulary",
+    "format": "single",
+    "grade": 5,
+    "standard": "CCSS.ELA-LITERACY.L.5.4.C",
+    "question": "Which word is an antonym for 'parched' in the myth of Aella?",
+    "passage": {
+      "id": "p-myth",
+      "text": "One year, a great drought parched the land."
+    },
+    "options": [
+      "Dried",
+      "Burned",
+      "Soaked",
+      "Cracked"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Parched means very dry; soaked is the opposite."
+  },
+  {
+    "id": "g5-q56",
+    "type": "vocabulary",
+    "format": "single",
+    "grade": 5,
+    "standard": "CCSS.ELA-LITERACY.L.5.4.B",
+    "question": "In the word 'bioluminescent', what does the root 'lum' mean?",
+    "passage": {
+      "id": "p-scifi",
+      "text": "Inside, the bioluminescent plants flickered."
+    },
+    "options": [
+      "Life",
+      "Light",
+      "Green",
+      "Small"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The root 'lum' comes from 'lumen', meaning light."
+  },
+  {
+    "id": "g5-q57",
+    "type": "vocabulary",
+    "format": "multi-select",
+    "grade": 5,
+    "standard": "CCSS.ELA-LITERACY.L.5.4",
+    "question": "Select TWO words from the Lamarr passage that suggest her invention was 'innovative'.",
+    "passage": {
+      "id": "p-bio",
+      "text": "She developed 'frequency hopping.'... her work became the foundation for modern Wi-Fi... brilliant inventor."
+    },
+    "options": [
+      "Glamorous",
+      "Foundation",
+      "Groundbreaking",
+      "Inventor"
+    ],
+    "correctAnswer": [
+      1,
+      3
+    ],
+    "explanation": "Being an 'inventor' and creating a 'foundation' for the future are marks of innovation."
+  },
+  {
+    "id": "g5-q58",
+    "type": "vocabulary",
+    "format": "single",
+    "grade": 5,
+    "standard": "CCSS.ELA-LITERACY.L.5.4.B",
+    "question": "The word 'non-native' in the Everglades text uses the prefix 'non-'. What does 'non-' mean?",
+    "passage": {
+      "id": "p-eco",
+      "text": "These snakes, not native to Florida..."
+    },
+    "options": [
+      "Before",
+      "Against",
+      "Not",
+      "Again"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The prefix 'non-' means not."
+  },
+  {
+    "id": "g5-q59",
+    "type": "grammar",
+    "format": "single",
+    "grade": 5,
+    "standard": "CCSS.ELA-LITERACY.L.5.1",
+    "question": "Which sentence uses the correct verb tense to show an action that happened in the past?",
+    "passage": {
+      "id": "none",
+      "text": "N/A",
+      "source": "original"
+    },
+    "options": [
+      "Hedy Lamarr acts in many movies.",
+      "Maya will clear the lot tomorrow.",
+      "Aella wove a pattern of deep blue.",
+      "Kaelen is fixing the engine now."
+    ],
+    "correctAnswer": 2,
+    "explanation": "'Wove' is the past tense of 'weave'."
+  },
+  {
+    "id": "g5-q60",
+    "type": "grammar",
+    "format": "single",
+    "grade": 5,
+    "standard": "CCSS.ELA-LITERACY.L.5.1.B",
+    "question": "Which sentence uses the perfect verb tense correctly?",
+    "passage": {
+      "id": "none",
+      "text": "N/A",
+      "source": "original"
+    },
+    "options": [
+      "The alligators have dug holes for many years.",
+      "The alligators has dug holes for many years.",
+      "The alligators have digged holes for many years.",
+      "The alligators having dug holes for many years."
+    ],
+    "correctAnswer": 0,
+    "explanation": "The present perfect tense uses 'have' + the past participle 'dug'."
+  },
+  {
+    "id": "g5-q61",
+    "type": "grammar",
+    "format": "multi-select",
+    "grade": 5,
+    "standard": "CCSS.ELA-LITERACY.L.5.2",
+    "question": "Select TWO sentences that use commas correctly to separate items in a series.",
+    "passage": {
+      "id": "none",
+      "text": "N/A",
+      "source": "original"
+    },
+    "options": [
+      "Maya brought shovels, rakes, and seeds.",
+      "Aella used silver cedar, golden silk and gray wool.",
+      "The Everglades have fish, turtles, and birds.",
+      "Wi-Fi Bluetooth and GPS are modern technologies."
+    ],
+    "correctAnswer": [
+      0,
+      2
+    ],
+    "explanation": "Commas should separate every item in a list of three or more."
+  },
+  {
+    "id": "g5-q62",
+    "type": "grammar",
+    "format": "single",
+    "grade": 5,
+    "standard": "CCSS.ELA-LITERACY.L.5.1",
+    "question": "Choose the best conjunction to complete the sentence: 'Maya wanted to quit, ___ she remembered her grandmother's garden.'",
+    "passage": {
+      "id": "none",
+      "text": "N/A",
+      "source": "original"
+    },
+    "options": [
+      "and",
+      "but",
+      "or",
+      "so"
+    ],
+    "correctAnswer": 1,
+    "explanation": "'But' shows the contrast between wanting to quit and finding motivation."
+  },
+  {
+    "id": "g5-q63",
+    "type": "grammar",
+    "format": "single",
+    "grade": 5,
+    "standard": "CCSS.ELA-LITERACY.L.5.1",
+    "question": "Which sentence uses an interjection correctly to show excitement?",
+    "passage": {
+      "id": "none",
+      "text": "N/A",
+      "source": "original"
+    },
+    "options": [
+      "The plants flickered inside.",
+      "Wow, the Nova Engine is finally working!",
+      "Hedy Lamarr was an inventor.",
+      "Python snakes live in the marsh."
+    ],
+    "correctAnswer": 1,
+    "explanation": "'Wow' is an interjection expressing excitement."
+  },
+  {
+    "id": "g5-q64",
+    "type": "grammar",
+    "format": "multi-select",
+    "grade": 5,
+    "standard": "CCSS.ELA-LITERACY.L.5.2",
+    "question": "Select TWO sentences that are punctuated correctly.",
+    "passage": {
+      "id": "none",
+      "text": "N/A",
+      "source": "original"
+    },
+    "options": [
+      "“It’s impossible Maya,” Sam said.",
+      "“It’s impossible, Maya,” Sam said.",
+      "The station AI said, “Nine minutes.”",
+      "The station AI said “Nine minutes.”"
+    ],
+    "correctAnswer": [
+      1,
+      2
+    ],
+    "explanation": "Direct speech should be set off with commas."
+  },
+  {
+    "id": "g5-q65",
+    "type": "writing",
+    "format": "single",
+    "grade": 5,
+    "standard": "CCSS.ELA-LITERACY.W.5.1",
+    "question": "Which sentence would be the best thesis statement for an opinion essay about protecting the Everglades?",
+    "passage": {
+      "id": "none",
+      "text": "N/A",
+      "source": "original"
+    },
+    "options": [
+      "The Everglades is located in Florida.",
+      "People should protect the Everglades because it is a unique habitat that is threatened by invasive species.",
+      "I want to see an alligator in the River of Grass.",
+      "Burmese pythons were brought to Florida by people."
+    ],
+    "correctAnswer": 1,
+    "explanation": "A thesis statement should state a claim and provide reasons."
+  },
+  {
+    "id": "g5-q66",
+    "type": "writing",
+    "format": "single",
+    "grade": 5,
+    "standard": "CCSS.ELA-LITERACY.W.5.2",
+    "question": "Which topic sentence is most appropriate for an informative paragraph about Hedy Lamarr's invention?",
+    "passage": {
+      "id": "none",
+      "text": "N/A",
+      "source": "original"
+    },
+    "options": [
+      "Hedy Lamarr was a famous movie star.",
+      "Wireless technology is used in phones every day.",
+      "Lamarr’s invention of frequency hopping solved the problem of radio jamming during World War II.",
+      "George Antheil liked to write music for pianos."
+    ],
+    "correctAnswer": 2,
+    "explanation": "This sentence specifically introduces the scientific information about her invention."
+  },
+  {
+    "id": "g5-q67",
+    "type": "writing",
+    "format": "multi-select",
+    "grade": 5,
+    "standard": "CCSS.ELA-LITERACY.W.5.1",
+    "question": "Select TWO pieces of evidence that support the opinion: 'Community gardens are beneficial for neighborhoods.'",
+    "passage": {
+      "id": "none",
+      "text": "N/A",
+      "source": "original"
+    },
+    "options": [
+      "Gardens provide a space for neighbors to work together toward a common goal.",
+      "Maya’s brother Sam didn’t want to help at first.",
+      "Vacant lots can be transformed into beautiful green spaces for everyone to enjoy.",
+      "Some grants are only available for a short time."
+    ],
+    "correctAnswer": [
+      0,
+      2
+    ],
+    "explanation": "Working together and creating green spaces are direct benefits to the community."
+  },
+  {
+    "id": "g5-q68",
+    "type": "writing",
+    "format": "single",
+    "grade": 5,
+    "standard": "CCSS.ELA-LITERACY.W.5.2",
+    "question": "Which transition word or phrase would best introduce a concluding statement?",
+    "passage": {
+      "id": "none",
+      "text": "N/A",
+      "source": "original"
+    },
+    "options": [
+      "In addition",
+      "For example",
+      "Overall",
+      "First"
+    ],
+    "correctAnswer": 2,
+    "explanation": "'Overall' or 'In conclusion' signals that the writer is summarizing their points."
+  },
+  {
+    "id": "g5-q69",
+    "type": "writing",
+    "format": "multi-select",
+    "grade": 5,
+    "standard": "CCSS.ELA-LITERACY.W.5.1",
+    "question": "Select TWO ways to make an opinion more persuasive in a concluding paragraph.",
+    "passage": {
+      "id": "none",
+      "text": "N/A",
+      "source": "original"
+    },
+    "options": [
+      "Restate the main opinion in a new way.",
+      "Introduce a completely different topic.",
+      "Provide a 'call to action' telling the reader what to do.",
+      "List all the sources used in the essay."
+    ],
+    "correctAnswer": [
+      0,
+      2
+    ],
+    "explanation": "Restating the claim and calling the reader to action are standard persuasive conclusion techniques."
+  },
+  {
+    "id": "g5-q70",
+    "type": "writing",
+    "format": "single",
+    "grade": 5,
+    "standard": "CCSS.ELA-LITERACY.W.5.2",
+    "question": "Which sentence uses precise language to describe the Everglades?",
+    "passage": {
+      "id": "none",
+      "text": "N/A",
+      "source": "original"
+    },
+    "options": [
+      "The Everglades has lots of stuff in it.",
+      "The Everglades is a very big, wet place.",
+      "The Florida Everglades is a slow-moving, 60-mile-wide wetland ecosystem.",
+      "The water in the Everglades is kind of grass-like."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Using specific terms like '60-mile-wide' and 'wetland ecosystem' is more precise."
   }
 ]

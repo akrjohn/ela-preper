@@ -67,7 +67,10 @@
       "There were old quilts piled up.",
       "The walls were painted bright yellow."
     ],
-    "correctAnswer": [0, 2],
+    "correctAnswer": [
+      0,
+      2
+    ],
     "explanation": "The text explicitly mentions the dusty air and the pile of old quilts in the attic."
   },
   {
@@ -159,7 +162,10 @@
       "Overconfident",
       "Humble"
     ],
-    "correctAnswer": [0, 2],
+    "correctAnswer": [
+      0,
+      2
+    ],
     "explanation": "The Hare boasts about his speed and is so sure he will win that he takes a nap, showing he is arrogant and overconfident."
   },
   {
@@ -230,7 +236,10 @@
       "Precipitation",
       "Cooling"
     ],
-    "correctAnswer": [0, 2],
+    "correctAnswer": [
+      0,
+      2
+    ],
     "explanation": "Evaporation and Precipitation are specific scientific terms used to describe stages of the water cycle."
   },
   {
@@ -435,7 +444,10 @@
       "Enormous",
       "Narrow"
     ],
-    "correctAnswer": [1, 2],
+    "correctAnswer": [
+      1,
+      2
+    ],
     "explanation": "Vast means very large, so immense and enormous are synonyms."
   },
   {
@@ -540,7 +552,10 @@
       "I have two much homework tonight.",
       "The blue wind blew the leaves away."
     ],
-    "correctAnswer": [0, 3],
+    "correctAnswer": [
+      0,
+      3
+    ],
     "explanation": "Option A correctly uses 'see' (vision) and 'sea' (ocean). Option D correctly uses 'blue' (color) and 'blew' (past of blow)."
   },
   {
@@ -603,7 +618,10 @@
       "Bees flap their wings to evaporate water from the nectar.",
       "Honey is sold in glass jars at the grocery store."
     ],
-    "correctAnswer": [0, 2],
+    "correctAnswer": [
+      0,
+      2
+    ],
     "explanation": "Collecting nectar and evaporating water are parts of the actual process of making honey."
   },
   {
@@ -645,7 +663,10 @@
       "Because",
       "Yesterday"
     ],
-    "correctAnswer": [0, 2],
+    "correctAnswer": [
+      0,
+      2
+    ],
     "explanation": "'For example' and 'Because' are used to connect a claim to the evidence or reasons that support it."
   },
   {
@@ -668,5 +689,942 @@
     ],
     "correctAnswer": 2,
     "explanation": "The conclusion of an informative text should wrap up the main points and leave the reader with a final thought on the subject."
+  },
+  {
+    "id": "g4-q31",
+    "type": "reading",
+    "format": "single",
+    "grade": 4,
+    "standard": "CCSS.ELA-LITERACY.RL.4.1",
+    "question": "What happens to the flowers when the Lumin-Hare runs past them?",
+    "passage": {
+      "id": "p-fantasy",
+      "text": "Deep within the Whispering Woods lived the Lumin-Hare, a creature with fur like spun moonlight and ears that shimmered with starlight. Legend said that wherever the Lumin-Hare stepped, flowers would bloom instantly, even in the middle of winter. One chilly evening, a young boy named Elian sat by the frozen pond, feeling lonely. Suddenly, a streak of silver flashed across the snow. The Lumin-Hare paused, its violet eyes meeting Elian’s. As the creature darted away, a trail of vibrant purple crocuses erupted from the ice. Elian gasped, his loneliness replaced by wonder. He realized that even in the coldest times, magic could find a way to grow if you were patient enough to watch for it.",
+      "source": "original"
+    },
+    "options": [
+      "They turn into silver dust.",
+      "They bloom instantly from the ground.",
+      "They wilt because of the cold winter.",
+      "They change color from purple to white."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The passage states, 'wherever the Lumin-Hare stepped, flowers would bloom instantly.'"
+  },
+  {
+    "id": "g4-q32",
+    "type": "reading",
+    "format": "two-part",
+    "grade": 4,
+    "standard": "CCSS.ELA-LITERACY.RL.4.3",
+    "question": "Part A: How does Elian's mood change after seeing the Lumin-Hare?",
+    "passage": {
+      "id": "p-fantasy",
+      "text": "Deep within the Whispering Woods lived the Lumin-Hare, a creature with fur like spun moonlight and ears that shimmered with starlight. Legend said that wherever the Lumin-Hare stepped, flowers would bloom instantly, even in the middle of winter. One chilly evening, a young boy named Elian sat by the frozen pond, feeling lonely. Suddenly, a streak of silver flashed across the snow. The Lumin-Hare paused, its violet eyes meeting Elian’s. As the creature darted away, a trail of vibrant purple crocuses erupted from the ice. Elian gasped, his loneliness replaced by wonder. He realized that even in the coldest times, magic could find a way to grow if you were patient enough to watch for it.",
+      "source": "original"
+    },
+    "options": [
+      "He goes from being cold to being warm.",
+      "He goes from feeling lonely to feeling wonder.",
+      "He goes from being scared to being brave.",
+      "He goes from feeling happy to feeling sad."
+    ],
+    "correctAnswer": 1,
+    "partBQuestion": "Part B: Which sentence from the passage best supports your answer in Part A?",
+    "partBOptions": [
+      "One chilly evening, a young boy named Elian sat by the frozen pond, feeling lonely.",
+      "Suddenly, a streak of silver flashed across the snow.",
+      "Elian gasped, his loneliness replaced by wonder.",
+      "He realized that even in the coldest times, magic could find a way to grow."
+    ],
+    "partBCorrectAnswer": 2,
+    "explanation": "The text explicitly states his loneliness was replaced by wonder."
+  },
+  {
+    "id": "g4-q33",
+    "type": "reading",
+    "format": "multi-select",
+    "grade": 4,
+    "standard": "CCSS.ELA-LITERACY.RL.4.1",
+    "question": "Select TWO physical features of the Lumin-Hare mentioned in the text.",
+    "passage": {
+      "id": "p-fantasy",
+      "text": "Deep within the Whispering Woods lived the Lumin-Hare, a creature with fur like spun moonlight and ears that shimmered with starlight. Legend said that wherever the Lumin-Hare stepped, flowers would bloom instantly, even in the middle of winter. One chilly evening, a young boy named Elian sat by the frozen pond, feeling lonely. Suddenly, a streak of silver flashed across the snow. The Lumin-Hare paused, its violet eyes meeting Elian’s. As the creature darted away, a trail of vibrant purple crocuses erupted from the ice. Elian gasped, his loneliness replaced by wonder. He realized that even in the coldest times, magic could find a way to grow if you were patient enough to watch for it.",
+      "source": "original"
+    },
+    "options": [
+      "Fur like spun moonlight",
+      "A long, bushy tail",
+      "Violet eyes",
+      "Golden paws"
+    ],
+    "correctAnswer": [
+      0,
+      2
+    ],
+    "explanation": "The text describes fur like spun moonlight and violet eyes."
+  },
+  {
+    "id": "g4-q34",
+    "type": "reading",
+    "format": "single",
+    "grade": 4,
+    "standard": "CCSS.ELA-LITERACY.RI.4.2",
+    "question": "What is the main idea of the biography about Mary Anning?",
+    "passage": {
+      "id": "p-bio",
+      "text": "Mary Anning was born in 1799 in a small seaside town in England. Her father taught her how to find fossils along the steep cliffs by the ocean. After he passed away, Mary began selling these 'curiosities' to support her family. In 1811, she made a groundbreaking discovery: the first complete Ichthyosaurus skeleton. Despite her incredible skills, many scientists of the time ignored her work because she was a woman from a poor background. However, Mary never stopped searching. She went on to find several more prehistoric creatures, changing the way we understand the history of the Earth. Today, she is remembered as one of the most important paleontologists in history.",
+      "source": "original"
+    },
+    "options": [
+      "Mary Anning lived in England in the 1800s.",
+      "Mary Anning was a determined scientist who made major fossil discoveries despite facing many challenges.",
+      "Scientists in the 1800s did not believe in prehistoric creatures.",
+      "Finding fossils is a dangerous job that requires many tools."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The passage focuses on her discoveries and her persistence despite social barriers."
+  },
+  {
+    "id": "g4-q35",
+    "type": "reading",
+    "format": "two-part",
+    "grade": 4,
+    "standard": "CCSS.ELA-LITERACY.RI.4.3",
+    "question": "Part A: Why did some scientists in the 1800s ignore Mary Anning’s work?",
+    "passage": {
+      "id": "p-bio",
+      "text": "Mary Anning was born in 1799 in a small seaside town in England. Her father taught her how to find fossils along the steep cliffs by the ocean. After he passed away, Mary began selling these 'curiosities' to support her family. In 1811, she made a groundbreaking discovery: the first complete Ichthyosaurus skeleton. Despite her incredible skills, many scientists of the time ignored her work because she was a woman from a poor background. However, Mary never stopped searching. She went on to find several more prehistoric creatures, changing the way we understand the history of the Earth. Today, she is remembered as one of the most important paleontologists in history.",
+      "source": "original"
+    },
+    "options": [
+      "They thought her fossils were fake.",
+      "They were jealous of her discoveries.",
+      "Because of her gender and her lack of wealth.",
+      "She refused to show them where she found the skeletons."
+    ],
+    "correctAnswer": 2,
+    "partBQuestion": "Part B: Which sentence from the passage best supports your answer in Part A?",
+    "partBOptions": [
+      "In 1811, she made a groundbreaking discovery.",
+      "Mary began selling these 'curiosities' to support her family.",
+      "Many scientists of the time ignored her work because she was a woman from a poor background.",
+      "Today, she is remembered as one of the most important paleontologists."
+    ],
+    "partBCorrectAnswer": 2,
+    "explanation": "The text explicitly mentions her being a woman from a poor background as the reason she was ignored."
+  },
+  {
+    "id": "g4-q36",
+    "type": "reading",
+    "format": "multi-select",
+    "grade": 4,
+    "standard": "CCSS.ELA-LITERACY.RI.4.1",
+    "question": "Select TWO things Mary Anning's father taught her.",
+    "passage": {
+      "id": "p-bio",
+      "text": "Mary Anning was born in 1799 in a small seaside town in England. Her father taught her how to find fossils along the steep cliffs by the ocean. After he passed away, Mary began selling these 'curiosities' to support her family. In 1811, she made a groundbreaking discovery: the first complete Ichthyosaurus skeleton. Despite her incredible skills, many scientists of the time ignored her work because she was a woman from a poor background. However, Mary never stopped searching. She went on to find several more prehistoric creatures, changing the way we understand the history of the Earth. Today, she is remembered as one of the most important paleontologists in history.",
+      "source": "original"
+    },
+    "options": [
+      "How to sail a boat",
+      "How to find fossils",
+      "How to sell curiosities",
+      "Working along the steep cliffs"
+    ],
+    "correctAnswer": [
+      1,
+      3
+    ],
+    "explanation": "The text states her father taught her how to find fossils and work along the steep cliffs."
+  },
+  {
+    "id": "g4-q37",
+    "type": "reading",
+    "format": "single",
+    "grade": 4,
+    "standard": "CCSS.ELA-LITERACY.RI.4.2",
+    "question": "What is the main idea of the passage about the Amazon Rainforest?",
+    "passage": {
+      "id": "p-science",
+      "text": "The Amazon Rainforest is a vast, tropical ecosystem teeming with life. It is often called the 'lungs of the Earth' because its millions of trees produce a large portion of the world’s oxygen. This habitat is home to an incredible variety of animals, including jaguars, macaws, and poison dart frogs. However, the Amazon is in danger. Deforestation—the clearing of trees for farming or logging—is destroying the homes of these animals. It also affects the global climate. Scientists are working with local communities to find ways to protect the forest while still allowing people to earn a living. Protecting the Amazon is essential for the health of our entire planet.",
+      "source": "original"
+    },
+    "options": [
+      "Macaws and jaguars live in the Amazon.",
+      "The Amazon produces oxygen and needs protection from deforestation.",
+      "Deforestation is only a problem for farming.",
+      "Scientists like to visit tropical ecosystems."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The passage covers why the Amazon is important (oxygen) and why it is in danger (deforestation)."
+  },
+  {
+    "id": "g4-q38",
+    "type": "reading",
+    "format": "two-part",
+    "grade": 4,
+    "standard": "CCSS.ELA-LITERACY.RI.4.3",
+    "question": "Part A: Why is the Amazon Rainforest called the 'lungs of the Earth'?",
+    "passage": {
+      "id": "p-science",
+      "text": "The Amazon Rainforest is a vast, tropical ecosystem teeming with life. It is often called the 'lungs of the Earth' because its millions of trees produce a large portion of the world’s oxygen. This habitat is home to an incredible variety of animals, including jaguars, macaws, and poison dart frogs. However, the Amazon is in danger. Deforestation—the clearing of trees for farming or logging—is destroying the homes of these animals. It also affects the global climate. Scientists are working with local communities to find ways to protect the forest while still allowing people to earn a living. Protecting the Amazon is essential for the health of our entire planet.",
+      "source": "original"
+    },
+    "options": [
+      "It is shaped like a pair of lungs.",
+      "It breathes in the tropical air.",
+      "Its trees produce much of the world's oxygen.",
+      "It helps animals stay healthy."
+    ],
+    "correctAnswer": 2,
+    "partBQuestion": "Part B: Which sentence from the passage best supports your answer in Part A?",
+    "partBOptions": [
+      "The Amazon Rainforest is a vast, tropical ecosystem teeming with life.",
+      "It is often called the 'lungs of the Earth' because its millions of trees produce a large portion of the world’s oxygen.",
+      "This habitat is home to an incredible variety of animals.",
+      "Deforestation is destroying the homes of these animals."
+    ],
+    "partBCorrectAnswer": 1,
+    "explanation": "The text explains the nickname is due to the oxygen production of the trees."
+  },
+  {
+    "id": "g4-q39",
+    "type": "reading",
+    "format": "multi-select",
+    "grade": 4,
+    "standard": "CCSS.ELA-LITERACY.RI.4.1",
+    "question": "Select TWO causes of deforestation mentioned in the passage.",
+    "passage": {
+      "id": "p-science",
+      "text": "The Amazon Rainforest is a vast, tropical ecosystem teeming with life. It is often called the 'lungs of the Earth' because its millions of trees produce a large portion of the world’s oxygen. This habitat is home to an incredible variety of animals, including jaguars, macaws, and poison dart frogs. However, the Amazon is in danger. Deforestation—the clearing of trees for farming or logging—is destroying the homes of these animals. It also affects the global climate. Scientists are working with local communities to find ways to protect the forest while still allowing people to earn a living. Protecting the Amazon is essential for the health of our entire planet.",
+      "source": "original"
+    },
+    "options": [
+      "Farming",
+      "Oxygen production",
+      "Logging",
+      "Global climate"
+    ],
+    "correctAnswer": [
+      0,
+      2
+    ],
+    "explanation": "The text lists farming and logging as reasons trees are cleared."
+  },
+  {
+    "id": "g4-q40",
+    "type": "reading",
+    "format": "single",
+    "grade": 4,
+    "standard": "CCSS.ELA-LITERACY.RL.4.3",
+    "question": "How does Leo feel when Mateo wins the competition?",
+    "passage": {
+      "id": "p-fiction",
+      "text": "Leo and Mateo had been best friends since kindergarten, but they were very different. Leo was a star athlete, while Mateo was a quiet artist. Every year, the school held a mural contest. Leo usually won the sports trophies, but this year, he decided to help Mateo enter the art competition. They spent weeks in the garage, Leo holding the brushes while Mateo sketched elaborate scenes of their town. On the day of the ceremony, the principal announced the winner: Mateo. Leo jumped up and cheered louder than anyone else. Mateo smiled, realizing that a true friend doesn't just share your hobbies; they celebrate your victories as if they were their own.",
+      "source": "original"
+    },
+    "options": [
+      "Jealous that he didn't win.",
+      "Proud and excited for his friend.",
+      "Sad that the competition is over.",
+      "Bored by the ceremony."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Leo 'jumped up and cheered louder than anyone else,' showing his pride and excitement."
+  },
+  {
+    "id": "g4-q41",
+    "type": "reading",
+    "format": "two-part",
+    "grade": 4,
+    "standard": "CCSS.ELA-LITERACY.RL.4.1",
+    "question": "Part A: What did Leo do to support Mateo during the contest?",
+    "passage": {
+      "id": "p-fiction",
+      "text": "Leo and Mateo had been best friends since kindergarten, but they were very different. Leo was a star athlete, while Mateo was a quiet artist. Every year, the school held a mural contest. Leo usually won the sports trophies, but this year, he decided to help Mateo enter the art competition. They spent weeks in the garage, Leo holding the brushes while Mateo sketched elaborate scenes of their town. On the day of the ceremony, the principal announced the winner: Mateo. Leo jumped up and cheered louder than anyone else. Mateo smiled, realizing that a true friend doesn't just share your hobbies; they celebrate your victories as if they were their own.",
+      "source": "original"
+    },
+    "options": [
+      "He drew the scenes of the town.",
+      "He taught Mateo how to be a star athlete.",
+      "He helped with the physical work of painting.",
+      "He told the principal who should win."
+    ],
+    "correctAnswer": 2,
+    "partBQuestion": "Part B: Which sentence from the passage best supports your answer in Part A?",
+    "partBOptions": [
+      "Leo usually won the sports trophies.",
+      "They spent weeks in the garage, Leo holding the brushes while Mateo sketched.",
+      "The principal announced the winner: Mateo.",
+      "Leo jumped up and cheered louder than anyone else."
+    ],
+    "partBCorrectAnswer": 1,
+    "explanation": "The text describes Leo 'holding the brushes' while Mateo sketched."
+  },
+  {
+    "id": "g4-q42",
+    "type": "reading",
+    "format": "multi-select",
+    "grade": 4,
+    "standard": "CCSS.ELA-LITERACY.RL.4.3",
+    "question": "Select TWO differences between Leo and Mateo mentioned in the text.",
+    "passage": {
+      "id": "p-fiction",
+      "text": "Leo and Mateo had been best friends since kindergarten, but they were very different. Leo was a star athlete, while Mateo was a quiet artist. Every year, the school held a mural contest. Leo usually won the sports trophies, but this year, he decided to help Mateo enter the art competition. They spent weeks in the garage, Leo holding the brushes while Mateo sketched elaborate scenes of their town. On the day of the ceremony, the principal announced the winner: Mateo. Leo jumped up and cheered louder than anyone else. Mateo smiled, realizing that a true friend doesn't just share your hobbies; they celebrate your victories as if they were their own.",
+      "source": "original"
+    },
+    "options": [
+      "One is an athlete, one is an artist.",
+      "One is loud, one is quiet.",
+      "One is from a different town.",
+      "One goes to a different school."
+    ],
+    "correctAnswer": [
+      0,
+      1
+    ],
+    "explanation": "The text calls Leo a 'star athlete' and Mateo a 'quiet artist'."
+  },
+  {
+    "id": "g4-q43",
+    "type": "reading",
+    "format": "single",
+    "grade": 4,
+    "standard": "CCSS.ELA-LITERACY.RI.4.5",
+    "question": "How is the passage about the printing press organized?",
+    "passage": {
+      "id": "p-invention",
+      "text": "In the 1440s, Johannes Gutenberg invented the printing press, a machine that would change the world forever. Before this invention, books had to be copied by hand. This was a very slow and expensive process, so only the very wealthy could afford to own books. Gutenberg's press used movable metal letters that could be arranged to print many pages quickly. Because of this, the price of books dropped, and more people learned to read and write. Ideas began to spread across Europe faster than ever before. The printing press is considered one of the most important inventions in human history because it made knowledge available to everyone.",
+      "source": "original"
+    },
+    "options": [
+      "Problem and solution",
+      "Compare and contrast",
+      "Cause and effect",
+      "Chronological order"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The passage focuses on how the invention (cause) led to cheaper books and the spread of knowledge (effect)."
+  },
+  {
+    "id": "g4-q44",
+    "type": "reading",
+    "format": "two-part",
+    "grade": 4,
+    "standard": "CCSS.ELA-LITERACY.RI.4.1",
+    "question": "Part A: Why were books so rare before the printing press?",
+    "passage": {
+      "id": "p-invention",
+      "text": "In the 1440s, Johannes Gutenberg invented the printing press, a machine that would change the world forever. Before this invention, books had to be copied by hand. This was a very slow and expensive process, so only the very wealthy could afford to own books. Gutenberg's press used movable metal letters that could be arranged to print many pages quickly. Because of this, the price of books dropped, and more people learned to read and write. Ideas began to spread across Europe faster than ever before. The printing press is considered one of the most important inventions in human history because it made knowledge available to everyone.",
+      "source": "original"
+    },
+    "options": [
+      "People didn't know how to write.",
+      "Hand-copying was slow and costly.",
+      "There was no paper available.",
+      "They were only written in a secret language."
+    ],
+    "correctAnswer": 1,
+    "partBQuestion": "Part B: Which sentence from the passage best supports your answer in Part A?",
+    "partBOptions": [
+      "In the 1440s, Johannes Gutenberg invented the printing press.",
+      "Before this invention, books had to be copied by hand.",
+      "This was a very slow and expensive process, so only the very wealthy could afford to own books.",
+      "Gutenberg's press used movable metal letters."
+    ],
+    "partBCorrectAnswer": 2,
+    "explanation": "The text explains the process was slow/expensive, limiting ownership to the wealthy."
+  },
+  {
+    "id": "g4-q45",
+    "type": "reading",
+    "format": "multi-select",
+    "grade": 4,
+    "standard": "CCSS.ELA-LITERACY.RI.4.3",
+    "question": "Select TWO effects of the printing press mentioned in the passage.",
+    "passage": {
+      "id": "p-invention",
+      "text": "In the 1440s, Johannes Gutenberg invented the printing press, a machine that would change the world forever. Before this invention, books had to be copied by hand. This was a very slow and expensive process, so only the very wealthy could afford to own books. Gutenberg's press used movable metal letters that could be arranged to print many pages quickly. Because of this, the price of books dropped, and more people learned to read and write. Ideas began to spread across Europe faster than ever before. The printing press is considered one of the most important inventions in human history because it made knowledge available to everyone.",
+      "source": "original"
+    },
+    "options": [
+      "The price of books decreased.",
+      "Fewer people learned to read.",
+      "Ideas spread faster.",
+      "Metal became very expensive."
+    ],
+    "correctAnswer": [
+      0,
+      2
+    ],
+    "explanation": "The text states the price dropped and ideas spread faster."
+  },
+  {
+    "id": "g4-q46",
+    "type": "reading",
+    "format": "single",
+    "grade": 4,
+    "standard": "CCSS.ELA-LITERACY.RL.4.2",
+    "question": "What is the theme of the fantasy story about Elian and the Lumin-Hare?",
+    "passage": {
+      "id": "p-fantasy",
+      "text": "Deep within the Whispering Woods lived the Lumin-Hare, a creature with fur like spun moonlight and ears that shimmered with starlight. Legend said that wherever the Lumin-Hare stepped, flowers would bloom instantly, even in the middle of winter. One chilly evening, a young boy named Elian sat by the frozen pond, feeling lonely. Suddenly, a streak of silver flashed across the snow. The Lumin-Hare paused, its violet eyes meeting Elian’s. As the creature darted away, a trail of vibrant purple crocuses erupted from the ice. Elian gasped, his loneliness replaced by wonder. He realized that even in the coldest times, magic could find a way to grow if you were patient enough to watch for it.",
+      "source": "original"
+    },
+    "options": [
+      "Animals are better than people.",
+      "Patience and hope can lead to magic in difficult times.",
+      "Winter is the most dangerous season.",
+      "Loneliness is something that can't be fixed."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The ending summarizes this theme: magic (hope) can grow even in 'coldest times' (difficulties)."
+  },
+  {
+    "id": "g4-q47",
+    "type": "reading",
+    "format": "two-part",
+    "grade": 4,
+    "standard": "CCSS.ELA-LITERACY.RI.4.5",
+    "question": "Part A: How does the structure of the Mary Anning biography contribute to the reader's understanding?",
+    "passage": {
+      "id": "p-bio",
+      "text": "Mary Anning was born in 1799 in a small seaside town in England. Her father taught her how to find fossils along the steep cliffs by the ocean. After he passed away, Mary began selling these 'curiosities' to support her family. In 1811, she made a groundbreaking discovery: the first complete Ichthyosaurus skeleton. Despite her incredible skills, many scientists of the time ignored her work because she was a woman from a poor background. However, Mary never stopped searching. She went on to find several more prehistoric creatures, changing the way we understand the history of the Earth. Today, she is remembered as one of the most important paleontologists in history.",
+      "source": "original"
+    },
+    "options": [
+      "It compares fossils to modern animals.",
+      "It shows the progression of her life and impact over time.",
+      "It explains the scientific process of digging.",
+      "It lists fossils in alphabetical order."
+    ],
+    "correctAnswer": 1,
+    "partBQuestion": "Part B: Which structural element from the passage best supports your answer in Part A?",
+    "partBOptions": [
+      "The use of specific dates like 1799 and 1811.",
+      "The description of the steep cliffs.",
+      "The mention of the Ichthyosaurus skeleton.",
+      "The word 'However' in the middle of the text."
+    ],
+    "partBCorrectAnswer": 0,
+    "explanation": "The chronological use of dates helps show her life progression."
+  },
+  {
+    "id": "g4-q48",
+    "type": "reading",
+    "format": "multi-select",
+    "grade": 4,
+    "standard": "CCSS.ELA-LITERACY.RL.4.3",
+    "question": "Select TWO reasons why the mural contest was important to Leo and Mateo.",
+    "passage": {
+      "id": "p-fiction",
+      "text": "Leo and Mateo had been best friends since kindergarten, but they were very different. Leo was a star athlete, while Mateo was a quiet artist. Every year, the school held a mural contest. Leo usually won the sports trophies, but this year, he decided to help Mateo enter the art competition. They spent weeks in the garage, Leo holding the brushes while Mateo sketched elaborate scenes of their town. On the day of the ceremony, the principal announced the winner: Mateo. Leo jumped up and cheered louder than anyone else. Mateo smiled, realizing that a true friend doesn't just share your hobbies; they celebrate your victories as if they were their own.",
+      "source": "original"
+    },
+    "options": [
+      "It allowed Mateo to show his talent.",
+      "It was a way for Leo to win another trophy.",
+      "It strengthened their friendship through collaboration.",
+      "It helped them earn money for college."
+    ],
+    "correctAnswer": [
+      0,
+      2
+    ],
+    "explanation": "It gave the artist (Mateo) a chance to win and showed their support for each other."
+  },
+  {
+    "id": "g4-q49",
+    "type": "reading",
+    "format": "single",
+    "grade": 4,
+    "standard": "CCSS.ELA-LITERACY.RI.4.5",
+    "question": "Which text feature would best help a reader understand the location of the Amazon Rainforest?",
+    "passage": {
+      "id": "p-science",
+      "text": "The Amazon Rainforest is a vast, tropical ecosystem teeming with life. It is often called the 'lungs of the Earth' because its millions of trees produce a large portion of the world’s oxygen. This habitat is home to an incredible variety of animals, including jaguars, macaws, and poison dart frogs. However, the Amazon is in danger. Deforestation—the clearing of trees for farming or logging—is destroying the homes of these animals. It also affects the global climate. Scientists are working with local communities to find ways to protect the forest while still allowing people to earn a living. Protecting the Amazon is essential for the health of our entire planet.",
+      "source": "original"
+    },
+    "options": [
+      "A glossary of animal names.",
+      "A map of South America.",
+      "A diagram of a tree.",
+      "A photograph of a jaguar."
+    ],
+    "correctAnswer": 1,
+    "explanation": "A map would show the geographic location of the forest."
+  },
+  {
+    "id": "g4-q50",
+    "type": "reading",
+    "format": "two-part",
+    "grade": 4,
+    "standard": "CCSS.ELA-LITERACY.RL.4.7",
+    "question": "Part A: If the fantasy story were a short film, how could the 'shimmer' of the hare's ears be best represented?",
+    "passage": {
+      "id": "p-fantasy",
+      "text": "Deep within the Whispering Woods lived the Lumin-Hare, a creature with fur like spun moonlight and ears that shimmered with starlight. Legend said that wherever the Lumin-Hare stepped, flowers would bloom instantly, even in the middle of winter. One chilly evening, a young boy named Elian sat by the frozen pond, feeling lonely. Suddenly, a streak of silver flashed across the snow. The Lumin-Hare paused, its violet eyes meeting Elian’s. As the creature darted away, a trail of vibrant purple crocuses erupted from the ice. Elian gasped, his loneliness replaced by wonder. He realized that even in the coldest times, magic could find a way to grow if you were patient enough to watch for it.",
+      "source": "original"
+    },
+    "options": [
+      "Using a loud sound effect.",
+      "Using bright, sparkling visual effects.",
+      "Using dark, blurry shadows.",
+      "Using a slow-motion walking scene."
+    ],
+    "correctAnswer": 1,
+    "partBQuestion": "Part B: Which word from the passage best justifies this visual choice?",
+    "partBOptions": [
+      "shimmered",
+      "violet",
+      "darted",
+      "chilly"
+    ],
+    "partBCorrectAnswer": 0,
+    "explanation": "'Shimmered' implies a light-based visual effect."
+  },
+  {
+    "id": "g4-q51",
+    "type": "vocabulary",
+    "format": "single",
+    "grade": 4,
+    "standard": "CCSS.ELA-LITERACY.L.4.4.a",
+    "question": "In the science passage, what is the meaning of the word 'teeming'?",
+    "passage": {
+      "id": "p-science",
+      "text": "The Amazon Rainforest is a vast, tropical ecosystem teeming with life."
+    },
+    "options": [
+      "Empty and quiet",
+      "Full of or swarming with",
+      "Scared and hiding",
+      "Slowly growing"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The context of 'vast... ecosystem' and listing many animals suggests 'full of'."
+  },
+  {
+    "id": "g4-q52",
+    "type": "vocabulary",
+    "format": "single",
+    "grade": 4,
+    "standard": "CCSS.ELA-LITERACY.RI.4.4",
+    "question": "In the invention passage, what does the phrase 'movable metal letters' help you understand about the printing press?",
+    "passage": {
+      "id": "p-invention",
+      "text": "Gutenberg's press used movable metal letters that could be arranged to print many pages quickly."
+    },
+    "options": [
+      "The letters were heavy and hard to use.",
+      "The letters were used to build the machine's frame.",
+      "The machine was flexible because the letters could be reused in different orders.",
+      "The machine could only print one book at a time."
+    ],
+    "correctAnswer": 2,
+    "explanation": "'Movable' and 'arranged' imply the flexibility of the printing process."
+  },
+  {
+    "id": "g4-q53",
+    "type": "vocabulary",
+    "format": "two-part",
+    "grade": 4,
+    "standard": "CCSS.ELA-LITERACY.RL.4.4",
+    "question": "Part A: In the fantasy passage, what does the word 'vibrant' mean?",
+    "passage": {
+      "id": "p-fantasy",
+      "text": "As the creature darted away, a trail of vibrant purple crocuses erupted from the ice."
+    },
+    "options": [
+      "Bright and striking",
+      "Pale and weak",
+      "Old and dying",
+      "Cold and frozen"
+    ],
+    "correctAnswer": 0,
+    "partBQuestion": "Part B: Which context clue from the passage helps you determine the meaning of 'vibrant'?",
+    "partBOptions": [
+      "erupted from the ice",
+      "chilly evening",
+      "purple crocuses",
+      "magic could find a way"
+    ],
+    "partBCorrectAnswer": 0,
+    "explanation": "'Erupted' suggests a sudden, striking appearance."
+  },
+  {
+    "id": "g4-q54",
+    "type": "vocabulary",
+    "format": "single",
+    "grade": 4,
+    "standard": "CCSS.ELA-LITERACY.L.4.4.b",
+    "question": "In the biography, what is the meaning of the word 'prehistoric'?",
+    "passage": {
+      "id": "p-bio",
+      "text": "She went on to find several more prehistoric creatures."
+    },
+    "options": [
+      "Creatures that lived before recorded history.",
+      "Creatures that lived in the ocean.",
+      "Small animals found in rocks.",
+      "Animals that are very scary."
+    ],
+    "correctAnswer": 0,
+    "explanation": "The prefix 'pre-' means before, and 'historic' refers to recorded history."
+  },
+  {
+    "id": "g4-q55",
+    "type": "vocabulary",
+    "format": "multi-select",
+    "grade": 4,
+    "standard": "CCSS.ELA-LITERACY.L.4.4.a",
+    "question": "Select TWO words from the fiction passage that help show Leo's enthusiasm.",
+    "passage": {
+      "id": "p-fiction",
+      "text": "Leo jumped up and cheered louder than anyone else."
+    },
+    "options": [
+      "jumped",
+      "anyone",
+      "cheered",
+      "else"
+    ],
+    "correctAnswer": [
+      0,
+      2
+    ],
+    "explanation": "These verbs describe energetic, enthusiastic actions."
+  },
+  {
+    "id": "g4-q56",
+    "type": "vocabulary",
+    "format": "single",
+    "grade": 4,
+    "standard": "CCSS.ELA-LITERACY.RI.4.4",
+    "question": "In the science text, the word 'deforestation' is defined by which phrase?",
+    "passage": {
+      "id": "p-science",
+      "text": "Deforestation—the clearing of trees for farming or logging—is destroying the homes of these animals."
+    },
+    "options": [
+      "destroying the homes",
+      "the clearing of trees",
+      "farming or logging",
+      "affects the global climate"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The text provides the definition between the dashes."
+  },
+  {
+    "id": "g4-q57",
+    "type": "vocabulary",
+    "format": "single",
+    "grade": 4,
+    "standard": "CCSS.ELA-LITERACY.L.4.4",
+    "question": "What is a synonym for 'elaborate' as used in the fiction passage?",
+    "passage": {
+      "id": "p-fiction",
+      "text": "Mateo sketched elaborate scenes of their town."
+    },
+    "options": [
+      "Simple",
+      "Detailed",
+      "Messy",
+      "Boring"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In art, 'elaborate' refers to work with many intricate details."
+  },
+  {
+    "id": "g4-q58",
+    "type": "vocabulary",
+    "format": "two-part",
+    "grade": 4,
+    "standard": "CCSS.ELA-LITERACY.L.4.4.c",
+    "question": "Part A: Which word is an antonym for 'groundbreaking' in the biography?",
+    "passage": {
+      "id": "p-bio",
+      "text": "In 1811, she made a groundbreaking discovery: the first complete Ichthyosaurus skeleton."
+    },
+    "options": [
+      "New",
+      "Ordinary",
+      "Exciting",
+      "Difficult"
+    ],
+    "correctAnswer": 1,
+    "partBQuestion": "Part B: Why is this word the best antonym?",
+    "partBOptions": [
+      "Groundbreaking means something that has never been done before.",
+      "Groundbreaking means to dig in the dirt.",
+      "Groundbreaking means a very loud noise.",
+      "Groundbreaking means something that is easy to do."
+    ],
+    "partBCorrectAnswer": 0,
+    "explanation": "'Ordinary' is the opposite of 'never been done before'."
+  },
+  {
+    "id": "g4-q59",
+    "type": "grammar",
+    "format": "single",
+    "grade": 4,
+    "standard": "CCSS.ELA-LITERACY.L.4.1",
+    "question": "Choose the sentence that uses a relative pronoun correctly.",
+    "passage": {
+      "id": "none",
+      "text": "N/A",
+      "source": "original"
+    },
+    "options": [
+      "The book who is on the table belongs to me.",
+      "The girl which found the fossil is Mary.",
+      "The town where Mary was born is in England.",
+      "The printing press when Gutenberg made it changed history."
+    ],
+    "correctAnswer": 2,
+    "explanation": "'Where' is the correct relative pronoun for a location."
+  },
+  {
+    "id": "g4-q60",
+    "type": "grammar",
+    "format": "single",
+    "grade": 4,
+    "standard": "CCSS.ELA-LITERACY.L.4.1",
+    "question": "Which sentence uses the correct verb tense?",
+    "passage": {
+      "id": "none",
+      "text": "N/A",
+      "source": "original"
+    },
+    "options": [
+      "Tomorrow, I will went to the Amazon Rainforest.",
+      "Yesterday, Mary Anning finds a skeleton.",
+      "Last year, Leo and Mateo painted a mural.",
+      "Right now, the Lumin-Hare jumped over the ice."
+    ],
+    "correctAnswer": 2,
+    "explanation": "'Last year' requires the past tense 'painted'."
+  },
+  {
+    "id": "g4-q61",
+    "type": "grammar",
+    "format": "multi-select",
+    "grade": 4,
+    "standard": "CCSS.ELA-LITERACY.L.4.2",
+    "question": "Select TWO sentences that use commas correctly in a list.",
+    "passage": {
+      "id": "none",
+      "text": "N/A",
+      "source": "original"
+    },
+    "options": [
+      "They saw jaguars macaws and frogs.",
+      "They saw jaguars, macaws, and frogs.",
+      "Books were slow, expensive, and rare.",
+      "Books were slow expensive and rare."
+    ],
+    "correctAnswer": [
+      1,
+      2
+    ],
+    "explanation": "Items in a series should be separated by commas."
+  },
+  {
+    "id": "g4-q62",
+    "type": "grammar",
+    "format": "single",
+    "grade": 4,
+    "standard": "CCSS.ELA-LITERACY.L.4.1",
+    "question": "Which sentence uses a prepositional phrase to describe location?",
+    "passage": {
+      "id": "none",
+      "text": "N/A",
+      "source": "original"
+    },
+    "options": [
+      "The rabbit ran quickly.",
+      "Mary sat on the beach.",
+      "Leo is a good friend.",
+      "The printing press was new."
+    ],
+    "correctAnswer": 1,
+    "explanation": "'On the beach' is a prepositional phrase describing where she sat."
+  },
+  {
+    "id": "g4-q63",
+    "type": "grammar",
+    "format": "single",
+    "grade": 4,
+    "standard": "CCSS.ELA-LITERACY.L.4.2",
+    "question": "Which sentence correctly uses capitalization?",
+    "passage": {
+      "id": "none",
+      "text": "N/A",
+      "source": "original"
+    },
+    "options": [
+      "The amazon rainforest is in South America.",
+      "The Amazon rainforest is in south america.",
+      "The Amazon Rainforest is in South America.",
+      "the amazon rainforest is in south america."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Proper nouns for places should be capitalized."
+  },
+  {
+    "id": "g4-q64",
+    "type": "grammar",
+    "format": "multi-select",
+    "grade": 4,
+    "standard": "CCSS.ELA-LITERACY.L.4.1",
+    "question": "Select TWO sentences that have correct subject-verb agreement.",
+    "passage": {
+      "id": "none",
+      "text": "N/A",
+      "source": "original"
+    },
+    "options": [
+      "The hare jump over the snow.",
+      "The hare jumps over the snow.",
+      "Scientists works to protect the trees.",
+      "Scientists work to protect the trees."
+    ],
+    "correctAnswer": [
+      1,
+      3
+    ],
+    "explanation": "Singular subjects take 's' verbs; plural subjects do not."
+  },
+  {
+    "id": "g4-q65",
+    "type": "writing",
+    "format": "single",
+    "grade": 4,
+    "standard": "CCSS.ELA-LITERACY.W.4.1",
+    "question": "A student is writing an opinion about why the school needs a garden. Which sentence is the best concluding statement?",
+    "passage": {
+      "id": "none",
+      "text": "N/A",
+      "source": "original"
+    },
+    "options": [
+      "Gardens have flowers and vegetables.",
+      "In conclusion, a garden would help students learn about nature while making our school more beautiful.",
+      "I like the color of tomatoes.",
+      "My friend Mateo would probably paint the fence."
+    ],
+    "correctAnswer": 1,
+    "explanation": "This summarizes the main points and restates the opinion."
+  },
+  {
+    "id": "g4-q66",
+    "type": "writing",
+    "format": "single",
+    "grade": 4,
+    "standard": "CCSS.ELA-LITERACY.W.4.2",
+    "question": "Which topic sentence would be best for an informative paragraph about Mary Anning's discoveries?",
+    "passage": {
+      "id": "none",
+      "text": "N/A",
+      "source": "original"
+    },
+    "options": [
+      "Mary Anning had a dog named Tray.",
+      "The ocean is very cold in England.",
+      "Mary Anning made many important discoveries that helped scientists understand the past.",
+      "Scientists sometimes wear hats when they dig."
+    ],
+    "correctAnswer": 2,
+    "explanation": "This sentence introduces the main informative focus of her career."
+  },
+  {
+    "id": "g4-q67",
+    "type": "writing",
+    "format": "multi-select",
+    "grade": 4,
+    "standard": "CCSS.ELA-LITERACY.W.4.1",
+    "question": "Select TWO reasons that support the opinion: 'The Amazon Rainforest should be protected.'",
+    "passage": {
+      "id": "none",
+      "text": "N/A",
+      "source": "original"
+    },
+    "options": [
+      "It produces oxygen for the world.",
+      "It is very far away from my house.",
+      "It provides a habitat for thousands of unique animals.",
+      "I saw a picture of a macaw once."
+    ],
+    "correctAnswer": [
+      0,
+      2
+    ],
+    "explanation": "These are logical, factual reasons that support conservation."
+  },
+  {
+    "id": "g4-q68",
+    "type": "writing",
+    "format": "single",
+    "grade": 4,
+    "standard": "CCSS.ELA-LITERACY.W.4.2",
+    "question": "Which detail would be best to include in a paragraph about how the printing press worked?",
+    "passage": {
+      "id": "none",
+      "text": "N/A",
+      "source": "original"
+    },
+    "options": [
+      "Gutenberg lived in Germany.",
+      "Metal letters were coated in ink and pressed onto paper.",
+      "The press was invented in the 1440s.",
+      "People liked to read bibles."
+    ],
+    "correctAnswer": 1,
+    "explanation": "This explains the mechanical process of the invention."
+  },
+  {
+    "id": "g4-q69",
+    "type": "writing",
+    "format": "multi-select",
+    "grade": 4,
+    "standard": "CCSS.ELA-LITERACY.W.4.2",
+    "question": "Select TWO words that would be best to use to transition between ideas in an informative text.",
+    "passage": {
+      "id": "none",
+      "text": "N/A",
+      "source": "original"
+    },
+    "options": [
+      "Furthermore",
+      "Suddenly",
+      "Additionally",
+      "Gently"
+    ],
+    "correctAnswer": [
+      0,
+      2
+    ],
+    "explanation": "These are transition words for adding information."
+  },
+  {
+    "id": "g4-q70",
+    "type": "writing",
+    "format": "single",
+    "grade": 4,
+    "standard": "CCSS.ELA-LITERACY.W.4.1",
+    "question": "Which transition word or phrase is best for showing a reason for an opinion?",
+    "passage": {
+      "id": "none",
+      "text": "N/A",
+      "source": "original"
+    },
+    "options": [
+      "Because",
+      "Lastly",
+      "Meanwhile",
+      "In contrast"
+    ],
+    "correctAnswer": 0,
+    "explanation": "'Because' introduces a supporting reason."
   }
 ]
