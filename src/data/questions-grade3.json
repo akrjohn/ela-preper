@@ -415,7 +415,13 @@
     "correctAnswer": 2,
     "explanation": "An opinion piece should start by stating the writer's point of view or preference.",
     "claim": "2",
-    "dok": 2
+    "dok": 2,
+    "rubric": {
+      "score2": "States a clear opinion and provides 2+ supporting reasons with examples",
+      "score1": "States an opinion but supporting reasons are weak or missing examples",
+      "score0": "No clear opinion or no relevant content",
+      "sampleResponse": "I think students should have more recess time because it helps us focus on our schoolwork and stay healthy."
+    }
   },
   {
     "id": "g3-q20",
@@ -437,7 +443,13 @@
     "correctAnswer": 1,
     "explanation": "This sentence provides a logical reason that supports the idea that exercise is beneficial for students.",
     "claim": "2",
-    "dok": 2
+    "dok": 2,
+    "rubric": {
+      "score2": "States a clear opinion and provides 2+ supporting reasons with examples",
+      "score1": "States an opinion but supporting reasons are weak or missing examples",
+      "score0": "No clear opinion or no relevant content",
+      "sampleResponse": "I think students should have more recess time because it helps us focus on our schoolwork and stay healthy."
+    }
   },
   {
     "id": "g3-q21",
@@ -459,7 +471,13 @@
     "correctAnswer": 2,
     "explanation": "This is a factual, informative statement about a frog's physical characteristics and behavior.",
     "claim": "2",
-    "dok": 2
+    "dok": 2,
+    "rubric": {
+      "score2": "Tells a complete story with characters, problem, and solution",
+      "score1": "Story has some elements but is incomplete",
+      "score0": "No story structure or off-topic",
+      "sampleResponse": "One day, Mia found a lost puppy. She took it to the shelter and felt happy helping."
+    }
   },
   {
     "id": "g3-q22",
@@ -481,7 +499,13 @@
     "correctAnswer": 1,
     "explanation": "'Later that afternoon' is a temporal phrase that indicates a sequence of time.",
     "claim": "2",
-    "dok": 2
+    "dok": 2,
+    "rubric": {
+      "score2": "Tells a complete story with characters, problem, and solution",
+      "score1": "Story has some elements but is incomplete",
+      "score0": "No story structure or off-topic",
+      "sampleResponse": "One day, Mia found a lost puppy. She took it to the shelter and felt happy helping."
+    }
   },
   {
     "id": "g3-q23",
@@ -1612,7 +1636,13 @@
     "correctAnswer": 2,
     "explanation": "The phrase 'I believe' introduces a personal feeling or opinion, not a fact.",
     "claim": "2",
-    "dok": 2
+    "dok": 2,
+    "rubric": {
+      "score2": "States a clear opinion and provides 2+ supporting reasons with examples",
+      "score1": "States an opinion but supporting reasons are weak or missing examples",
+      "score0": "No clear opinion or no relevant content",
+      "sampleResponse": "I think students should have more recess time because it helps us focus on our schoolwork and stay healthy."
+    }
   },
   {
     "id": "g3-q67",
@@ -1635,7 +1665,13 @@
     "correctAnswer": 1,
     "explanation": "A topic sentence should introduce the main idea of the whole paragraph, which in this case is the process of growing the flower.",
     "claim": "2",
-    "dok": 2
+    "dok": 2,
+    "rubric": {
+      "score2": "Tells a complete story with characters, problem, and solution",
+      "score1": "Story has some elements but is incomplete",
+      "score0": "No story structure or off-topic",
+      "sampleResponse": "One day, Mia found a lost puppy. She took it to the shelter and felt happy helping."
+    }
   },
   {
     "id": "g3-q68",
@@ -1661,7 +1697,13 @@
     ],
     "explanation": "Loyalty/safety and fun tricks are positive qualities that support the 'best pet' opinion.",
     "claim": "2",
-    "dok": 2
+    "dok": 2,
+    "rubric": {
+      "score2": "States a clear opinion and provides 2+ supporting reasons with examples",
+      "score1": "States an opinion but supporting reasons are weak or missing examples",
+      "score0": "No clear opinion or no relevant content",
+      "sampleResponse": "I think students should have more recess time because it helps us focus on our schoolwork and stay healthy."
+    }
   },
   {
     "id": "g3-q69",
@@ -1687,7 +1729,13 @@
     ],
     "explanation": "The name 'Red Planet' and the fact about the volcano are objective scientific facts suitable for a report.",
     "claim": "2",
-    "dok": 2
+    "dok": 2,
+    "rubric": {
+      "score2": "Tells a complete story with characters, problem, and solution",
+      "score1": "Story has some elements but is incomplete",
+      "score0": "No story structure or off-topic",
+      "sampleResponse": "One day, Mia found a lost puppy. She took it to the shelter and felt happy helping."
+    }
   },
   {
     "id": "g3-q70",
@@ -1710,6 +1758,12 @@
     "correctAnswer": 2,
     "explanation": "A conclusion should summarize the importance of the topic discussed.",
     "claim": "2",
-    "dok": 2
+    "dok": 2,
+    "rubric": {
+      "score2": "Clearly explains the topic with multiple supporting details",
+      "score1": "Provides some information but lacks details or organization",
+      "score0": "No relevant information or off-topic",
+      "sampleResponse": "Honey bees are important because they pollinate flowers and help farmers grow food."
+    }
   }
 ]

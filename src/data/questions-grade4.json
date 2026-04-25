@@ -650,7 +650,13 @@
     "correctAnswer": 2,
     "explanation": "An introduction for an opinion essay should clearly state the writer's claim or stance.",
     "claim": "2",
-    "dok": 2
+    "dok": 2,
+    "rubric": {
+      "score2": "States a clear opinion and provides 2+ supporting reasons with examples",
+      "score1": "States an opinion but supporting reasons are weak or missing examples",
+      "score0": "No clear opinion or no relevant content",
+      "sampleResponse": "I think students should have more recess time because it helps us focus on our schoolwork and stay healthy."
+    }
   },
   {
     "id": "g4-q27",
@@ -676,7 +682,13 @@
     ],
     "explanation": "Collecting nectar and evaporating water are parts of the actual process of making honey.",
     "claim": "2",
-    "dok": 2
+    "dok": 2,
+    "rubric": {
+      "score2": "Clearly explains the topic with multiple supporting details",
+      "score1": "Provides some information but lacks details or organization",
+      "score0": "No relevant information or off-topic",
+      "sampleResponse": "Honey bees are important because they pollinate flowers and help farmers grow food."
+    }
   },
   {
     "id": "g4-q28",
@@ -699,7 +711,13 @@
     "correctAnswer": 2,
     "explanation": "A narrative start should establish the plot, characters, or conflict; finding an empty collar immediately creates a conflict.",
     "claim": "2",
-    "dok": 2
+    "dok": 2,
+    "rubric": {
+      "score2": "Tells a complete story with characters, problem, and solution",
+      "score1": "Story has some elements but is incomplete",
+      "score0": "No story structure or off-topic",
+      "sampleResponse": "One day, Mia found a lost puppy. She took it to the shelter and felt happy helping."
+    }
   },
   {
     "id": "g4-q29",
@@ -725,7 +743,13 @@
     ],
     "explanation": "'For example' and 'Because' are used to connect a claim to the evidence or reasons that support it.",
     "claim": "2",
-    "dok": 2
+    "dok": 2,
+    "rubric": {
+      "score2": "States a clear opinion and provides 2+ supporting reasons with examples",
+      "score1": "States an opinion but supporting reasons are weak or missing examples",
+      "score0": "No clear opinion or no relevant content",
+      "sampleResponse": "I think students should have more recess time because it helps us focus on our schoolwork and stay healthy."
+    }
   },
   {
     "id": "g4-q30",
@@ -748,7 +772,13 @@
     "correctAnswer": 2,
     "explanation": "The conclusion of an informative text should wrap up the main points and leave the reader with a final thought on the subject.",
     "claim": "2",
-    "dok": 2
+    "dok": 2,
+    "rubric": {
+      "score2": "Clearly explains the topic with multiple supporting details",
+      "score1": "Provides some information but lacks details or organization",
+      "score0": "No relevant information or off-topic",
+      "sampleResponse": "Honey bees are important because they pollinate flowers and help farmers grow food."
+    }
   },
   {
     "id": "g4-q31",
@@ -1644,7 +1674,13 @@
     "correctAnswer": 1,
     "explanation": "This summarizes the main points and restates the opinion.",
     "claim": "2",
-    "dok": 2
+    "dok": 2,
+    "rubric": {
+      "score2": "States a clear opinion and provides 2+ supporting reasons with examples",
+      "score1": "States an opinion but supporting reasons are weak or missing examples",
+      "score0": "No clear opinion or no relevant content",
+      "sampleResponse": "I think students should have more recess time because it helps us focus on our schoolwork and stay healthy."
+    }
   },
   {
     "id": "g4-q66",
@@ -1667,7 +1703,13 @@
     "correctAnswer": 2,
     "explanation": "This sentence introduces the main informative focus of her career.",
     "claim": "2",
-    "dok": 2
+    "dok": 2,
+    "rubric": {
+      "score2": "Clearly explains the topic with multiple supporting details",
+      "score1": "Provides some information but lacks details or organization",
+      "score0": "No relevant information or off-topic",
+      "sampleResponse": "Honey bees are important because they pollinate flowers and help farmers grow food."
+    }
   },
   {
     "id": "g4-q67",
@@ -1693,7 +1735,13 @@
     ],
     "explanation": "These are logical, factual reasons that support conservation.",
     "claim": "2",
-    "dok": 2
+    "dok": 2,
+    "rubric": {
+      "score2": "States a clear opinion and provides 2+ supporting reasons with examples",
+      "score1": "States an opinion but supporting reasons are weak or missing examples",
+      "score0": "No clear opinion or no relevant content",
+      "sampleResponse": "I think students should have more recess time because it helps us focus on our schoolwork and stay healthy."
+    }
   },
   {
     "id": "g4-q68",
@@ -1716,7 +1764,13 @@
     "correctAnswer": 1,
     "explanation": "This explains the mechanical process of the invention.",
     "claim": "2",
-    "dok": 2
+    "dok": 2,
+    "rubric": {
+      "score2": "Tells a complete story with characters, problem, and solution",
+      "score1": "Story has some elements but is incomplete",
+      "score0": "No story structure or off-topic",
+      "sampleResponse": "One day, Mia found a lost puppy. She took it to the shelter and felt happy helping."
+    }
   },
   {
     "id": "g4-q69",
@@ -1742,7 +1796,13 @@
     ],
     "explanation": "These are transition words for adding information.",
     "claim": "2",
-    "dok": 2
+    "dok": 2,
+    "rubric": {
+      "score2": "Clearly explains the topic with multiple supporting details",
+      "score1": "Provides some information but lacks details or organization",
+      "score0": "No relevant information or off-topic",
+      "sampleResponse": "Honey bees are important because they pollinate flowers and help farmers grow food."
+    }
   },
   {
     "id": "g4-q70",
@@ -1765,6 +1825,12 @@
     "correctAnswer": 0,
     "explanation": "'Because' introduces a supporting reason.",
     "claim": "2",
-    "dok": 2
+    "dok": 2,
+    "rubric": {
+      "score2": "States a clear opinion and provides 2+ supporting reasons with examples",
+      "score1": "States an opinion but supporting reasons are weak or missing examples",
+      "score0": "No clear opinion or no relevant content",
+      "sampleResponse": "I think students should have more recess time because it helps us focus on our schoolwork and stay healthy."
+    }
   }
 ]

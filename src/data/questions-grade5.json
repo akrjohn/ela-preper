@@ -650,7 +650,13 @@
     "correctAnswer": 2,
     "explanation": "A thesis statement for an opinion essay must state a clear claim and the reasons that will be discussed.",
     "claim": "2",
-    "dok": 2
+    "dok": 2,
+    "rubric": {
+      "score2": "States a clear opinion and provides 2+ supporting reasons with examples",
+      "score1": "States an opinion but supporting reasons are weak or missing examples",
+      "score0": "No clear opinion or no relevant content",
+      "sampleResponse": "I think students should have more recess time because it helps us focus on our schoolwork and stay healthy."
+    }
   },
   {
     "id": "g5-q27",
@@ -676,7 +682,13 @@
     ],
     "explanation": "Both gravity and the position of the Earth relative to the moon are direct causes of tides.",
     "claim": "2",
-    "dok": 2
+    "dok": 2,
+    "rubric": {
+      "score2": "Clearly explains the topic with multiple supporting details",
+      "score1": "Provides some information but lacks details or organization",
+      "score0": "No relevant information or off-topic",
+      "sampleResponse": "Honey bees are important because they pollinate flowers and help farmers grow food."
+    }
   },
   {
     "id": "g5-q28",
@@ -699,7 +711,13 @@
     "correctAnswer": 2,
     "explanation": "'On the other hand' is specifically used to signal a contrast or a different point of view.",
     "claim": "2",
-    "dok": 2
+    "dok": 2,
+    "rubric": {
+      "score2": "Tells a complete story with characters, problem, and solution",
+      "score1": "Story has some elements but is incomplete",
+      "score0": "No story structure or off-topic",
+      "sampleResponse": "One day, Mia found a lost puppy. She took it to the shelter and felt happy helping."
+    }
   },
   {
     "id": "g5-q29",
@@ -725,7 +743,13 @@
     ],
     "explanation": "Effective conclusions summarize the main ideas and provide a sense of closure or connection.",
     "claim": "2",
-    "dok": 2
+    "dok": 2,
+    "rubric": {
+      "score2": "Clearly explains the topic with multiple supporting details",
+      "score1": "Provides some information but lacks details or organization",
+      "score0": "No relevant information or off-topic",
+      "sampleResponse": "Honey bees are important because they pollinate flowers and help farmers grow food."
+    }
   },
   {
     "id": "g5-q30",
@@ -748,7 +772,13 @@
     "correctAnswer": 1,
     "explanation": "Providing a social benefit like reducing bullying is a strong, logical reason for a policy change.",
     "claim": "2",
-    "dok": 2
+    "dok": 2,
+    "rubric": {
+      "score2": "States a clear opinion and provides 2+ supporting reasons with examples",
+      "score1": "States an opinion but supporting reasons are weak or missing examples",
+      "score0": "No clear opinion or no relevant content",
+      "sampleResponse": "I think students should have more recess time because it helps us focus on our schoolwork and stay healthy."
+    }
   },
   {
     "id": "g5-q31",
@@ -1623,7 +1653,13 @@
     "correctAnswer": 1,
     "explanation": "A thesis statement should state a claim and provide reasons.",
     "claim": "2",
-    "dok": 2
+    "dok": 2,
+    "rubric": {
+      "score2": "States a clear opinion and provides 2+ supporting reasons with examples",
+      "score1": "States an opinion but supporting reasons are weak or missing examples",
+      "score0": "No clear opinion or no relevant content",
+      "sampleResponse": "I think students should have more recess time because it helps us focus on our schoolwork and stay healthy."
+    }
   },
   {
     "id": "g5-q66",
@@ -1646,7 +1682,13 @@
     "correctAnswer": 2,
     "explanation": "This sentence specifically introduces the scientific information about her invention.",
     "claim": "2",
-    "dok": 2
+    "dok": 2,
+    "rubric": {
+      "score2": "Clearly explains the topic with multiple supporting details",
+      "score1": "Provides some information but lacks details or organization",
+      "score0": "No relevant information or off-topic",
+      "sampleResponse": "Honey bees are important because they pollinate flowers and help farmers grow food."
+    }
   },
   {
     "id": "g5-q67",
@@ -1672,7 +1714,13 @@
     ],
     "explanation": "Working together and creating green spaces are direct benefits to the community.",
     "claim": "2",
-    "dok": 2
+    "dok": 2,
+    "rubric": {
+      "score2": "States a clear opinion and provides 2+ supporting reasons with examples",
+      "score1": "States an opinion but supporting reasons are weak or missing examples",
+      "score0": "No clear opinion or no relevant content",
+      "sampleResponse": "I think students should have more recess time because it helps us focus on our schoolwork and stay healthy."
+    }
   },
   {
     "id": "g5-q68",
@@ -1695,7 +1743,13 @@
     "correctAnswer": 2,
     "explanation": "'Overall' or 'In conclusion' signals that the writer is summarizing their points.",
     "claim": "2",
-    "dok": 2
+    "dok": 2,
+    "rubric": {
+      "score2": "Tells a complete story with characters, problem, and solution",
+      "score1": "Story has some elements but is incomplete",
+      "score0": "No story structure or off-topic",
+      "sampleResponse": "One day, Mia found a lost puppy. She took it to the shelter and felt happy helping."
+    }
   },
   {
     "id": "g5-q69",
@@ -1721,7 +1775,13 @@
     ],
     "explanation": "Restating the claim and calling the reader to action are standard persuasive conclusion techniques.",
     "claim": "2",
-    "dok": 2
+    "dok": 2,
+    "rubric": {
+      "score2": "States a clear opinion and provides 2+ supporting reasons with examples",
+      "score1": "States an opinion but supporting reasons are weak or missing examples",
+      "score0": "No clear opinion or no relevant content",
+      "sampleResponse": "I think students should have more recess time because it helps us focus on our schoolwork and stay healthy."
+    }
   },
   {
     "id": "g5-q70",
@@ -1744,6 +1804,12 @@
     "correctAnswer": 2,
     "explanation": "Using specific terms like '60-mile-wide' and 'wetland ecosystem' is more precise.",
     "claim": "2",
-    "dok": 2
+    "dok": 2,
+    "rubric": {
+      "score2": "Tells a complete story with characters, problem, and solution",
+      "score1": "Story has some elements but is incomplete",
+      "score0": "No story structure or off-topic",
+      "sampleResponse": "One day, Mia found a lost puppy. She took it to the shelter and felt happy helping."
+    }
   }
 ]
