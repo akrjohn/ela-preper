@@ -1,0 +1,437 @@
+[
+  {
+    "id": "g3-research-01",
+    "type": "research",
+    "format": "single",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.RI.3.9",
+    "claim": "4",
+    "target": "1",
+    "dok": 2,
+    "question": "What information about polar bears can be found in both sources?",
+    "passages": [
+      {
+        "id": "r1a",
+        "text": "Source 1: Polar bears live in the Arctic. They have thick white fur that helps them blend into the snow. This camouflage makes it easier for them to hunt for food without being seen."
+      },
+      {
+        "id": "r1b",
+        "text": "Source 2: In the cold North, polar bears spend much of their time on sea ice. Their white fur keeps them warm and hidden. They primarily eat seals to stay strong and healthy."
+      }
+    ],
+    "options": [
+      "Polar bears eat only fish.",
+      "Polar bears live in the Antarctic.",
+      "Polar bears use their fur to stay hidden.",
+      "Polar bears are excellent swimmers."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Source 1 mentions 'camouflage' and Source 2 mentions being 'hidden,' both referring to their fur helping them blend in."
+  },
+  {
+    "id": "g3-research-02",
+    "type": "research",
+    "format": "multi-select",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.RI.3.9",
+    "claim": "4",
+    "target": "1",
+    "dok": 2,
+    "question": "Based on Source 1 and Source 2, which two statements are true about gardening? Select all that apply.",
+    "passages": [
+      {
+        "id": "r2a",
+        "text": "Source 1: To start a garden, you first need to find a sunny spot. Most vegetables need at least six hours of sunlight every day to grow big and healthy."
+      },
+      {
+        "id": "r2b",
+        "text": "Source 2: Water is key for a successful garden. You should water your plants in the morning so the sun doesn't dry the water up too fast. Plants also need good soil."
+      }
+    ],
+    "options": [
+      "Plants need sunlight to grow.",
+      "Gardens should only have flowers.",
+      "Morning is a good time to water plants.",
+      "Vegetables grow best in the shade."
+    ],
+    "correctAnswer": [0, 2],
+    "explanation": "Source 1 discusses the need for sunlight, and Source 2 discusses the benefit of morning watering."
+  },
+  {
+    "id": "g3-research-03",
+    "type": "research",
+    "format": "single",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.RI.3.8",
+    "claim": "4",
+    "target": "2",
+    "dok": 3,
+    "question": "A student is researching how to protect the ocean. Which sentence from the sources is most relevant to this topic?",
+    "passages": [
+      {
+        "id": "r3a",
+        "text": "Source 1: Many people visit the beach in the summer to swim. The water is usually blue and clear on sunny days."
+      },
+      {
+        "id": "r3b",
+        "text": "Source 2: Picking up trash on the shore prevents plastic from washing into the sea. This helps keep sea animals safe from eating dangerous waste."
+      }
+    ],
+    "options": [
+      "The water is usually blue and clear.",
+      "Many people visit the beach in the summer.",
+      "Picking up trash helps keep sea animals safe.",
+      "People like to swim on sunny days."
+    ],
+    "correctAnswer": 2,
+    "explanation": "The question asks about protecting the ocean; Source 2 provides a specific action (picking up trash) to help animals and the environment."
+  },
+  {
+    "id": "g3-research-04",
+    "type": "research",
+    "format": "single",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.RI.3.9",
+    "claim": "4",
+    "target": "1",
+    "dok": 2,
+    "question": "Using both passages, what is the best reason to plant a tree?",
+    "passages": [
+      {
+        "id": "r4a",
+        "text": "Source 1: Trees produce oxygen, which humans and animals need to breathe. They also provide shade on hot days."
+      },
+      {
+        "id": "r4b",
+        "text": "Source 2: Birds and squirrels use trees as a safe place to build their homes and find food like nuts and seeds."
+      }
+    ],
+    "options": [
+      "To help animals find food and shelter.",
+      "To make the yard look prettier.",
+      "To provide wood for building houses.",
+      "To help people learn how to climb."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Source 2 specifically focuses on how animals (birds/squirrels) use trees for homes and food."
+  },
+  {
+    "id": "g3-research-05",
+    "type": "research",
+    "format": "multi-select",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.RI.3.7",
+    "claim": "4",
+    "target": "3",
+    "dok": 2,
+    "question": "Which of these details are found only in Source 2? Select all that apply.",
+    "passages": [
+      {
+        "id": "r5a",
+        "text": "Source 1: The Moon orbits the Earth every 27 days. It does not make its own light; it reflects light from the Sun."
+      },
+      {
+        "id": "r5b",
+        "text": "Source 2: There is no air or water on the Moon. Astronauts first walked on its rocky surface in 1969 wearing special space suits."
+      }
+    ],
+    "options": [
+      "The Moon reflects the Sun's light.",
+      "There is no air on the Moon.",
+      "Astronauts walked on the Moon in 1969.",
+      "The Moon goes around the Earth."
+    ],
+    "correctAnswer": [1, 2],
+    "explanation": "Details about air/water and the 1969 walk are exclusive to Source 2."
+  },
+  {
+    "id": "g3-research-06",
+    "type": "research",
+    "format": "single",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.RI.3.9",
+    "claim": "4",
+    "target": "1",
+    "dok": 2,
+    "question": "What do both sources suggest about the benefits of exercise?",
+    "passages": [
+      {
+        "id": "r6a",
+        "text": "Source 1: Running and jumping help make your heart strong. Regular exercise also helps you maintain a healthy weight."
+      },
+      {
+        "id": "r6b",
+        "text": "Source 2: Playing sports is a great way to stay fit. Exercise can even help improve your mood and make you feel happier."
+      }
+    ],
+    "options": [
+      "Exercise is only for professional athletes.",
+      "Exercise helps your body stay healthy and fit.",
+      "Exercise is only fun if you play with friends.",
+      "Exercise helps you sleep better at night."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Source 1 mentions a strong heart/healthy weight, and Source 2 mentions staying fit; both are health benefits."
+  },
+  {
+    "id": "g3-research-07",
+    "type": "research",
+    "format": "single",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.RI.3.8",
+    "claim": "4",
+    "target": "2",
+    "dok": 2,
+    "question": "A student is writing a report about the history of flight. Which source would be most helpful?",
+    "passages": [
+      {
+        "id": "r7a",
+        "text": "Source 1: Airplanes today can carry hundreds of people across the ocean in just a few hours. They are very fast."
+      },
+      {
+        "id": "r7b",
+        "text": "Source 2: In 1903, the Wright brothers flew the first powered airplane. It only stayed in the air for 12 seconds."
+      }
+    ],
+    "options": [
+      "Source 1, because it explains how fast planes are.",
+      "Source 1, because it talks about many people.",
+      "Source 2, because it gives facts about the first airplane flight.",
+      "Neither source is helpful for history."
+    ],
+    "correctAnswer": 2,
+    "explanation": "History refers to past events. Source 2 provides a specific date and event (1903 Wright brothers) which is historical."
+  },
+  {
+    "id": "g3-research-08",
+    "type": "research",
+    "format": "multi-select",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.RI.3.9",
+    "claim": "4",
+    "target": "1",
+    "dok": 2,
+    "question": "What tools are mentioned in the passages for studying space? Select all that apply.",
+    "passages": [
+      {
+        "id": "r8a",
+        "text": "Source 1: Astronomers use powerful telescopes to look at distant stars and galaxies from Earth."
+      },
+      {
+        "id": "r8b",
+        "text": "Source 2: Space probes are robot explorers sent to other planets. They take pictures and send data back to scientists."
+      }
+    ],
+    "options": [
+      "Telescopes",
+      "Binoculars",
+      "Space probes",
+      "Microscopes"
+    ],
+    "correctAnswer": [0, 2],
+    "explanation": "Source 1 mentions telescopes and Source 2 mentions space probes."
+  },
+  {
+    "id": "g3-research-09",
+    "type": "research",
+    "format": "single",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.RI.3.9",
+    "claim": "4",
+    "target": "1",
+    "dok": 2,
+    "question": "According to both sources, why do butterflies move from one place to another?",
+    "passages": [
+      {
+        "id": "r9a",
+        "text": "Source 1: Monarch butterflies fly south to Mexico every winter. They go there to stay warm during the cold months."
+      },
+      {
+        "id": "r9b",
+        "text": "Source 2: Many butterflies migrate to find food and warmer weather. This long journey is called migration."
+      }
+    ],
+    "options": [
+      "To find more space to fly.",
+      "To stay warm in the winter.",
+      "To show off their colorful wings.",
+      "To avoid rain storms."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Both sources mention moving for 'staying warm' or 'warmer weather'."
+  },
+  {
+    "id": "g3-research-10",
+    "type": "research",
+    "format": "single",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.RI.3.7",
+    "claim": "4",
+    "target": "3",
+    "dok": 2,
+    "question": "Which source provides information about the size of a honeybee?",
+    "passages": [
+      {
+        "id": "r10a",
+        "text": "Source 1: Honeybees are about half an inch long. They have fuzzy bodies and six legs used for walking and collecting pollen."
+      },
+      {
+        "id": "r10b",
+        "text": "Source 2: Bees live in hives where they make honey. They communicate with each other by doing a special dance."
+      }
+    ],
+    "options": [
+      "Source 1",
+      "Source 2",
+      "Both sources",
+      "Neither source"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Only Source 1 mentions the length (half an inch) of the bee."
+  },
+  {
+    "id": "g3-research-11",
+    "type": "research",
+    "format": "multi-select",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.RI.3.9",
+    "claim": "4",
+    "target": "1",
+    "dok": 3,
+    "question": "What do Source 1 and Source 2 agree on regarding reading? Select all that apply.",
+    "passages": [
+      {
+        "id": "r11a",
+        "text": "Source 1: Reading every day helps you learn new vocabulary words. It also improves your focus and concentration."
+      },
+      {
+        "id": "r11b",
+        "text": "Source 2: When you read books, you discover many new words. Reading is also a fun way to relax after school."
+      }
+    ],
+    "options": [
+      "Reading helps you learn new words.",
+      "Reading should only be done at school.",
+      "Reading is a good way to improve your brain.",
+      "Reading is the only way to relax."
+    ],
+    "correctAnswer": [0, 2],
+    "explanation": "Both mention learning words. Source 1 mentions focus and Source 2 mentions relaxing, which both relate to brain health/improvement."
+  },
+  {
+    "id": "g3-research-12",
+    "type": "research",
+    "format": "single",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.RI.3.8",
+    "claim": "4",
+    "target": "2",
+    "dok": 2,
+    "question": "A student wants to know what beavers eat. Which source is irrelevant (not helpful)?",
+    "passages": [
+      {
+        "id": "r12a",
+        "text": "Source 1: Beavers use their sharp teeth to chew on tree bark and twigs, which are their favorite foods."
+      },
+      {
+        "id": "r12b",
+        "text": "Source 2: Beavers are great builders. They use mud and sticks to build dams across streams to make ponds."
+      }
+    ],
+    "options": [
+      "Source 1",
+      "Source 2",
+      "Both sources are helpful.",
+      "Neither source is helpful."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Source 2 is about building dams, not about what beavers eat, making it irrelevant to the specific question."
+  },
+  {
+    "id": "g3-research-13",
+    "type": "research",
+    "format": "single",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.RI.3.9",
+    "claim": "4",
+    "target": "1",
+    "dok": 2,
+    "question": "According to both sources, how do desert animals survive the heat?",
+    "passages": [
+      {
+        "id": "r13a",
+        "text": "Source 1: Many desert animals are nocturnal. This means they sleep during the hot day and come out at night when it is cool."
+      },
+      {
+        "id": "r13b",
+        "text": "Source 2: Some desert creatures live in underground burrows. The soil underground stays much cooler than the surface air."
+      }
+    ],
+    "options": [
+      "By drinking lots of water.",
+      "By moving to the mountains.",
+      "By staying in cooler places during the day.",
+      "By growing thicker fur."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Source 1 mentions sleeping during the day; Source 2 mentions underground burrows which are cooler."
+  },
+  {
+    "id": "g3-research-14",
+    "type": "research",
+    "format": "multi-select",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.RI.3.9",
+    "claim": "4",
+    "target": "1",
+    "dok": 2,
+    "question": "Based on Source 1 and Source 2, why is the sun important? Select all that apply.",
+    "passages": [
+      {
+        "id": "r14a",
+        "text": "Source 1: The sun provides light and warmth to our planet. Without the sun, the Earth would be dark and frozen."
+      },
+      {
+        "id": "r14b",
+        "text": "Source 2: Plants use energy from sunlight to make their own food. This process is called photosynthesis."
+      }
+    ],
+    "options": [
+      "It keeps the Earth warm.",
+      "It helps plants make food.",
+      "It makes the moon shine.",
+      "It creates oxygen for us to breathe."
+    ],
+    "correctAnswer": [0, 1],
+    "explanation": "Source 1 mentions warmth and Source 2 mentions plants making food."
+  },
+  {
+    "id": "g3-research-15",
+    "type": "research",
+    "format": "single",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.RI.3.9",
+    "claim": "4",
+    "target": "1",
+    "dok": 2,
+    "question": "What do both sources agree is a job of a castle's moat?",
+    "passages": [
+      {
+        "id": "r15a",
+        "text": "Source 1: A moat is a deep ditch filled with water that goes around a castle. It was built to keep enemies away."
+      },
+      {
+        "id": "r15b",
+        "text": "Source 2: To protect the castle, builders often added a moat. This made it very hard for attackers to reach the walls."
+      }
+    ],
+    "options": [
+      "To provide water for drinking.",
+      "To act as a place for fish to live.",
+      "To protect the castle from enemies.",
+      "To make the castle look beautiful."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Source 1 says 'keep enemies away' and Source 2 says 'protect the castle' and stop 'attackers'."
+  }
+]

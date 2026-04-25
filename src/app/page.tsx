@@ -7,6 +7,8 @@ import grade3Questions from '@/data/questions-grade3.json';
 import grade4Questions from '@/data/questions-grade4.json';
 import grade5Questions from '@/data/questions-grade5.json';
 import mathGrade3Questions from '@/data/questions-math-grade3.json';
+import elaClaim3Grade3 from '@/data/questions-ela-claim3-grade3.json';
+import elaClaim4Grade3 from '@/data/questions-ela-claim4-grade3.json';
 import ptSeaTurtles from '@/data/pt-sea-turtles.json';
 
 type TestState = 'setup' | 'testing' | 'results' | 'pt_sources' | 'pt_research' | 'pt_writing';
@@ -156,7 +158,11 @@ export default function Home() {
     let allQuestions: Question[] = [];
     switch (grade) {
       case 3:
-        allQuestions = grade3Questions as unknown as Question[];
+        allQuestions = [
+          ...(grade3Questions as unknown as Question[]),
+          ...(elaClaim3Grade3 as unknown as Question[]),
+          ...(elaClaim4Grade3 as unknown as Question[])
+        ];
         break;
       case 4:
         allQuestions = grade4Questions as unknown as Question[];
