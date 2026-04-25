@@ -17,7 +17,9 @@
       "To hide from other birds"
     ],
     "correctAnswer": 2,
-    "explanation": "The text states the bird 'stopped at a bright red flower' and took a 'sweet sip of nectar.'"
+    "explanation": "The text states the bird 'stopped at a bright red flower' and took a 'sweet sip of nectar.'",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g3-q02",
@@ -37,7 +39,9 @@
       "She starts building a second nest."
     ],
     "correctAnswer": 1,
-    "explanation": "The passage describes the bird darting to her nest and sitting 'gently to keep them [the eggs] warm,' showing her protective nature."
+    "explanation": "The passage describes the bird darting to her nest and sitting 'gently to keep them [the eggs] warm,' showing her protective nature.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g3-q03",
@@ -57,7 +61,9 @@
       "Mountains are very hard to climb."
     ],
     "correctAnswer": 2,
-    "explanation": "The passage focuses on the various challenges and 'hardships' pioneers faced while moving west."
+    "explanation": "The passage focuses on the various challenges and 'hardships' pioneers faced while moving west.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g3-q04",
@@ -77,7 +83,9 @@
       "Walking was faster than the oxen."
     ],
     "correctAnswer": 1,
-    "explanation": "The text explains: 'Because the wagons were full of supplies... most people had to walk next to the wagon all day.'"
+    "explanation": "The text explains: 'Because the wagons were full of supplies... most people had to walk next to the wagon all day.'",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g3-q05",
@@ -97,7 +105,9 @@
       "New friends"
     ],
     "correctAnswer": 1,
-    "explanation": "The context clues describing crossing rivers, climbing mountains, and walking all day indicate that hardships are difficult situations."
+    "explanation": "The context clues describing crossing rivers, climbing mountains, and walking all day indicate that hardships are difficult situations.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g3-q06",
@@ -117,7 +127,9 @@
       "Mice are better at escaping than lions."
     ],
     "correctAnswer": 2,
-    "explanation": "The story demonstrates that because the lion was kind to the small mouse, the mouse was able to save him later."
+    "explanation": "The story demonstrates that because the lion was kind to the small mouse, the mouse was able to save him later.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g3-q07",
@@ -137,7 +149,9 @@
       "The mouse was tickling his paw."
     ],
     "correctAnswer": 1,
-    "explanation": "The text states he laughed 'thinking a tiny mouse could never help a king.'"
+    "explanation": "The text states he laughed 'thinking a tiny mouse could never help a king.'",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g3-q08",
@@ -157,7 +171,9 @@
       "Growing"
     ],
     "correctAnswer": 1,
-    "explanation": "Glossaries typically define specific, technical, or domain-related terms like 'magma' that are central to the scientific topic."
+    "explanation": "Glossaries typically define specific, technical, or domain-related terms like 'magma' that are central to the scientific topic.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g3-q09",
@@ -177,7 +193,9 @@
       "There is no difference; they are the same thing."
     ],
     "correctAnswer": 1,
-    "explanation": "The passage specifies magma is 'deep underground' and it is called lava 'once it reaches the surface.'"
+    "explanation": "The passage specifies magma is 'deep underground' and it is called lava 'once it reaches the surface.'",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g3-q10",
@@ -197,7 +215,9 @@
       "It flows back into the ground."
     ],
     "correctAnswer": 2,
-    "explanation": "The text explicitly states: 'As the lava cools down, it turns into hard, black rock.'"
+    "explanation": "The text explicitly states: 'As the lava cools down, it turns into hard, black rock.'",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g3-q11",
@@ -205,7 +225,11 @@
     "grade": 3,
     "standard": "CCSS.ELA-LITERACY.L.3.4.B",
     "question": "Which word has the same root word as 'rebuild'?",
-    "passage": { "id": "none", "text": "N/A", "source": "original" },
+    "passage": {
+      "id": "none",
+      "text": "N/A",
+      "source": "original"
+    },
     "options": [
       "Build",
       "Ready",
@@ -213,7 +237,9 @@
       "Bird"
     ],
     "correctAnswer": 0,
-    "explanation": "The root of 'rebuild' is 'build,' with the prefix 're-' meaning to do again."
+    "explanation": "The root of 'rebuild' is 'build,' with the prefix 're-' meaning to do again.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g3-q12",
@@ -221,7 +247,11 @@
     "grade": 3,
     "standard": "CCSS.ELA-LITERACY.L.3.4.D",
     "question": "Use a dictionary or context to find the best word to complete this sentence: 'The runner felt ______ after winning the gold medal.'",
-    "passage": { "id": "none", "text": "N/A", "source": "original" },
+    "passage": {
+      "id": "none",
+      "text": "N/A",
+      "source": "original"
+    },
     "options": [
       "gloomy",
       "furious",
@@ -229,7 +259,9 @@
       "confused"
     ],
     "correctAnswer": 2,
-    "explanation": "Winning a gold medal is a positive event, making 'joyful' the most appropriate choice."
+    "explanation": "Winning a gold medal is a positive event, making 'joyful' the most appropriate choice.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g3-q13",
@@ -237,7 +269,11 @@
     "grade": 3,
     "standard": "CCSS.ELA-LITERACY.L.3.5.A",
     "question": "Which of these is a literal (real) meaning of the phrase 'it's raining cats and dogs'?",
-    "passage": { "id": "none", "text": "N/A", "source": "original" },
+    "passage": {
+      "id": "none",
+      "text": "N/A",
+      "source": "original"
+    },
     "options": [
       "It is raining very heavily.",
       "Pets are falling from the sky.",
@@ -245,7 +281,9 @@
       "The street is flooded."
     ],
     "correctAnswer": 1,
-    "explanation": "The prompt asks for the literal meaning (actual animals falling), even though the phrase is usually used figuratively to mean heavy rain."
+    "explanation": "The prompt asks for the literal meaning (actual animals falling), even though the phrase is usually used figuratively to mean heavy rain.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g3-q14",
@@ -253,7 +291,11 @@
     "grade": 3,
     "standard": "CCSS.ELA-LITERACY.L.3.1.A",
     "question": "Which sentence uses an abstract noun correctly?",
-    "passage": { "id": "none", "text": "N/A", "source": "original" },
+    "passage": {
+      "id": "none",
+      "text": "N/A",
+      "source": "original"
+    },
     "options": [
       "I put my bravery in the backpack.",
       "The cat felt a lot of happiness.",
@@ -261,7 +303,9 @@
       "He ate a bowl of courage."
     ],
     "correctAnswer": 1,
-    "explanation": "Happiness is an abstract noun (a feeling). Bravery, kindness, and courage cannot be physically placed in bags or eaten."
+    "explanation": "Happiness is an abstract noun (a feeling). Bravery, kindness, and courage cannot be physically placed in bags or eaten.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g3-q15",
@@ -269,7 +313,11 @@
     "grade": 3,
     "standard": "CCSS.ELA-LITERACY.L.3.1.E",
     "question": "Which sentence uses the correct verb tense?",
-    "passage": { "id": "none", "text": "N/A", "source": "original" },
+    "passage": {
+      "id": "none",
+      "text": "N/A",
+      "source": "original"
+    },
     "options": [
       "Yesterday, I go to the park.",
       "Tomorrow, I went to the zoo.",
@@ -277,7 +325,9 @@
       "Now, I will eating lunch."
     ],
     "correctAnswer": 2,
-    "explanation": "'Last week' refers to the past, so the past tense 'played' is correct."
+    "explanation": "'Last week' refers to the past, so the past tense 'played' is correct.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g3-q16",
@@ -285,7 +335,11 @@
     "grade": 3,
     "standard": "CCSS.ELA-LITERACY.L.3.1.F",
     "question": "Choose the sentence that has correct subject-verb agreement.",
-    "passage": { "id": "none", "text": "N/A", "source": "original" },
+    "passage": {
+      "id": "none",
+      "text": "N/A",
+      "source": "original"
+    },
     "options": [
       "The boys runs fast.",
       "The girl sing a song.",
@@ -293,7 +347,9 @@
       "My friend play outside."
     ],
     "correctAnswer": 2,
-    "explanation": "'Dogs' (plural) matches with 'bark' (plural verb form)."
+    "explanation": "'Dogs' (plural) matches with 'bark' (plural verb form).",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g3-q17",
@@ -301,7 +357,11 @@
     "grade": 3,
     "standard": "CCSS.ELA-LITERACY.L.3.2.B",
     "question": "Where should the comma be placed in this sentence? 'On Saturday June 10th we are going to the beach.'",
-    "passage": { "id": "none", "text": "N/A", "source": "original" },
+    "passage": {
+      "id": "none",
+      "text": "N/A",
+      "source": "original"
+    },
     "options": [
       "Saturday June, 10th",
       "Saturday, June 10th",
@@ -309,7 +369,9 @@
       "June 10th, we"
     ],
     "correctAnswer": 1,
-    "explanation": "Commas are used between the day of the week and the month."
+    "explanation": "Commas are used between the day of the week and the month.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g3-q18",
@@ -317,7 +379,11 @@
     "grade": 3,
     "standard": "CCSS.ELA-LITERACY.L.3.2.D",
     "question": "Which word is spelled correctly to complete the sentence? 'The ______ are playing in the mud.'",
-    "passage": { "id": "none", "text": "N/A", "source": "original" },
+    "passage": {
+      "id": "none",
+      "text": "N/A",
+      "source": "original"
+    },
     "options": [
       "ponys",
       "ponies",
@@ -325,7 +391,9 @@
       "ponise"
     ],
     "correctAnswer": 1,
-    "explanation": "For words ending in 'y' preceded by a consonant, change the 'y' to 'i' and add 'es' to make it plural."
+    "explanation": "For words ending in 'y' preceded by a consonant, change the 'y' to 'i' and add 'es' to make it plural.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g3-q19",
@@ -333,7 +401,11 @@
     "grade": 3,
     "standard": "CCSS.ELA-LITERACY.W.3.1.A",
     "question": "A student is writing an opinion about school lunches. Which sentence is the best way to start the paragraph?",
-    "passage": { "id": "none", "text": "N/A", "source": "original" },
+    "passage": {
+      "id": "none",
+      "text": "N/A",
+      "source": "original"
+    },
     "options": [
       "School lunch starts at 12:00 PM.",
       "The cafeteria has blue tables.",
@@ -341,7 +413,9 @@
       "Apples and oranges are types of fruit."
     ],
     "correctAnswer": 2,
-    "explanation": "An opinion piece should start by stating the writer's point of view or preference."
+    "explanation": "An opinion piece should start by stating the writer's point of view or preference.",
+    "claim": "2",
+    "dok": 2
   },
   {
     "id": "g3-q20",
@@ -349,7 +423,11 @@
     "grade": 3,
     "standard": "CCSS.ELA-LITERACY.W.3.1.B",
     "question": "Read this sentence from an opinion piece: 'Recess should be longer because students need more time to exercise.' What is the best reason to add to support this?",
-    "passage": { "id": "none", "text": "N/A", "source": "original" },
+    "passage": {
+      "id": "none",
+      "text": "N/A",
+      "source": "original"
+    },
     "options": [
       "I like the color of the slide.",
       "Running and playing games helps students stay healthy and focused.",
@@ -357,7 +435,9 @@
       "The swings are sometimes broken."
     ],
     "correctAnswer": 1,
-    "explanation": "This sentence provides a logical reason that supports the idea that exercise is beneficial for students."
+    "explanation": "This sentence provides a logical reason that supports the idea that exercise is beneficial for students.",
+    "claim": "2",
+    "dok": 2
   },
   {
     "id": "g3-q21",
@@ -365,7 +445,11 @@
     "grade": 3,
     "standard": "CCSS.ELA-LITERACY.W.3.2.B",
     "question": "A student is writing a report about frogs. Which sentence provides a fact that would be good for this report?",
-    "passage": { "id": "none", "text": "N/A", "source": "original" },
+    "passage": {
+      "id": "none",
+      "text": "N/A",
+      "source": "original"
+    },
     "options": [
       "Frogs are very cute when they jump.",
       "I think everyone should have a pet frog.",
@@ -373,7 +457,9 @@
       "Frogs make a funny sound."
     ],
     "correctAnswer": 2,
-    "explanation": "This is a factual, informative statement about a frog's physical characteristics and behavior."
+    "explanation": "This is a factual, informative statement about a frog's physical characteristics and behavior.",
+    "claim": "2",
+    "dok": 2
   },
   {
     "id": "g3-q22",
@@ -381,7 +467,11 @@
     "grade": 3,
     "standard": "CCSS.ELA-LITERACY.W.3.3.A",
     "question": "Which of these words would best show that time has passed in a story?",
-    "passage": { "id": "none", "text": "N/A", "source": "original" },
+    "passage": {
+      "id": "none",
+      "text": "N/A",
+      "source": "original"
+    },
     "options": [
       "Suddenly",
       "Later that afternoon",
@@ -389,7 +479,9 @@
       "Everywhere"
     ],
     "correctAnswer": 1,
-    "explanation": "'Later that afternoon' is a temporal phrase that indicates a sequence of time."
+    "explanation": "'Later that afternoon' is a temporal phrase that indicates a sequence of time.",
+    "claim": "2",
+    "dok": 2
   },
   {
     "id": "g3-q23",
@@ -409,7 +501,9 @@
       "It describes the flowers Sarah wants to buy."
     ],
     "correctAnswer": 1,
-    "explanation": "The first paragraph sets up the action (planting seeds) that leads to the result in the second paragraph (sprouts growing)."
+    "explanation": "The first paragraph sets up the action (planting seeds) that leads to the result in the second paragraph (sprouts growing).",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g3-q24",
@@ -417,7 +511,11 @@
     "grade": 3,
     "standard": "CCSS.ELA-LITERACY.L.3.4",
     "question": "Read this sentence: 'The heavy rain caused the river to overflow its banks.' What does the word 'banks' mean in this sentence?",
-    "passage": { "id": "none", "text": "N/A", "source": "original" },
+    "passage": {
+      "id": "none",
+      "text": "N/A",
+      "source": "original"
+    },
     "options": [
       "Places where people keep money",
       "The sides of a river",
@@ -425,7 +523,9 @@
       "Small piggy banks"
     ],
     "correctAnswer": 1,
-    "explanation": "In the context of a river, 'banks' are the land sloping down to the water's edge."
+    "explanation": "In the context of a river, 'banks' are the land sloping down to the water's edge.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g3-q25",
@@ -445,7 +545,9 @@
       "Who helped Sarah in the garden?"
     ],
     "correctAnswer": 2,
-    "explanation": "The text explicitly states: 'Two weeks later, Sarah saw little green sprouts...'"
+    "explanation": "The text explicitly states: 'Two weeks later, Sarah saw little green sprouts...'",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g3-q2p-01",
@@ -474,7 +576,9 @@
       "Maya nodded, loosened her grip on the paper, and stepped out."
     ],
     "partBCorrectAnswer": 2,
-    "explanation": "Maya's physical reactions (clutching the script, white knuckles, hammering heart) indicate she is nervous. The simile in Part B comparing her heart to a trapped bird is the strongest evidence of anxiety."
+    "explanation": "Maya's physical reactions (clutching the script, white knuckles, hammering heart) indicate she is nervous. The simile in Part B comparing her heart to a trapped bird is the strongest evidence of anxiety.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g3-q2p-02",
@@ -503,7 +607,9 @@
       "loosened her grip on the paper"
     ],
     "partBCorrectAnswer": 3,
-    "explanation": "Mr. Gable's encouragement helps Maya relax. The fact that she 'loosened her grip' shows she is becoming less tense and more ready to perform."
+    "explanation": "Mr. Gable's encouragement helps Maya relax. The fact that she 'loosened her grip' shows she is becoming less tense and more ready to perform.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g3-q2p-03",
@@ -532,7 +638,9 @@
       "Even though bees can sting if they feel threatened, they are essential partners."
     ],
     "partBCorrectAnswer": 2,
-    "explanation": "The text explains that bees are essential because they facilitate pollination, and Part B provides the specific consequence: without them, common food plants could not produce fruit."
+    "explanation": "The text explains that bees are essential because they facilitate pollination, and Part B provides the specific consequence: without them, common food plants could not produce fruit.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g3-q2p-04",
@@ -561,7 +669,9 @@
       "they are essential partners"
     ],
     "partBCorrectAnswer": 1,
-    "explanation": "The passage describes the physical process of how pollen 'sticks' to the bee, which then 'falls off' at the next stop, showing how they move it from one place to another."
+    "explanation": "The passage describes the physical process of how pollen 'sticks' to the bee, which then 'falls off' at the next stop, showing how they move it from one place to another.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g3-q2p-05",
@@ -590,7 +700,9 @@
       "He sat down, took a deep breath, and picked up the chain again."
     ],
     "partBCorrectAnswer": 3,
-    "explanation": "Persistence means keeping at something even when it is difficult. Oliver shows this by trying to fix the chain again despite being frustrated and dirty."
+    "explanation": "Persistence means keeping at something even when it is difficult. Oliver shows this by trying to fix the chain again despite being frustrated and dirty.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g3-qms-01",
@@ -610,8 +722,13 @@
       "Bees make sweet honey.",
       "Pollen falls off on new flowers."
     ],
-    "correctAnswer": [1, 3],
-    "explanation": "Both B and D are correct. Pollen sticking to the bee's body (B) and then falling off on new flowers (D) is the process of pollination that helps plants produce fruit."
+    "correctAnswer": [
+      1,
+      3
+    ],
+    "explanation": "Both B and D are correct. Pollen sticking to the bee's body (B) and then falling off on new flowers (D) is the process of pollination that helps plants produce fruit.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g3-qms-02",
@@ -631,8 +748,13 @@
       "She stepped out into the lights.",
       "Her mind felt like a blank slate."
     ],
-    "correctAnswer": [0, 1],
-    "explanation": "Both A and B are correct. Maya clutching her script so tightly her knuckles turned white (A) and her heart hammering like a trapped bird (B) are physical signs of nervousness."
+    "correctAnswer": [
+      0,
+      1
+    ],
+    "explanation": "Both A and B are correct. Maya clutching her script so tightly her knuckles turned white (A) and her heart hammering like a trapped bird (B) are physical signs of nervousness.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g3-qms-03",
@@ -652,8 +774,13 @@
       "Bees drink nectar from flowers.",
       "Farmers keep beehives in their orchards."
     ],
-    "correctAnswer": [0, 1],
-    "explanation": "Both A and B express the main idea: honeybees are important because they help grow food through their work as pollinators."
+    "correctAnswer": [
+      0,
+      1
+    ],
+    "explanation": "Both A and B express the main idea: honeybees are important because they help grow food through their work as pollinators.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g3-qms-04",
@@ -673,8 +800,13 @@
       "pollen falls off",
       "tiny grains of pollen"
     ],
-    "correctAnswer": [0, 2],
-    "explanation": "A describes pollen attaching to the bee, and C describes it falling off. Together they explain the process called 'pollination.'"
+    "correctAnswer": [
+      0,
+      2
+    ],
+    "explanation": "A describes pollen attaching to the bee, and C describes it falling off. Together they explain the process called 'pollination.'",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g3-qms-05",
@@ -694,8 +826,13 @@
       "He picked up the chain again.",
       "He stared at his bicycle."
     ],
-    "correctAnswer": [1, 2],
-    "explanation": "Taking a deep breath (B) and picking up the chain again (C) both show Oliver continuing despite frustration - that is persistence."
+    "correctAnswer": [
+      1,
+      2
+    ],
+    "explanation": "Taking a deep breath (B) and picking up the chain again (C) both show Oliver continuing despite frustration - that is persistence.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g3-qms-06",
@@ -715,8 +852,13 @@
       "Animals sleep underground during the day to avoid the sun.",
       "The desert air becomes chilly once the sun goes down."
     ],
-    "correctAnswer": [0, 2],
-    "explanation": "Options A and C describe specific 'tricks' or adaptations (large ears and burrowing) that animals use to survive heat, which supports the main idea."
+    "correctAnswer": [
+      0,
+      2
+    ],
+    "explanation": "Options A and C describe specific 'tricks' or adaptations (large ears and burrowing) that animals use to survive heat, which supports the main idea.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g3-qms-07",
@@ -736,8 +878,13 @@
       "The camel survives for long periods without water.",
       "The fox hunts for food during the hottest part of the day."
     ],
-    "correctAnswer": [0, 2],
-    "explanation": "The text explicitly states the fox has giant ears to help heat escape and the camel can go a long time without drinking water."
+    "correctAnswer": [
+      0,
+      2
+    ],
+    "explanation": "The text explicitly states the fox has giant ears to help heat escape and the camel can go a long time without drinking water.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g3-qms-08",
@@ -757,8 +904,13 @@
       "The Statue of Liberty is a well-known symbol of the United States.",
       "Liberty Island is located in the state of New York."
     ],
-    "correctAnswer": [0, 2],
-    "explanation": "The passage focuses on the statue's meaning (a gift for freedom) and its status as a famous symbol. Options B and D are just small supporting details."
+    "correctAnswer": [
+      0,
+      2
+    ],
+    "explanation": "The passage focuses on the statue's meaning (a gift for freedom) and its status as a famous symbol. Options B and D are just small supporting details.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g3-qms-09",
@@ -778,8 +930,13 @@
       "The people visiting the island",
       "The water surrounding the statue"
     ],
-    "correctAnswer": [1, 3],
-    "explanation": "The text states that 'the air and water caused the copper to change... to the green color we see today.'"
+    "correctAnswer": [
+      1,
+      3
+    ],
+    "explanation": "The text states that 'the air and water caused the copper to change... to the green color we see today.'",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g3-qms-10",
@@ -799,8 +956,13 @@
       "She is shown holding a torch high in the sky.",
       "The statue is the tallest building in New York."
     ],
-    "correctAnswer": [0, 2],
-    "explanation": "The text mentions the copper was originally 'shiny brown' and describes the 'giant lady holding her torch high.'"
+    "correctAnswer": [
+      0,
+      2
+    ],
+    "explanation": "The text mentions the copper was originally 'shiny brown' and describes the 'giant lady holding her torch high.'",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g3-q41",
@@ -821,7 +983,9 @@
       "The park is too busy for him to find food."
     ],
     "correctAnswer": 1,
-    "explanation": "The text states 'this year the winter was coming much earlier than usual,' causing Squeaky to worry about his food supply."
+    "explanation": "The text states 'this year the winter was coming much earlier than usual,' causing Squeaky to worry about his food supply.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g3-q42",
@@ -850,7 +1014,9 @@
       "He scampered toward the picnic area, hoping the humans had left something behind."
     ],
     "partBCorrectAnswer": 3,
-    "explanation": "The final sentence of the passage shows Squeaky's specific action to find more food by going to the picnic area."
+    "explanation": "The final sentence of the passage shows Squeaky's specific action to find more food by going to the picnic area.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g3-q43",
@@ -870,8 +1036,13 @@
       "grey clouds gathering in the sky",
       "he lived in a large oak tree"
     ],
-    "correctAnswer": [0, 2],
-    "explanation": "The early winter and the gathering grey clouds (signaling snow) indicate that he has very little time left to prepare."
+    "correctAnswer": [
+      0,
+      2
+    ],
+    "explanation": "The early winter and the gathering grey clouds (signaling snow) indicate that he has very little time left to prepare.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g3-q44",
@@ -892,7 +1063,9 @@
       "Lions should never sleep in the open."
     ],
     "correctAnswer": 2,
-    "explanation": "The story concludes with the lion realizing that even a small friend can be helpful, teaching the lesson of kindness."
+    "explanation": "The story concludes with the lion realizing that even a small friend can be helpful, teaching the lesson of kindness.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g3-q45",
@@ -921,7 +1094,9 @@
       "The mouse heard him and chewed through the ropes."
     ],
     "partBCorrectAnswer": 2,
-    "explanation": "The text explicitly states the lion's internal thought: that a small mouse could never help a 'king'."
+    "explanation": "The text explicitly states the lion's internal thought: that a small mouse could never help a 'king'.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g3-q46",
@@ -942,7 +1117,9 @@
       "Farmers have to work very hard every day."
     ],
     "correctAnswer": 2,
-    "explanation": "The entire passage focuses on the role of bees in pollination and why that makes them important for the planet and food."
+    "explanation": "The entire passage focuses on the role of bees in pollination and why that makes them important for the planet and food.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g3-q47",
@@ -962,8 +1139,13 @@
       "Almonds",
       "Flowers"
     ],
-    "correctAnswer": [1, 2],
-    "explanation": "The text specifically names apples and almonds as foods that would not grow without honeybees."
+    "correctAnswer": [
+      1,
+      2
+    ],
+    "explanation": "The text specifically names apples and almonds as foods that would not grow without honeybees.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g3-q48",
@@ -984,7 +1166,9 @@
       "Pollen protects plants from insects."
     ],
     "correctAnswer": 2,
-    "explanation": "The text explains that the movement of pollen helps plants grow 'new fruits and seeds'."
+    "explanation": "The text explains that the movement of pollen helps plants grow 'new fruits and seeds'.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g3-q49",
@@ -1013,7 +1197,9 @@
       "It takes about 29 days for the Moon to go through all its phases."
     ],
     "partBCorrectAnswer": 1,
-    "explanation": "Part A identifies the core concept (reflecting light/changing shape), and Part B provides the supporting evidence about light reflection."
+    "explanation": "Part A identifies the core concept (reflecting light/changing shape), and Part B provides the supporting evidence about light reflection.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g3-q50",
@@ -1033,8 +1219,13 @@
       "A silver sliver",
       "A giant triangle"
     ],
-    "correctAnswer": [0, 2],
-    "explanation": "The text specifically mentions seeing a 'full circle' and a 'small silver sliver'."
+    "correctAnswer": [
+      0,
+      2
+    ],
+    "explanation": "The text specifically mentions seeing a 'full circle' and a 'small silver sliver'.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g3-q51",
@@ -1055,7 +1246,9 @@
       "Jake was confused about his gift."
     ],
     "correctAnswer": 1,
-    "explanation": "The context of getting a long-awaited gift and the parents smiling indicates that 'over the moon' is an expression of great joy."
+    "explanation": "The context of getting a long-awaited gift and the parents smiling indicates that 'over the moon' is an expression of great joy.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g3-q52",
@@ -1084,7 +1277,9 @@
       "It was the best day of his summer."
     ],
     "partBCorrectAnswer": 1,
-    "explanation": "The parents' smiles provide evidence that they are happy for Jake."
+    "explanation": "The parents' smiles provide evidence that they are happy for Jake.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g3-q53",
@@ -1104,8 +1299,13 @@
       "He uses the hand brakes.",
       "He saves more of his allowance."
     ],
-    "correctAnswer": [0, 2],
-    "explanation": "The text explicitly mentions Jake 'practicing turns' and 'using the hand brakes'."
+    "correctAnswer": [
+      0,
+      2
+    ],
+    "explanation": "The text explicitly mentions Jake 'practicing turns' and 'using the hand brakes'.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g3-q54",
@@ -1126,7 +1326,9 @@
       "It is a mile long and a mile wide."
     ],
     "correctAnswer": 1,
-    "explanation": "The text attributes the canyon's fame to it being a natural wonder carved by a river with beautiful rock layers."
+    "explanation": "The text attributes the canyon's fame to it being a natural wonder carved by a river with beautiful rock layers.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g3-q55",
@@ -1155,7 +1357,9 @@
       "others take a boat trip down the river at the bottom."
     ],
     "partBCorrectAnswer": 3,
-    "explanation": "The text mentions boat trips as a specific way to be 'at the bottom' on the river."
+    "explanation": "The text mentions boat trips as a specific way to be 'at the bottom' on the river.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g3-q56",
@@ -1176,7 +1380,9 @@
       "slept"
     ],
     "correctAnswer": 1,
-    "explanation": "In this context, a curious animal would look into something to investigate it."
+    "explanation": "In this context, a curious animal would look into something to investigate it.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g3-q57",
@@ -1197,7 +1403,9 @@
       "dis-"
     ],
     "correctAnswer": 1,
-    "explanation": "The prefix 'un-' means 'not', creating the word 'unhappy'."
+    "explanation": "The prefix 'un-' means 'not', creating the word 'unhappy'.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g3-q58",
@@ -1218,7 +1426,9 @@
       "calm"
     ],
     "correctAnswer": 1,
-    "explanation": "Scared is a synonym for frightened."
+    "explanation": "Scared is a synonym for frightened.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g3-q59",
@@ -1239,7 +1449,9 @@
       "an animal that lives in the desert"
     ],
     "correctAnswer": 1,
-    "explanation": "Nocturnal is the scientific term for animals that are active during the night."
+    "explanation": "Nocturnal is the scientific term for animals that are active during the night.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g3-q60",
@@ -1260,7 +1472,9 @@
       "to make look pretty"
     ],
     "correctAnswer": 0,
-    "explanation": "Heavy rain results in something becoming completely wet or soaked."
+    "explanation": "Heavy rain results in something becoming completely wet or soaked.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g3-q61",
@@ -1281,7 +1495,9 @@
       "The boy run to the park."
     ],
     "correctAnswer": 1,
-    "explanation": "Plural subjects (boys) require the plural verb form (run) without an 's'."
+    "explanation": "Plural subjects (boys) require the plural verb form (run) without an 's'.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g3-q62",
@@ -1302,7 +1518,9 @@
       "we went to Disney World in Florida."
     ],
     "correctAnswer": 1,
-    "explanation": "Proper nouns (Disney World, Florida) and the start of a sentence must be capitalized."
+    "explanation": "Proper nouns (Disney World, Florida) and the start of a sentence must be capitalized.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g3-q63",
@@ -1323,7 +1541,9 @@
       "I need apples bananas, and milk."
     ],
     "correctAnswer": 2,
-    "explanation": "Commas are used to separate items in a list."
+    "explanation": "Commas are used to separate items in a list.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g3-q64",
@@ -1344,7 +1564,9 @@
       "childrens"
     ],
     "correctAnswer": 2,
-    "explanation": "Children is the irregular plural form of child."
+    "explanation": "Children is the irregular plural form of child.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g3-q65",
@@ -1365,7 +1587,9 @@
       "they"
     ],
     "correctAnswer": 2,
-    "explanation": "'Sarah and I' is a compound subject that should be replaced by the subject pronoun 'we'."
+    "explanation": "'Sarah and I' is a compound subject that should be replaced by the subject pronoun 'we'.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g3-q66",
@@ -1386,7 +1610,9 @@
       "Many schools in California use uniforms."
     ],
     "correctAnswer": 2,
-    "explanation": "The phrase 'I believe' introduces a personal feeling or opinion, not a fact."
+    "explanation": "The phrase 'I believe' introduces a personal feeling or opinion, not a fact.",
+    "claim": "2",
+    "dok": 2
   },
   {
     "id": "g3-q67",
@@ -1407,7 +1633,9 @@
       "I saw a sunflower in my neighbor's yard."
     ],
     "correctAnswer": 1,
-    "explanation": "A topic sentence should introduce the main idea of the whole paragraph, which in this case is the process of growing the flower."
+    "explanation": "A topic sentence should introduce the main idea of the whole paragraph, which in this case is the process of growing the flower.",
+    "claim": "2",
+    "dok": 2
   },
   {
     "id": "g3-q68",
@@ -1427,8 +1655,13 @@
       "Dogs can be trained to do fun tricks and play fetch.",
       "There are many different breeds of dogs."
     ],
-    "correctAnswer": [0, 2],
-    "explanation": "Loyalty/safety and fun tricks are positive qualities that support the 'best pet' opinion."
+    "correctAnswer": [
+      0,
+      2
+    ],
+    "explanation": "Loyalty/safety and fun tricks are positive qualities that support the 'best pet' opinion.",
+    "claim": "2",
+    "dok": 2
   },
   {
     "id": "g3-q69",
@@ -1448,8 +1681,13 @@
       "Mars has the largest volcano in the solar system.",
       "Alien movies about Mars are my favorite."
     ],
-    "correctAnswer": [0, 2],
-    "explanation": "The name 'Red Planet' and the fact about the volcano are objective scientific facts suitable for a report."
+    "correctAnswer": [
+      0,
+      2
+    ],
+    "explanation": "The name 'Red Planet' and the fact about the volcano are objective scientific facts suitable for a report.",
+    "claim": "2",
+    "dok": 2
   },
   {
     "id": "g3-q70",
@@ -1470,6 +1708,8 @@
       "Don't forget to put paper in the bin."
     ],
     "correctAnswer": 2,
-    "explanation": "A conclusion should summarize the importance of the topic discussed."
+    "explanation": "A conclusion should summarize the importance of the topic discussed.",
+    "claim": "2",
+    "dok": 2
   }
 ]
