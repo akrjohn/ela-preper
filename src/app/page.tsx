@@ -64,6 +64,60 @@ export default function Home() {
       .map(([standard]) => standard);
   }, [processSessionByStandard]);
 
+  const processSessionByClaim = useCallback(() => {
+    const claimCounts: Record<string, {correct: number; total: number}> = {};
+    
+    filteredQuestions.forEach((q, index) => {
+      const result = results[index];
+      const claim = q.claim || '1';
+      
+      if (!claimCounts[claim]) {
+        claimCounts[claim] = { correct: 0, total: 0 };
+      }
+      
+      claimCounts[claim].total += 1;
+      if (result?.isCorrect) {
+        claimCounts[claim].correct += 1;
+      }
+    });
+    
+    return claimCounts;
+  }, [filteredQuestions, results]);
+
+  const processSessionByDOK = useCallback(() => {
+    const dokCounts: Record<string, {correct: number; total: number}> = {};
+    
+    filteredQuestions.forEach((q, index) => {
+      const result = results[index];
+      const dok = String(q.dok || 2);
+      
+      if (!dokCounts[dok]) {
+        dokCounts[dok] = { correct: 0, total: 0 };
+      }
+      
+      dokCounts[dok].total += 1;
+      if (result?.isCorrect) {
+        dokCounts[dok].correct += 1;
+      }
+    });
+    
+    return dokCounts;
+  }, [filteredQuestions, results]);
+
+  const getPerformanceLevel = (percentage: number): string => {
+    if (percentage >= 80) return 'Advanced';
+    if (percentage >= 60) return 'Proficient';
+    if (percentage >= 40) return 'Developing';
+    return 'Insufficient';
+  };
+
+  const claimLabels: Record<string, string> = {
+    '1': 'Reading',
+    '2': 'Writing',
+    '3': 'Listening',
+    '4': 'Research'
+  };
+
   const saveProgress = useCallback((currentAnswers: Map<string, number | number[]>) => {
     const progressData = {
       grade: selectedGrade,
@@ -588,6 +642,13 @@ export default function Home() {
     if (showAnalytics) {
       const standardData = processSessionByStandard();
       const weakStandards = getWeakStandards();
+      const claimData = processSessionByClaim();
+      const dokData = processSessionByDOK();
+      const totalCorrect = Object.values(claimData).reduce((sum, d) => sum + d.correct, 0);
+      const totalQuestions2 = Object.values(claimData).reduce((sum, d) => sum + d.total, 0);
+      const percentage = totalQuestions2 > 0 ? Math.round((totalCorrect / totalQuestions2) * 100) : 0;
+      
+      console.log('DOK data:', dokData);
       
       return (
         <div className="min-h-screen bg-zinc-50 font-sans p-4">
@@ -618,6 +679,49 @@ export default function Home() {
                   </div>
                 </div>
               )}
+
+              <div className="mb-6 p-4 bg-blue-50 border border-blue-200 rounded-lg">
+                <h3 className="font-medium text-blue-800 mb-2">
+                  Performance Level: {getPerformanceLevel(percentage)}
+                </h3>
+                <p className="text-sm text-blue-700">
+                  {percentage >= 80 ? 'Excellent work!' : 
+                   percentage >= 60 ? 'Good progress! Keep practicing.' : 
+                   'Keep working on these areas.'}
+                </p>
+              </div>
+              
+              <h3 className="font-medium text-zinc-700 mb-2">By SBAC Claim</h3>
+              <div className="grid grid-cols-2 gap-3 mb-6">
+                {Object.entries(processSessionByClaim()).map(([claim, data]) => {
+                  const pct = Math.round((data.correct / data.total) * 100);
+                  return (
+                    <div key={claim} className="p-3 bg-zinc-50 rounded-lg">
+                      <div className="text-sm text-zinc-600">{claimLabels[claim] || `Claim ${claim}`}</div>
+                      <div className="font-bold text-zinc-800">{data.correct}/{data.total}</div>
+                      <div className={`text-xs ${pct >= 70 ? 'text-emerald-600' : pct >= 50 ? 'text-amber-600' : 'text-red-600'}`}>
+                        {pct}%
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+              
+              <h3 className="font-medium text-zinc-700 mb-2">By DOK Level</h3>
+              <div className="grid grid-cols-3 gap-3 mb-6">
+                {Object.entries(processSessionByDOK()).map(([dok, data]) => {
+                  const pct = Math.round((data.correct / data.total) * 100);
+                  return (
+                    <div key={dok} className="p-3 bg-zinc-50 rounded-lg">
+                      <div className="text-sm text-zinc-600">DOK {dok}</div>
+                      <div className="font-bold text-zinc-800">{data.correct}/{data.total}</div>
+                      <div className={`text-xs ${pct >= 70 ? 'text-emerald-600' : pct >= 50 ? 'text-amber-600' : 'text-red-600'}`}>
+                        {pct}%
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
               
               <h3 className="font-medium text-zinc-700 mb-4">Performance by Standard</h3>
               <div className="space-y-3">
