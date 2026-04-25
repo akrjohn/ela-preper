@@ -352,7 +352,7 @@ export default function Home() {
   }, [testState, currentQuestionIndex, filteredQuestions.length]);
 
   const startTest = () => {
-    if (testSubject === 'math' || sessionMode === 'pt') {
+    if (sessionMode === 'pt') {
       startPT();
       return;
     }
