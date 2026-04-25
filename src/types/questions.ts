@@ -5,6 +5,10 @@ export type QuestionFormat =
   | 'two-part'      // Part A + Part B (evidence-based)
   | 'multi-select'; // Select all that apply (2+ correct)
 
+export type SBACClaim = '1' | '2' | '3' | '4';  // Reading, Writing, Listening, Research
+
+export type DOKLevel = 1 | 2 | 3;  // Depth of Knowledge
+
 export interface ReadingPassage {
   id: string;
   text: string;
@@ -17,15 +21,26 @@ export interface Question {
   format: QuestionFormat;
   grade: number;
   standard: string;
+  claim: SBACClaim;
+  target?: string;
+  dok?: DOKLevel;
   question: string;
   passage?: ReadingPassage;
   options: string[];
-  correctAnswer: number | number[];  // single number or array for multi-select
-  partBQuestion?: string;               // For two-part questions
-  partBOptions?: string[];             // For two-part questions
-  partBCorrectAnswer?: number;           // For two-part questions
-  partBExplanation?: string;           // For two-part questions
+  correctAnswer: number | number[];
+  partBQuestion?: string;
+  partBOptions?: string[];
+  partBCorrectAnswer?: number;
+  partBExplanation?: string;
   explanation: string;
+  rubric?: QuestionRubric;
+}
+
+export interface QuestionRubric {
+  score2?: string;
+  score1?: string;
+  score0?: string;
+  sampleResponse?: string;
 }
 
 export interface TestResult {

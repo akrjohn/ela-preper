@@ -18,7 +18,9 @@
       "He prefers working with wood rather than metal."
     ],
     "correctAnswer": 1,
-    "explanation": "Elias chooses to delay finishing the clock to fix a tiny misalignment, showing a commitment to perfection over speed."
+    "explanation": "Elias chooses to delay finishing the clock to fix a tiny misalignment, showing a commitment to perfection over speed.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g5-q02",
@@ -47,7 +49,9 @@
       "The sun was setting, but the clock could wait."
     ],
     "partBCorrectAnswer": 1,
-    "explanation": "Setting the key down slowly and picking up a file demonstrates a calm, methodical approach to solving the problem."
+    "explanation": "Setting the key down slowly and picking up a file demonstrates a calm, methodical approach to solving the problem.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g5-q03",
@@ -71,7 +75,9 @@
       0,
       3
     ],
-    "explanation": "The passage compares his hand movements to a pianist (simile) and describes his breath 'hitching' to show physical reaction to stress/realization."
+    "explanation": "The passage compares his hand movements to a pianist (simile) and describes his breath 'hitching' to show physical reaction to stress/realization.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g5-q04",
@@ -92,7 +98,9 @@
       "Outer space is the best place to view the Earth's oceans."
     ],
     "correctAnswer": 1,
-    "explanation": "The passage describes the reef's size and diversity but emphasizes the threat of bleaching and the need for conservation."
+    "explanation": "The passage describes the reef's size and diversity but emphasizes the threat of bleaching and the need for conservation.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g5-q05",
@@ -121,7 +129,9 @@
       "Conservationists are working to protect"
     ],
     "partBCorrectAnswer": 2,
-    "explanation": "The passage explicitly links warm water to the expulsion of algae, which leads to bleaching and poor health."
+    "explanation": "The passage explicitly links warm water to the expulsion of algae, which leads to bleaching and poor health.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g5-q06",
@@ -145,7 +155,9 @@
       0,
       1
     ],
-    "explanation": "Being the largest system and being visible from space are specific characteristics that highlight its uniqueness."
+    "explanation": "Being the largest system and being visible from space are specific characteristics that highlight its uniqueness.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g5-q07",
@@ -166,7 +178,9 @@
       "Sunflowers are the easiest flowers to grow."
     ],
     "correctAnswer": 1,
-    "explanation": "Julian's persistence and vision lead to a garden that changes how his neighbors interact with their environment."
+    "explanation": "Julian's persistence and vision lead to a garden that changes how his neighbors interact with their environment.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g5-q08",
@@ -195,7 +209,9 @@
       "Julian mixed in compost and waited."
     ],
     "partBCorrectAnswer": 2,
-    "explanation": "The fact that she watched for weeks (skepticism/observation) and then brought seeds (support) shows the change."
+    "explanation": "The fact that she watched for weeks (skepticism/observation) and then brought seeds (support) shows the change.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g5-q09",
@@ -216,7 +232,9 @@
       "By explaining the scientific causes of sound transmission."
     ],
     "correctAnswer": 2,
-    "explanation": "The passage follows a chronological timeline, starting from the mid-1800s through the specific date in 1876."
+    "explanation": "The passage follows a chronological timeline, starting from the mid-1800s through the specific date in 1876.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g5-q10",
@@ -240,7 +258,9 @@
       0,
       1
     ],
-    "explanation": "The text explicitly mentions the mid-1800s and March 10, 1876."
+    "explanation": "The text explicitly mentions the mid-1800s and March 10, 1876.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g5-q11",
@@ -261,7 +281,9 @@
       "The rain was making a loud noise."
     ],
     "correctAnswer": 1,
-    "explanation": "A curtain is used to block or hide something; the metaphor indicates the rain was so thick the mountains couldn't be seen."
+    "explanation": "A curtain is used to block or hide something; the metaphor indicates the rain was so thick the mountains couldn't be seen.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g5-q12",
@@ -290,7 +312,9 @@
       "sound of the thunder echoing"
     ],
     "partBCorrectAnswer": 2,
-    "explanation": "Seeking shelter is a direct action taken to remain safe during a dangerous or uncomfortable situation."
+    "explanation": "Seeking shelter is a direct action taken to remain safe during a dangerous or uncomfortable situation.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g5-q13",
@@ -311,7 +335,9 @@
       "To protect or hide"
     ],
     "correctAnswer": 1,
-    "explanation": "Contextual clues like 'turning white' and 'leaving its tissues' suggest the algae is being removed or forced out."
+    "explanation": "Contextual clues like 'turning white' and 'leaving its tissues' suggest the algae is being removed or forced out.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g5-q14",
@@ -340,7 +366,9 @@
       "humans can live and work in space for long periods"
     ],
     "partBCorrectAnswer": 0,
-    "explanation": "The opening sentence and the mention of 15 nations emphasize the 'global cooperation' aspect of the ISS."
+    "explanation": "The opening sentence and the mention of 15 nations emphasize the 'global cooperation' aspect of the ISS.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g5-q15",
@@ -364,7 +392,9 @@
       0,
       2
     ],
-    "explanation": "The text explicitly mentions studying plant growth and preparing for missions to Mars as reasons for the experiments."
+    "explanation": "The text explicitly mentions studying plant growth and preparing for missions to Mars as reasons for the experiments.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g5-q16",
@@ -385,7 +415,9 @@
       "Full of exciting promises"
     ],
     "correctAnswer": 1,
-    "explanation": "The clue 'no one knew where she stood' indicates that the speech lacked clarity or had multiple interpretations."
+    "explanation": "The clue 'no one knew where she stood' indicates that the speech lacked clarity or had multiple interpretations.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g5-q17",
@@ -406,7 +438,9 @@
       "To write down a story"
     ],
     "correctAnswer": 1,
-    "explanation": "Combining the root 'against' with 'speak' leads to the definition of saying the opposite."
+    "explanation": "Combining the root 'against' with 'speak' leads to the definition of saying the opposite.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g5-q18",
@@ -427,7 +461,9 @@
       "Accidentally"
     ],
     "correctAnswer": 2,
-    "explanation": "Meticulous implies great attention to detail and being thorough."
+    "explanation": "Meticulous implies great attention to detail and being thorough.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g5-q19",
@@ -448,7 +484,9 @@
       "A person who does"
     ],
     "correctAnswer": 1,
-    "explanation": "The suffix '-able' indicates that something is capable of being acted upon (e.g., capable of being recycled)."
+    "explanation": "The suffix '-able' indicates that something is capable of being acted upon (e.g., capable of being recycled).",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g5-q20",
@@ -469,7 +507,9 @@
       "Sensitive"
     ],
     "correctAnswer": 1,
-    "explanation": "Vulnerable means open to harm, so 'protected' is its opposite."
+    "explanation": "Vulnerable means open to harm, so 'protected' is its opposite.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g5-q21",
@@ -490,7 +530,9 @@
       "I wanted to go to the park so it started to rain."
     ],
     "correctAnswer": 0,
-    "explanation": "'But' is the correct coordinating conjunction to show a contrast between wanting to go and the rain stopping it."
+    "explanation": "'But' is the correct coordinating conjunction to show a contrast between wanting to go and the rain stopping it.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g5-q22",
@@ -511,7 +553,9 @@
       "I have seeing that movie three times already."
     ],
     "correctAnswer": 0,
-    "explanation": "The present perfect tense uses 'have' + the past participle 'seen'."
+    "explanation": "The present perfect tense uses 'have' + the past participle 'seen'.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g5-q23",
@@ -532,7 +576,9 @@
       "Yes I would, like another piece of cake."
     ],
     "correctAnswer": 2,
-    "explanation": "A comma should follow introductory words like 'Yes'."
+    "explanation": "A comma should follow introductory words like 'Yes'.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g5-q24",
@@ -556,7 +602,9 @@
       0,
       2
     ],
-    "explanation": "Option A uses present/future correctly, and Option C uses past/past perfect correctly to show sequence."
+    "explanation": "Option A uses present/future correctly, and Option C uses past/past perfect correctly to show sequence.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g5-q25",
@@ -577,7 +625,9 @@
       "I bought, eggs, milk, bread and butter."
     ],
     "correctAnswer": 2,
-    "explanation": "Commas should separate every item in a list, including before the coordinating conjunction (Oxford comma)."
+    "explanation": "Commas should separate every item in a list, including before the coordinating conjunction (Oxford comma).",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g5-q26",
@@ -598,7 +648,9 @@
       "Some restaurants have started using paper straws instead."
     ],
     "correctAnswer": 2,
-    "explanation": "A thesis statement for an opinion essay must state a clear claim and the reasons that will be discussed."
+    "explanation": "A thesis statement for an opinion essay must state a clear claim and the reasons that will be discussed.",
+    "claim": "2",
+    "dok": 2
   },
   {
     "id": "g5-q27",
@@ -622,7 +674,9 @@
       0,
       2
     ],
-    "explanation": "Both gravity and the position of the Earth relative to the moon are direct causes of tides."
+    "explanation": "Both gravity and the position of the Earth relative to the moon are direct causes of tides.",
+    "claim": "2",
+    "dok": 2
   },
   {
     "id": "g5-q28",
@@ -643,7 +697,9 @@
       "Consequently"
     ],
     "correctAnswer": 2,
-    "explanation": "'On the other hand' is specifically used to signal a contrast or a different point of view."
+    "explanation": "'On the other hand' is specifically used to signal a contrast or a different point of view.",
+    "claim": "2",
+    "dok": 2
   },
   {
     "id": "g5-q29",
@@ -667,7 +723,9 @@
       0,
       2
     ],
-    "explanation": "Effective conclusions summarize the main ideas and provide a sense of closure or connection."
+    "explanation": "Effective conclusions summarize the main ideas and provide a sense of closure or connection.",
+    "claim": "2",
+    "dok": 2
   },
   {
     "id": "g5-q30",
@@ -688,7 +746,9 @@
       "My cousin has to wear a uniform at her private school."
     ],
     "correctAnswer": 1,
-    "explanation": "Providing a social benefit like reducing bullying is a strong, logical reason for a policy change."
+    "explanation": "Providing a social benefit like reducing bullying is a strong, logical reason for a policy change.",
+    "claim": "2",
+    "dok": 2
   },
   {
     "id": "g5-q31",
@@ -709,7 +769,9 @@
       "It turns clear and remains dry."
     ],
     "correctAnswer": 1,
-    "explanation": "The text states that when she uses gray wool, the sky would 'bruise deep purple'."
+    "explanation": "The text states that when she uses gray wool, the sky would 'bruise deep purple'.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g5-q32",
@@ -738,7 +800,9 @@
       "The elders spoke of Aella, the Weaver of the Winds."
     ],
     "partBCorrectAnswer": 2,
-    "explanation": "The girl's sacrifice of her hair to fix the loom resulted in the rain the valley needed."
+    "explanation": "The girl's sacrifice of her hair to fix the loom resulted in the rain the valley needed.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g5-q33",
@@ -762,7 +826,9 @@
       1,
       2
     ],
-    "explanation": "The girl mended the frame (fixed the loom) and Aella showed gratitude by weaving rain."
+    "explanation": "The girl mended the frame (fixed the loom) and Aella showed gratitude by weaving rain.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g5-q34",
@@ -783,7 +849,9 @@
       "The sky was covered in purple silk threads."
     ],
     "correctAnswer": 2,
-    "explanation": "Comparing the sky to a bruise suggests a dark, heavy, and intense atmosphere associated with storms."
+    "explanation": "Comparing the sky to a bruise suggests a dark, heavy, and intense atmosphere associated with storms.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g5-q35",
@@ -804,7 +872,9 @@
       "By describing Kaelen's father's childhood."
     ],
     "correctAnswer": 1,
-    "explanation": "The countdown ('T-minus ten minutes', 'Nine minutes') creates a sense of urgency and suspense."
+    "explanation": "The countdown ('T-minus ten minutes', 'Nine minutes') creates a sense of urgency and suspense.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g5-q36",
@@ -833,7 +903,9 @@
       "The station AI announced in a calm voice."
     ],
     "partBCorrectAnswer": 2,
-    "explanation": "The 'steady breath' signals he has regained his focus and calm."
+    "explanation": "The 'steady breath' signals he has regained his focus and calm.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g5-q37",
@@ -857,7 +929,9 @@
       1,
       2
     ],
-    "explanation": "The text mentions Mars and a habitat with bioluminescent plants."
+    "explanation": "The text mentions Mars and a habitat with bioluminescent plants.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g5-q38",
@@ -878,7 +952,9 @@
       "George Antheil was the primary inventor of Wi-Fi technology."
     ],
     "correctAnswer": 1,
-    "explanation": "The passage focuses on her scientific contributions and how they led to modern technology."
+    "explanation": "The passage focuses on her scientific contributions and how they led to modern technology.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g5-q39",
@@ -907,7 +983,9 @@
       "foundation for modern Wi-Fi"
     ],
     "partBCorrectAnswer": 1,
-    "explanation": "The text explains the signals 'jump' to avoid being blocked."
+    "explanation": "The text explains the signals 'jump' to avoid being blocked.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g5-q40",
@@ -931,7 +1009,9 @@
       1,
       2
     ],
-    "explanation": "The text explicitly lists Wi-Fi, Bluetooth, and GPS as technologies using her foundation."
+    "explanation": "The text explicitly lists Wi-Fi, Bluetooth, and GPS as technologies using her foundation.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g5-q41",
@@ -952,7 +1032,9 @@
       "To build houses on Mars."
     ],
     "correctAnswer": 1,
-    "explanation": "Contextually, he is working on an engine to make Mars habitable; 'terra' refers to Earth."
+    "explanation": "Contextually, he is working on an engine to make Mars habitable; 'terra' refers to Earth.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g5-q42",
@@ -981,7 +1063,9 @@
       "Flowing"
     ],
     "partBCorrectAnswer": 2,
-    "explanation": "The word 'However' introduces the threat of the pythons."
+    "explanation": "The word 'However' introduces the threat of the pythons.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g5-q43",
@@ -1005,7 +1089,9 @@
       1,
       2
     ],
-    "explanation": "Digging holes that provide refuge changes the environment and helps others."
+    "explanation": "Digging holes that provide refuge changes the environment and helps others.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g5-q44",
@@ -1026,7 +1112,9 @@
       "She wants to win a prize for the best tomatoes."
     ],
     "correctAnswer": 1,
-    "explanation": "The story centers on the neighborhood's effort to clear the lot by the month's end."
+    "explanation": "The story centers on the neighborhood's effort to clear the lot by the month's end.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g5-q45",
@@ -1055,7 +1143,9 @@
       "The Garcia twins brought shovels."
     ],
     "partBCorrectAnswer": 2,
-    "explanation": "Maya’s quiet start ('clearing a single square yard') is what the neighbors noticed."
+    "explanation": "Maya’s quiet start ('clearing a single square yard') is what the neighbors noticed.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g5-q46",
@@ -1079,7 +1169,9 @@
       0,
       2
     ],
-    "explanation": "The ending summarizes the importance of small victories (perseverance) and working together (community)."
+    "explanation": "The ending summarizes the importance of small victories (perseverance) and working together (community).",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g5-q47",
@@ -1100,7 +1192,9 @@
       "By identifying the specific type of cedar tree used."
     ],
     "correctAnswer": 1,
-    "explanation": "Illustrating a magical loom made of mountain breath helps emphasize the legend's fantastic elements."
+    "explanation": "Illustrating a magical loom made of mountain breath helps emphasize the legend's fantastic elements.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g5-q48",
@@ -1129,7 +1223,9 @@
       "Alligators act as 'ecosystem engineers'."
     ],
     "partBCorrectAnswer": 2,
-    "explanation": "The final sentence ties together the ecosystem's parts and the need for conservation."
+    "explanation": "The final sentence ties together the ecosystem's parts and the need for conservation.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g5-q49",
@@ -1150,7 +1246,9 @@
       "Wireless signals had not been invented yet."
     ],
     "correctAnswer": 1,
-    "explanation": "The text suggests the conflict between her artistic talent and her scientific mind, and notes she wasn't recognized until much later."
+    "explanation": "The text suggests the conflict between her artistic talent and her scientific mind, and notes she wasn't recognized until much later.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g5-q50",
@@ -1174,7 +1272,9 @@
       1,
       3
     ],
-    "explanation": "A 'dangerous' glow and a 'high-voltage' bay indicate immediate physical peril."
+    "explanation": "A 'dangerous' glow and a 'high-voltage' bay indicate immediate physical peril.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g5-q51",
@@ -1194,7 +1294,9 @@
       "A deep hole in the mud."
     ],
     "correctAnswer": 1,
-    "explanation": "Context shows the holes provide water when the marsh is dry, acting as a safe spot to survive."
+    "explanation": "Context shows the holes provide water when the marsh is dry, acting as a safe spot to survive.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g5-q52",
@@ -1214,7 +1316,9 @@
       "Belonging to the city."
     ],
     "correctAnswer": 1,
-    "explanation": "A 'vacant lot' describes the unused land before it is turned into a park."
+    "explanation": "A 'vacant lot' describes the unused land before it is turned into a park.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g5-q53",
@@ -1234,7 +1338,9 @@
       "To break into pieces."
     ],
     "correctAnswer": 1,
-    "explanation": "The root 'vibr' relates to shaking or oscillating motion."
+    "explanation": "The root 'vibr' relates to shaking or oscillating motion.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g5-q54",
@@ -1257,7 +1363,9 @@
       0,
       2
     ],
-    "explanation": "Meticulously means doing something with great care and thoroughness."
+    "explanation": "Meticulously means doing something with great care and thoroughness.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g5-q55",
@@ -1277,7 +1385,9 @@
       "Cracked"
     ],
     "correctAnswer": 2,
-    "explanation": "Parched means very dry; soaked is the opposite."
+    "explanation": "Parched means very dry; soaked is the opposite.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g5-q56",
@@ -1297,7 +1407,9 @@
       "Small"
     ],
     "correctAnswer": 1,
-    "explanation": "The root 'lum' comes from 'lumen', meaning light."
+    "explanation": "The root 'lum' comes from 'lumen', meaning light.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g5-q57",
@@ -1320,7 +1432,9 @@
       1,
       3
     ],
-    "explanation": "Being an 'inventor' and creating a 'foundation' for the future are marks of innovation."
+    "explanation": "Being an 'inventor' and creating a 'foundation' for the future are marks of innovation.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g5-q58",
@@ -1340,7 +1454,9 @@
       "Again"
     ],
     "correctAnswer": 2,
-    "explanation": "The prefix 'non-' means not."
+    "explanation": "The prefix 'non-' means not.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g5-q59",
@@ -1361,7 +1477,9 @@
       "Kaelen is fixing the engine now."
     ],
     "correctAnswer": 2,
-    "explanation": "'Wove' is the past tense of 'weave'."
+    "explanation": "'Wove' is the past tense of 'weave'.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g5-q60",
@@ -1382,7 +1500,9 @@
       "The alligators having dug holes for many years."
     ],
     "correctAnswer": 0,
-    "explanation": "The present perfect tense uses 'have' + the past participle 'dug'."
+    "explanation": "The present perfect tense uses 'have' + the past participle 'dug'.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g5-q61",
@@ -1406,7 +1526,9 @@
       0,
       2
     ],
-    "explanation": "Commas should separate every item in a list of three or more."
+    "explanation": "Commas should separate every item in a list of three or more.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g5-q62",
@@ -1427,7 +1549,9 @@
       "so"
     ],
     "correctAnswer": 1,
-    "explanation": "'But' shows the contrast between wanting to quit and finding motivation."
+    "explanation": "'But' shows the contrast between wanting to quit and finding motivation.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g5-q63",
@@ -1448,7 +1572,9 @@
       "Python snakes live in the marsh."
     ],
     "correctAnswer": 1,
-    "explanation": "'Wow' is an interjection expressing excitement."
+    "explanation": "'Wow' is an interjection expressing excitement.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g5-q64",
@@ -1472,7 +1598,9 @@
       1,
       2
     ],
-    "explanation": "Direct speech should be set off with commas."
+    "explanation": "Direct speech should be set off with commas.",
+    "claim": "1",
+    "dok": 2
   },
   {
     "id": "g5-q65",
@@ -1493,7 +1621,9 @@
       "Burmese pythons were brought to Florida by people."
     ],
     "correctAnswer": 1,
-    "explanation": "A thesis statement should state a claim and provide reasons."
+    "explanation": "A thesis statement should state a claim and provide reasons.",
+    "claim": "2",
+    "dok": 2
   },
   {
     "id": "g5-q66",
@@ -1514,7 +1644,9 @@
       "George Antheil liked to write music for pianos."
     ],
     "correctAnswer": 2,
-    "explanation": "This sentence specifically introduces the scientific information about her invention."
+    "explanation": "This sentence specifically introduces the scientific information about her invention.",
+    "claim": "2",
+    "dok": 2
   },
   {
     "id": "g5-q67",
@@ -1538,7 +1670,9 @@
       0,
       2
     ],
-    "explanation": "Working together and creating green spaces are direct benefits to the community."
+    "explanation": "Working together and creating green spaces are direct benefits to the community.",
+    "claim": "2",
+    "dok": 2
   },
   {
     "id": "g5-q68",
@@ -1559,7 +1693,9 @@
       "First"
     ],
     "correctAnswer": 2,
-    "explanation": "'Overall' or 'In conclusion' signals that the writer is summarizing their points."
+    "explanation": "'Overall' or 'In conclusion' signals that the writer is summarizing their points.",
+    "claim": "2",
+    "dok": 2
   },
   {
     "id": "g5-q69",
@@ -1583,7 +1719,9 @@
       0,
       2
     ],
-    "explanation": "Restating the claim and calling the reader to action are standard persuasive conclusion techniques."
+    "explanation": "Restating the claim and calling the reader to action are standard persuasive conclusion techniques.",
+    "claim": "2",
+    "dok": 2
   },
   {
     "id": "g5-q70",
@@ -1604,6 +1742,8 @@
       "The water in the Everglades is kind of grass-like."
     ],
     "correctAnswer": 2,
-    "explanation": "Using specific terms like '60-mile-wide' and 'wetland ecosystem' is more precise."
+    "explanation": "Using specific terms like '60-mile-wide' and 'wetland ecosystem' is more precise.",
+    "claim": "2",
+    "dok": 2
   }
 ]
