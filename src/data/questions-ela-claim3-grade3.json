@@ -1,0 +1,362 @@
+[
+  {
+    "id": "g3-listen-01",
+    "type": "listening",
+    "format": "single",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.SL.3.2",
+    "claim": "3",
+    "target": "1",
+    "dok": 1,
+    "question": "What is the main idea of the teacher's explanation?",
+    "passage": {
+      "id": "listen-p1",
+      "text": "Listen to the teacher explain how honeybees live. 'Class, today we are learning about honeybees. Honeybees are very social insects. They live together in a large group called a colony. Inside a hive, thousands of bees work together. The queen bee lays all the eggs, while the worker bees find food and protect the hive. Without teamwork, the colony could not survive the winter.'",
+      "source": "original"
+    },
+    "options": [
+      "How bees make honey",
+      "How honeybees work together in a colony",
+      "Why bees are scary to some people",
+      "What honeybees eat in the winter"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The passage focuses on the social structure and teamwork within a bee colony."
+  },
+  {
+    "id": "g3-listen-02",
+    "type": "listening",
+    "format": "multi-select",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.SL.3.2",
+    "claim": "3",
+    "target": "1",
+    "dok": 2,
+    "question": "According to the teacher, which two jobs do worker bees perform? Select all that apply.",
+    "passage": {
+      "id": "listen-p1",
+      "text": "Listen to the teacher explain how honeybees live. 'Class, today we are learning about honeybees. Honeybees are very social insects. They live together in a large group called a colony. Inside a hive, thousands of bees work together. The queen bee lays all the eggs, while the worker bees find food and protect the hive. Without teamwork, the colony could not survive the winter.'",
+      "source": "original"
+    },
+    "options": [
+      "Laying eggs",
+      "Finding food",
+      "Protecting the hive",
+      "Building new hives"
+    ],
+    "correctAnswer": [1, 2],
+    "explanation": "The transcript specifically mentions that worker bees find food and protect the hive."
+  },
+  {
+    "id": "g3-listen-03",
+    "type": "listening",
+    "format": "single",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.SL.3.3",
+    "claim": "3",
+    "target": "2",
+    "dok": 2,
+    "question": "Why does the park ranger suggest wearing bright colors in the woods?",
+    "passage": {
+      "id": "listen-p2",
+      "text": "Listen to a park ranger give a safety talk. 'Before we head out on the trail, remember a few rules. First, stay on the path so you don't get lost or step on tiny plants. Second, I recommend wearing bright colors like orange or yellow. This helps other hikers and rangers see you easily from far away. Finally, always carry a whistle in case you need to call for help.'",
+      "source": "original"
+    },
+    "options": [
+      "To scare away wild animals",
+      "To keep the hiker warm",
+      "To make the hiker easy to see",
+      "To follow the park's fashion rules"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The ranger explicitly states that bright colors help others see the hiker easily."
+  },
+  {
+    "id": "g3-listen-04",
+    "type": "listening",
+    "format": "multi-select",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.SL.3.2",
+    "claim": "3",
+    "target": "1",
+    "dok": 2,
+    "question": "What are the rules mentioned by the park ranger? Select all that apply.",
+    "passage": {
+      "id": "listen-p2",
+      "text": "Listen to a park ranger give a safety talk. 'Before we head out on the trail, remember a few rules. First, stay on the path so you don't get lost or step on tiny plants. Second, I recommend wearing bright colors like orange or yellow. This helps other hikers and rangers see you easily from far away. Finally, always carry a whistle in case you need to call for help.'",
+      "source": "original"
+    },
+    "options": [
+      "Stay on the path",
+      "Bring extra snacks",
+      "Wear bright colors",
+      "Carry a whistle"
+    ],
+    "correctAnswer": [0, 2, 3],
+    "explanation": "The ranger lists staying on the path, wearing bright colors, and carrying a whistle as instructions."
+  },
+  {
+    "id": "g3-listen-05",
+    "type": "listening",
+    "format": "single",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.SL.3.2",
+    "claim": "3",
+    "target": "1",
+    "dok": 1,
+    "question": "What is the speaker's main purpose in this talk?",
+    "passage": {
+      "id": "listen-p3",
+      "text": "Listen to a student named Sarah give a presentation. 'I want to tell you about my favorite hobby, which is recycling. Most people know about recycling paper and plastic, but did you know you can recycle old electronics too? My family takes our old phones and computers to a special center. This keeps harmful chemicals out of the ground and helps save the Earth.'",
+      "source": "original"
+    },
+    "options": [
+      "To explain how to fix a broken phone",
+      "To encourage people to recycle electronics",
+      "To describe how paper is made",
+      "To tell a story about a computer center"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Sarah is presenting information specifically about the importance of recycling electronics."
+  },
+  {
+    "id": "g3-listen-06",
+    "type": "listening",
+    "format": "single",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.SL.3.2",
+    "claim": "3",
+    "target": "2",
+    "dok": 2,
+    "question": "According to Sarah, how does recycling electronics help the environment?",
+    "passage": {
+      "id": "listen-p3",
+      "text": "Listen to a student named Sarah give a presentation. 'I want to tell you about my favorite hobby, which is recycling. Most people know about recycling paper and plastic, but did you know you can recycle old electronics too? My family takes our old phones and computers to a special center. This keeps harmful chemicals out of the ground and helps save the Earth.'",
+      "source": "original"
+    },
+    "options": [
+      "It makes the ground cleaner for farming",
+      "It keeps harmful chemicals out of the ground",
+      "It provides free phones for everyone",
+      "It uses less electricity in the home"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Sarah states that recycling electronics keeps harmful chemicals out of the ground."
+  },
+  {
+    "id": "g3-listen-07",
+    "type": "listening",
+    "format": "multi-select",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.SL.3.3",
+    "claim": "3",
+    "target": "1",
+    "dok": 2,
+    "question": "Which materials does Sarah mention can be recycled? Select all that apply.",
+    "passage": {
+      "id": "listen-p3",
+      "text": "Listen to a student named Sarah give a presentation. 'I want to tell you about my favorite hobby, which is recycling. Most people know about recycling paper and plastic, but did you know you can recycle old electronics too? My family takes our old phones and computers to a special center. This keeps harmful chemicals out of the ground and helps save the Earth.'",
+      "source": "original"
+    },
+    "options": [
+      "Paper",
+      "Glass",
+      "Plastic",
+      "Electronics"
+    ],
+    "correctAnswer": [0, 2, 3],
+    "explanation": "Sarah mentions paper, plastic, and specifically focuses on electronics."
+  },
+  {
+    "id": "g3-listen-08",
+    "type": "listening",
+    "format": "single",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.SL.3.2",
+    "claim": "3",
+    "target": "1",
+    "dok": 1,
+    "question": "What happens first when making a peanut butter and jelly sandwich?",
+    "passage": {
+      "id": "listen-p4",
+      "text": "Listen to a chef explain a recipe. 'First, gather two slices of fresh bread. Lay them flat on a plate. Next, use a blunt knife to spread creamy peanut butter on one slice. Then, clean your knife and spread your favorite jelly on the other slice. Finally, press the two pieces of bread together and enjoy!'",
+      "source": "original"
+    },
+    "options": [
+      "Spread the jelly",
+      "Press the bread together",
+      "Gather two slices of bread",
+      "Clean the knife"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The chef says 'First, gather two slices of fresh bread.'"
+  },
+  {
+    "id": "g3-listen-09",
+    "type": "listening",
+    "format": "single",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.SL.3.3",
+    "claim": "3",
+    "target": "2",
+    "dok": 2,
+    "question": "Why does the chef suggest cleaning the knife between steps?",
+    "passage": {
+      "id": "listen-p4",
+      "text": "Listen to a chef explain a recipe. 'First, gather two slices of fresh bread. Lay them flat on a plate. Next, use a blunt knife to spread creamy peanut butter on one slice. Then, clean your knife and spread your favorite jelly on the other slice. Finally, press the two pieces of bread together and enjoy!'",
+      "source": "original"
+    },
+    "options": [
+      "So the peanut butter doesn't get in the jelly jar",
+      "Because the knife is too heavy",
+      "To make the bread taste better",
+      "So the sandwich doesn't fall apart"
+    ],
+    "correctAnswer": 0,
+    "explanation": "While not explicitly stated for contamination, cleaning a knife between different ingredients is a standard inference for keeping jars clean."
+  },
+  {
+    "id": "g3-listen-10",
+    "type": "listening",
+    "format": "multi-select",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.SL.3.2",
+    "claim": "3",
+    "target": "1",
+    "dok": 2,
+    "question": "What tools or ingredients are needed according to the chef? Select all that apply.",
+    "passage": {
+      "id": "listen-p4",
+      "text": "Listen to a chef explain a recipe. 'First, gather two slices of fresh bread. Lay them flat on a plate. Next, use a blunt knife to spread creamy peanut butter on one slice. Then, clean your knife and spread your favorite jelly on the other slice. Finally, press the two pieces of bread together and enjoy!'",
+      "source": "original"
+    },
+    "options": [
+      "A plate",
+      "A blunt knife",
+      "A toaster",
+      "Bread"
+    ],
+    "correctAnswer": [0, 1, 3],
+    "explanation": "The chef mentions a plate, a blunt knife, and bread slices."
+  },
+  {
+    "id": "g3-listen-11",
+    "type": "listening",
+    "format": "single",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.SL.3.2",
+    "claim": "3",
+    "target": "1",
+    "dok": 1,
+    "question": "What is the main topic of the weather report?",
+    "passage": {
+      "id": "listen-p5",
+      "text": "Listen to a weather reporter. 'Good morning! Get your umbrellas ready because we have a very rainy day ahead. A large storm is moving in from the west. It will start raining around noon and continue through the evening. We might even hear some thunder later tonight. Temperatures will stay cool, around 55 degrees.'",
+      "source": "original"
+    },
+    "options": [
+      "A hot sunny day",
+      "A snowy afternoon",
+      "A rainy day and storm",
+      "A windy morning"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The reporter discusses rain, umbrellas, a storm, and thunder."
+  },
+  {
+    "id": "g3-listen-12",
+    "type": "listening",
+    "format": "multi-select",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.SL.3.2",
+    "claim": "3",
+    "target": "1",
+    "dok": 2,
+    "question": "What should people expect later tonight? Select all that apply.",
+    "passage": {
+      "id": "listen-p5",
+      "text": "Listen to a weather reporter. 'Good morning! Get your umbrellas ready because we have a very rainy day ahead. A large storm is moving in from the west. It will start raining around noon and continue through the evening. We might even hear some thunder later tonight. Temperatures will stay cool, around 55 degrees.'",
+      "source": "original"
+    },
+    "options": [
+      "Thunder",
+      "Snow",
+      "Continued rain",
+      "Sunshine"
+    ],
+    "correctAnswer": [0, 2],
+    "explanation": "The reporter mentions rain continuing through the evening and possible thunder tonight."
+  },
+  {
+    "id": "g3-listen-13",
+    "type": "listening",
+    "format": "single",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.SL.3.3",
+    "claim": "3",
+    "target": "2",
+    "dok": 2,
+    "question": "Where is the storm coming from?",
+    "passage": {
+      "id": "listen-p5",
+      "text": "Listen to a weather reporter. 'Good morning! Get your umbrellas ready because we have a very rainy day ahead. A large storm is moving in from the west. It will start raining around noon and continue through the evening. We might even hear some thunder later tonight. Temperatures will stay cool, around 55 degrees.'",
+      "source": "original"
+    },
+    "options": [
+      "The North",
+      "The East",
+      "The West",
+      "The South"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The reporter states the storm is moving in from the west."
+  },
+  {
+    "id": "g3-listen-14",
+    "type": "listening",
+    "format": "single",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.SL.3.2",
+    "claim": "3",
+    "target": "1",
+    "dok": 1,
+    "question": "What is the librarian's main message?",
+    "passage": {
+      "id": "listen-p6",
+      "text": "Listen to the school librarian. 'Welcome back to the library, everyone. Remember that books are our friends, and we must treat them with care. Use a bookmark instead of folding the corners of the pages. Also, please keep water and snacks away from the books. If we take care of them, many other students can enjoy them too.'",
+      "source": "original"
+    },
+    "options": [
+      "How to write a book",
+      "How to take care of library books",
+      "Where to find the best snacks",
+      "How to become a librarian"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The librarian focuses on treating books with care and specific ways to protect them."
+  },
+  {
+    "id": "g3-listen-15",
+    "type": "listening",
+    "format": "multi-select",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.SL.3.3",
+    "claim": "3",
+    "target": "2",
+    "dok": 2,
+    "question": "What are two things the librarian says NOT to do? Select all that apply.",
+    "passage": {
+      "id": "listen-p6",
+      "text": "Listen to the school librarian. 'Welcome back to the library, everyone. Remember that books are our friends, and we must treat them with care. Use a bookmark instead of folding the corners of the pages. Also, please keep water and snacks away from the books. If we take care of them, many other students can enjoy them too.'",
+      "source": "original"
+    },
+    "options": [
+      "Fold the corners of pages",
+      "Use a bookmark",
+      "Eat snacks near books",
+      "Read with a friend"
+    ],
+    "correctAnswer": [0, 2],
+    "explanation": "The librarian tells students to use a bookmark 'instead of' folding corners and to keep snacks away."
+  }
+]

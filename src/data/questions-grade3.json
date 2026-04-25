@@ -1765,5 +1765,365 @@
       "score0": "No relevant information or off-topic",
       "sampleResponse": "Honey bees are important because they pollinate flowers and help farmers grow food."
     }
+  },
+  {
+    "id": "g3-w-71",
+    "type": "writing",
+    "format": "single",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.W.3.1.A",
+    "claim": "2",
+    "target": "1",
+    "dok": 2,
+    "question": "A student is writing an opinion piece about the best pet. Which sentence would be the best thesis statement (opinion) for the introduction?",
+    "options": [
+      "Many people have pets like dogs, cats, and hamsters.",
+      "Dogs are the best pets because they are loyal and can be trained to do tricks.",
+      "My neighbor has a small brown dog that barks at the mailman.",
+      "Cats usually sleep for many hours during the day."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Option B clearly states an opinion and provides reasons, which is the purpose of a thesis statement in an opinion piece.",
+    "rubric": {
+      "score2": "Student correctly identifies the statement that clearly expresses a personal opinion and a focus.",
+      "score1": "Student chooses a statement that is related to the topic but is a fact rather than an opinion.",
+      "score0": "Student chooses a statement that is irrelevant to the prompt."
+    }
+  },
+  {
+    "id": "g3-w-72",
+    "type": "writing",
+    "format": "single",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.W.3.1.B",
+    "claim": "2",
+    "target": "1",
+    "dok": 2,
+    "question": "Which reason best supports the opinion that students should have more recess time?",
+    "options": [
+      "Recess is usually held outside on the playground.",
+      "Playing outside helps students stay active and focused for their afternoon lessons.",
+      "Most students wear sneakers when they go to recess.",
+      "The school bell rings at the end of every recess period."
+    ],
+    "correctAnswer": 1,
+    "explanation": "This choice provides a logical benefit (staying active/focused) that directly supports the argument for more time.",
+    "rubric": {
+      "score2": "Student selects a reason that logically explains the benefit of the opinion.",
+      "score1": "Student selects a detail that is true about recess but does not support the argument for more time.",
+      "score0": "Student selects an unrelated fact."
+    }
+  },
+  {
+    "id": "g3-w-73",
+    "type": "writing",
+    "format": "single",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.W.3.1.C",
+    "claim": "2",
+    "target": "1",
+    "dok": 2,
+    "question": "Read the sentences: 'I love summer vacation. ________, it is the best time to go swimming at the lake.' Which transition word best connects these two ideas?",
+    "options": [
+      "However",
+      "Also",
+      "But",
+      "Instead"
+    ],
+    "correctAnswer": 1,
+    "explanation": "'Also' correctly adds information to the initial positive statement about summer.",
+    "rubric": {
+      "score2": "Student correctly identifies the transition that shows addition or connection.",
+      "score1": "Student chooses a transition that implies contrast (However/But), which does not fit the context.",
+      "score0": "Student chooses a word that disrupts the flow of the sentences."
+    }
+  },
+  {
+    "id": "g3-w-74",
+    "type": "writing",
+    "format": "single",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.W.3.1.D",
+    "claim": "2",
+    "target": "1",
+    "dok": 2,
+    "question": "Which sentence is the best concluding statement for an opinion piece about why everyone should recycle?",
+    "options": [
+      "Recycling centers are often located in big cities.",
+      "In conclusion, recycling is an easy way for everyone to help keep our planet clean.",
+      "Paper can be recycled into new notebooks and cards.",
+      "Next, you should put your plastic bottles in the blue bin."
+    ],
+    "correctAnswer": 1,
+    "explanation": "This option summarizes the main argument and provides a sense of closure.",
+    "rubric": {
+      "score2": "Student selects a conclusion that restates the opinion and wraps up the piece.",
+      "score1": "Student selects a detail that belongs in the body of the text rather than a conclusion.",
+      "score0": "Student selects an instructional sentence or an irrelevant fact."
+    }
+  },
+  {
+    "id": "g3-w-75",
+    "type": "writing",
+    "format": "single",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.W.3.1.B",
+    "claim": "2",
+    "target": "1",
+    "dok": 3,
+    "question": "A student wants to strengthen the argument that 'Reading books is better than watching TV.' Which evidence is the strongest?",
+    "options": [
+      "Many books have colorful pictures on the front cover.",
+      "Studies show that reading helps children learn 50% more words than watching TV.",
+      "TV shows often have commercials for toys and snacks.",
+      "My friend says he likes to read before he goes to bed."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Factual evidence from a study is stronger and more persuasive than personal anecdotes or surface-level details.",
+    "rubric": {
+      "score2": "Student identifies objective data as the strongest form of evidence.",
+      "score1": "Student chooses a personal opinion or a weak supporting detail.",
+      "score0": "Student chooses an irrelevant fact about TV."
+    }
+  },
+  {
+    "id": "g3-w-76",
+    "type": "writing",
+    "format": "single",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.W.3.1.A",
+    "claim": "2",
+    "target": "1",
+    "dok": 2,
+    "question": "Which of these is a clearly stated opinion?",
+    "options": [
+      "Our school has a cafeteria and a large gym.",
+      "Third grade students learn about fractions in math class.",
+      "The school lunch menu should include more fresh fruit because it is delicious.",
+      "The playground is closed when it is raining outside."
+    ],
+    "correctAnswer": 2,
+    "explanation": "The word 'should' and the judgment 'delicious' signal a clear opinion statement.",
+    "rubric": {
+      "score2": "Student differentiates between a fact and an opinion correctly.",
+      "score1": "Student chooses a factual statement about the school.",
+      "score0": "Student chooses a statement that is neither a fact nor a clear opinion."
+    }
+  },
+  {
+    "id": "g3-w-77",
+    "type": "writing",
+    "format": "single",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.W.3.2.A",
+    "claim": "2",
+    "target": "2",
+    "dok": 2,
+    "question": "A student is writing a report about honeybees. Which sentence is the best topic sentence for a paragraph about what bees do in a hive?",
+    "options": [
+      "Honeybees have wings that beat very fast.",
+      "There are many different types of bees in the world.",
+      "Inside the hive, honeybees have many important jobs to do.",
+      "Bees like to visit flowers that are bright colors."
+    ],
+    "correctAnswer": 2,
+    "explanation": "This sentence introduces the specific theme of 'jobs in the hive' which the rest of the paragraph will detail.",
+    "rubric": {
+      "score2": "Student identifies a topic sentence that focuses the paragraph's subject.",
+      "score1": "Student chooses a general fact about bees that doesn't focus on the 'hive' theme.",
+      "score0": "Student chooses an irrelevant detail."
+    }
+  },
+  {
+    "id": "g3-w-78",
+    "type": "writing",
+    "format": "single",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.W.3.2.B",
+    "claim": "2",
+    "target": "2",
+    "dok": 2,
+    "question": "Which detail would be best to include in an informative report about how penguins stay warm?",
+    "options": [
+      "Penguins are birds that cannot fly through the air.",
+      "A layer of thick fat called blubber keeps penguins warm in the cold water.",
+      "Many people enjoy watching movies about penguins.",
+      "Penguins eat fish and small sea creatures called krill."
+    ],
+    "correctAnswer": 1,
+    "explanation": "This detail directly explains the mechanism of staying warm (blubber).",
+    "rubric": {
+      "score2": "Student selects a detail that specifically supports the sub-topic of the report.",
+      "score1": "Student selects a true fact about penguins that does not address staying warm.",
+      "score0": "Student selects an irrelevant or subjective detail."
+    }
+  },
+  {
+    "id": "g3-w-79",
+    "type": "writing",
+    "format": "single",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.W.3.2.C",
+    "claim": "2",
+    "target": "2",
+    "dok": 2,
+    "question": "Read the facts about baking a cake:\n1. Mix the flour and sugar.\n2. Bake for 30 minutes.\n3. Pour the batter into a pan.\nWhat is the best way to organize these facts?",
+    "options": [
+      "2, 1, 3",
+      "3, 2, 1",
+      "1, 3, 2",
+      "1, 2, 3"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Informative writing about a process should follow chronological order: mixing, then pouring, then baking.",
+    "rubric": {
+      "score2": "Student correctly identifies the logical time-order sequence.",
+      "score1": "Student chooses a sequence that is partially logical but incorrect (e.g., pouring before mixing).",
+      "score0": "Student chooses a random or reverse order."
+    }
+  },
+  {
+    "id": "g3-w-80",
+    "type": "writing",
+    "format": "single",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.W.3.2.D",
+    "claim": "2",
+    "target": "2",
+    "dok": 2,
+    "question": "Which concluding sentence best fits an informative report about the solar system?",
+    "options": [
+      "In short, the solar system is a vast and interesting place with many unique planets.",
+      "I hope one day I can travel to Mars in a rocket ship.",
+      "The sun is much larger than the Earth.",
+      "Astronauts have to wear heavy suits in space."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A good informative conclusion summarizes the main topic rather than adding new details or personal hopes.",
+    "rubric": {
+      "score2": "Student selects a summary statement that encompasses the entire topic.",
+      "score1": "Student selects a personal statement that shifts away from the informative tone.",
+      "score0": "Student selects a specific detail that belongs in the body."
+    }
+  },
+  {
+    "id": "g3-w-81",
+    "type": "writing",
+    "format": "single",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.W.3.2.B",
+    "claim": "2",
+    "target": "2",
+    "dok": 2,
+    "question": "In a report about 'How to Play Soccer,' which detail is the most important for explaining the rules?",
+    "options": [
+      "Soccer cleats have spikes on the bottom to help players run.",
+      "The soccer field is green and has white lines painted on it.",
+      "Players are not allowed to touch the ball with their hands unless they are the goalie.",
+      "Many famous soccer players come from Brazil."
+    ],
+    "correctAnswer": 2,
+    "explanation": "This detail explains a fundamental rule of the game, which is the focus of the report.",
+    "rubric": {
+      "score2": "Student identifies the detail that directly explains a 'rule' versus equipment or history.",
+      "score1": "Student chooses a detail about equipment (cleats) which is secondary to rules.",
+      "score0": "Student chooses an irrelevant trivia fact."
+    }
+  },
+  {
+    "id": "g3-w-82",
+    "type": "writing",
+    "format": "single",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.W.3.3.A",
+    "claim": "2",
+    "target": "3",
+    "dok": 2,
+    "question": "A student is writing a story about a boy who finds a mysterious map. Which sentence is the best way to describe the setting at the beginning of the story?",
+    "options": [
+      "The boy was named Tim and he liked to read.",
+      "Deep in the dusty corner of the old attic, a small wooden chest sat hidden under a blanket.",
+      "Maps are used to help people find where they are going.",
+      "Tim looked at the paper and smiled at his mother."
+    ],
+    "correctAnswer": 1,
+    "explanation": "This choice uses descriptive language ('dusty corner,' 'old attic') to establish where the story takes place.",
+    "rubric": {
+      "score2": "Student selects an opening that establishes a clear, descriptive setting.",
+      "score1": "Student selects an opening that introduces a character but ignores the setting.",
+      "score0": "Student selects an informative statement about maps."
+    }
+  },
+  {
+    "id": "g3-w-83",
+    "type": "writing",
+    "format": "single",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.W.3.3.B",
+    "claim": "2",
+    "target": "3",
+    "dok": 2,
+    "question": "Which sentence uses dialogue to show that a character is excited?",
+    "options": [
+      "'I think we should leave now,' said Maya quietly.",
+      "'We finally won the championship!' shouted Ben, jumping up and down.",
+      "'Please pass the salt,' Mom asked while we ate dinner.",
+      "'The sun is very bright today,' Sarah noted as she put on her hat."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The use of an exclamation point and the tag 'shouted' combined with the action 'jumping' clearly conveys excitement.",
+    "rubric": {
+      "score2": "Student identifies dialogue and descriptions that convey a specific emotion.",
+      "score1": "Student chooses dialogue that is neutral or shows a different emotion.",
+      "score0": "Student chooses a sentence without dialogue."
+    }
+  },
+  {
+    "id": "g3-w-84",
+    "type": "writing",
+    "format": "single",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.W.3.3.C",
+    "claim": "2",
+    "target": "3",
+    "dok": 2,
+    "question": "In a story about a girl lost in the woods, which event would best create a sense of plot and problem?",
+    "options": [
+      "The girl found a pretty blue flower growing near a rock.",
+      "As the sun began to set, the girl realized she could no longer see the path behind her.",
+      "The girl wore a sturdy pair of hiking boots and a red jacket.",
+      "A small squirrel ran up a tree and chirped at the girl."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The setting sun and the disappearing path create a conflict/problem that drives the narrative forward.",
+    "rubric": {
+      "score2": "Student identifies the narrative event that introduces conflict/suspense.",
+      "score1": "Student chooses a descriptive detail that does not create a problem.",
+      "score0": "Student chooses a minor detail about an animal."
+    }
+  },
+  {
+    "id": "g3-w-85",
+    "type": "writing",
+    "format": "single",
+    "grade": 3,
+    "standard": "CCSS.ELA-LITERACY.W.3.3.D",
+    "claim": "2",
+    "target": "3",
+    "dok": 2,
+    "question": "Which sentence is the best way to end a story about a surprise party?",
+    "options": [
+      "The cake had chocolate frosting and ten candles.",
+      "Everyone hid behind the sofa and waited for the door to open.",
+      "As the last guest left, Sarah smiled, knowing this was a birthday she would never forget.",
+      "Parties are usually held on the weekends when people are not at work."
+    ],
+    "correctAnswer": 2,
+    "explanation": "This conclusion provides a resolution to the story's events and reflects the character's feelings.",
+    "rubric": {
+      "score2": "Student selects a conclusion that provides emotional resolution and closure.",
+      "score1": "Student selects a detail about the party that belongs in the middle of the story.",
+      "score0": "Student selects a general fact about parties."
+    }
   }
 ]
