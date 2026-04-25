@@ -7,10 +7,12 @@ import grade3Questions from '@/data/questions-grade3.json';
 import grade4Questions from '@/data/questions-grade4.json';
 import grade5Questions from '@/data/questions-grade5.json';
 import mathGrade3Questions from '@/data/questions-math-grade3.json';
+import ptSeaTurtles from '@/data/pt-sea-turtles.json';
 
-type TestState = 'setup' | 'testing' | 'results';
+type TestState = 'setup' | 'testing' | 'results' | 'pt_sources' | 'pt_research' | 'pt_writing';
 type ReviewMode = 'full' | 'missed';
 type TestSubject = 'ela' | 'math';
+type SessionMode = 'cat' | 'pt';
 
 const QUESTION_COUNT_OPTIONS = [5, 8, 10, 15];
 const TIMER_OPTIONS = [
@@ -23,6 +25,20 @@ const TIMER_OPTIONS = [
 export default function Home() {
   const [testState, setTestState] = useState<TestState>('setup');
   const [testSubject, setTestSubject] = useState<TestSubject>('ela');
+  const [sessionMode, setSessionMode] = useState<SessionMode>('cat');
+  
+  interface PTData {
+    session: { mode: string; grade: number; subject: string; theme: string };
+    sources: { id: string; type: string; title: string; text: string }[];
+    researchQuestions: { id: string; question: string; correctAnswer: string; points: number }[];
+    writingPrompt: { type: string; task: string; audience: string; wordCountGuidance: string };
+    rubric: { organization: { score2: string; score1: string; score0: string }; evidence: { score2: string; score1: string; score0: string }; conventions: { score2: string; score1: string; score0: string } };
+  }
+  
+  const [ptData, setPtData] = useState<PTData | null>(null);
+  const [currentSourceIndex, setCurrentSourceIndex] = useState(0);
+  const [researchAnswers, setResearchAnswers] = useState<Map<string, string>>(new Map());
+  const [essayAnswer, setEssayAnswer] = useState('');
   const [selectedGrade, setSelectedGrade] = useState<number>(3);
   const [questionCount, setQuestionCount] = useState<number>(8);
   const [timerMinutes, setTimerMinutes] = useState<number>(0);
@@ -330,6 +346,10 @@ export default function Home() {
   }, [testState, currentQuestionIndex, filteredQuestions.length]);
 
   const startTest = () => {
+    if (testSubject === 'math' || sessionMode === 'pt') {
+      startPT();
+      return;
+    }
     const allQuestions = loadQuestions(selectedGrade, testSubject);
     const shuffled = shuffleArray(allQuestions);
     const selected = shuffled.slice(0, questionCount);
@@ -341,6 +361,14 @@ export default function Home() {
     setResults([]);
     setTimeRemaining(timerMinutes > 0 ? timerMinutes * 60 : 0);
     setTestState('testing');
+  };
+
+  const startPT = () => {
+    setPtData(ptSeaTurtles as PTData);
+    setCurrentSourceIndex(0);
+    setResearchAnswers(new Map());
+    setEssayAnswer('');
+    setTestState('pt_sources');
   };
 
   const selectAnswer = (answerIndex: number) => {
@@ -462,6 +490,22 @@ export default function Home() {
             <option value="ela">English Language Arts</option>
             <option value="math">Math</option>
           </select>
+
+          {testSubject === 'ela' && (
+            <>
+              <label className="block text-sm font-medium text-zinc-700 mb-2">
+                Session Type
+              </label>
+              <select
+                value={sessionMode}
+                onChange={(e) => setSessionMode(e.target.value as SessionMode)}
+                className="w-full p-3 border border-zinc-300 rounded-lg mb-4 bg-white text-zinc-900"
+              >
+                <option value="cat">CAT Mode (Standard Test)</option>
+                <option value="pt">Performance Task</option>
+              </select>
+            </>
+          )}
 
           <label className="block text-sm font-medium text-zinc-700 mb-2">
             Select Grade Level
@@ -653,6 +697,154 @@ export default function Home() {
                 Next
               </button>
             )}
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  if (testState === 'pt_sources' && ptData) {
+    const source = ptData.sources[currentSourceIndex];
+    
+    return (
+      <div className="min-h-screen bg-zinc-50 font-sans p-4">
+        <div className="max-w-2xl mx-auto">
+          <div className="mb-4">
+            <span className="text-sm text-zinc-500">Performance Task - Reading Sources</span>
+          </div>
+          
+          <div className="bg-white rounded-xl shadow-lg p-6 mb-4">
+            <h2 className="text-lg font-bold text-zinc-800 mb-2">{source.title}</h2>
+            <p className="text-sm text-zinc-500 mb-4">Source {currentSourceIndex + 1} of {ptData.sources.length}</p>
+            
+            <div className="prose max-w-none text-zinc-700 leading-relaxed whitespace-pre-wrap">
+              {source.text}
+            </div>
+          </div>
+          
+          <div className="flex justify-between">
+            <button
+              onClick={() => {
+                if (currentSourceIndex > 0) {
+                  setCurrentSourceIndex(currentSourceIndex - 1);
+                }
+              }}
+              disabled={currentSourceIndex === 0}
+              className="px-6 py-3 border border-zinc-300 rounded-lg font-medium disabled:opacity-50"
+            >
+              Previous Source
+            </button>
+            
+            <button
+              onClick={() => {
+                if (currentSourceIndex < ptData.sources.length - 1) {
+                  setCurrentSourceIndex(currentSourceIndex + 1);
+                } else {
+                  setTestState('pt_research');
+                }
+              }}
+              className="px-6 py-3 bg-emerald-600 text-white rounded-lg font-medium hover:bg-emerald-700"
+            >
+              {currentSourceIndex < ptData.sources.length - 1 ? 'Next Source' : 'Continue to Research Questions'}
+            </button>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  if (testState === 'pt_research' && ptData) {
+    return (
+      <div className="min-h-screen bg-zinc-50 font-sans p-4">
+        <div className="max-w-2xl mx-auto">
+          <div className="mb-4">
+            <span className="text-sm text-zinc-500">Performance Task - Research Questions</span>
+          </div>
+          
+          <div className="bg-white rounded-xl shadow-lg p-6 mb-4">
+            <h2 className="text-xl font-bold text-zinc-800 mb-6">Answer the research questions using information from the sources.</h2>
+            
+            {ptData.researchQuestions.map((rq, idx) => (
+              <div key={rq.id} className="mb-6">
+                <p className="font-medium text-zinc-700 mb-2">{idx + 1}. {rq.question}</p>
+                <textarea
+                  value={researchAnswers.get(rq.id) || ''}
+                  onChange={(e) => {
+                    const newAnswers = new Map(researchAnswers);
+                    newAnswers.set(rq.id, e.target.value);
+                    setResearchAnswers(newAnswers);
+                  }}
+                  className="w-full p-3 border border-zinc-300 rounded-lg h-24 text-zinc-900"
+                  placeholder="Type your answer here..."
+                />
+              </div>
+            ))}
+          </div>
+          
+          <div className="flex justify-between">
+            <button
+              onClick={() => setTestState('pt_sources')}
+              className="px-6 py-3 border border-zinc-300 rounded-lg font-medium"
+            >
+              Back to Sources
+            </button>
+            
+            <button
+              onClick={() => setTestState('pt_writing')}
+              className="px-6 py-3 bg-emerald-600 text-white rounded-lg font-medium hover:bg-emerald-700"
+            >
+              Continue to Writing
+            </button>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  if (testState === 'pt_writing' && ptData) {
+    const wordCount = essayAnswer.trim().split(/\s+/).filter(Boolean).length;
+    
+    return (
+      <div className="min-h-screen bg-zinc-50 font-sans p-4">
+        <div className="max-w-2xl mx-auto">
+          <div className="mb-4">
+            <span className="text-sm text-zinc-500">Performance Task - Writing</span>
+          </div>
+          
+          <div className="bg-white rounded-xl shadow-lg p-6 mb-4">
+            <h2 className="text-xl font-bold text-zinc-800 mb-4">Writing Prompt</h2>
+            
+            <div className="bg-amber-50 border border-amber-200 rounded-lg p-4 mb-4">
+              <p className="text-amber-800 font-medium mb-2">Topic: {ptData.writingPrompt.task}</p>
+              <p className="text-amber-700 text-sm">Audience: {ptData.writingPrompt.audience}</p>
+              <p className="text-amber-700 text-sm">Target: {ptData.writingPrompt.wordCountGuidance}</p>
+            </div>
+            
+            <h3 className="font-medium text-zinc-700 mb-2">Your Response:</h3>
+            <textarea
+              value={essayAnswer}
+              onChange={(e) => setEssayAnswer(e.target.value)}
+              className="w-full p-3 border border-zinc-300 rounded-lg h-64 text-zinc-900"
+              placeholder="Write your response here..."
+            />
+            
+            <p className="text-sm text-zinc-500 mt-2">Word count: {wordCount}</p>
+          </div>
+          
+          <div className="flex justify-between">
+            <button
+              onClick={() => setTestState('pt_research')}
+              className="px-6 py-3 border border-zinc-300 rounded-lg font-medium"
+            >
+              Back to Research
+            </button>
+            
+            <button
+              onClick={() => setTestState('results')}
+              className="px-6 py-3 bg-emerald-600 text-white rounded-lg font-medium hover:bg-emerald-700"
+            >
+              Submit Performance Task
+            </button>
           </div>
         </div>
       </div>
