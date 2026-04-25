@@ -6,9 +6,11 @@ import { formatTime } from '@/utils/questions';
 import grade3Questions from '@/data/questions-grade3.json';
 import grade4Questions from '@/data/questions-grade4.json';
 import grade5Questions from '@/data/questions-grade5.json';
+import mathGrade3Questions from '@/data/questions-math-grade3.json';
 
 type TestState = 'setup' | 'testing' | 'results';
 type ReviewMode = 'full' | 'missed';
+type TestSubject = 'ela' | 'math';
 
 const QUESTION_COUNT_OPTIONS = [5, 8, 10, 15];
 const TIMER_OPTIONS = [
@@ -20,6 +22,7 @@ const TIMER_OPTIONS = [
 
 export default function Home() {
   const [testState, setTestState] = useState<TestState>('setup');
+  const [testSubject, setTestSubject] = useState<TestSubject>('ela');
   const [selectedGrade, setSelectedGrade] = useState<number>(3);
   const [questionCount, setQuestionCount] = useState<number>(8);
   const [timerMinutes, setTimerMinutes] = useState<number>(0);
@@ -129,7 +132,11 @@ export default function Home() {
     localStorage.setItem('ela-saved-progress', JSON.stringify(progressData));
   }, [selectedGrade, partBAnswers, questionCount, timerMinutes]);
 
-  const loadQuestions = (grade: number): Question[] => {
+  const loadQuestions = (grade: number, subject: TestSubject = 'ela'): Question[] => {
+    if (subject === 'math') {
+      return mathGrade3Questions as unknown as Question[];
+    }
+    
     let allQuestions: Question[] = [];
     switch (grade) {
       case 3:
@@ -323,7 +330,7 @@ export default function Home() {
   }, [testState, currentQuestionIndex, filteredQuestions.length]);
 
   const startTest = () => {
-    const allQuestions = loadQuestions(selectedGrade);
+    const allQuestions = loadQuestions(selectedGrade, testSubject);
     const shuffled = shuffleArray(allQuestions);
     const selected = shuffled.slice(0, questionCount);
     const withShuffledOptions = selected.map(shuffleOptions);
@@ -439,8 +446,22 @@ export default function Home() {
               View Past Scores
             </button>
           </div>
-          <h1 className="text-3xl font-bold text-zinc-800 dark:text-zinc-100 mb-2 text-center">ELA Practice Test</h1>
-          <p className="text-zinc-600 mb-6">California State Standards aligned questions</p>
+          <h1 className="text-3xl font-bold text-zinc-800 dark:text-zinc-100 mb-2 text-center">
+            {testSubject === 'math' ? 'Math' : 'ELA'} Practice Test
+          </h1>
+          <p className="text-zinc-600 mb-4">California State Standards aligned questions</p>
+          
+          <label className="block text-sm font-medium text-zinc-700 mb-2">
+            Select Subject
+          </label>
+          <select
+            value={testSubject}
+            onChange={(e) => setTestSubject(e.target.value as TestSubject)}
+            className="w-full p-3 border border-zinc-300 rounded-lg mb-4 bg-white text-zinc-900"
+          >
+            <option value="ela">English Language Arts</option>
+            <option value="math">Math</option>
+          </select>
 
           <label className="block text-sm font-medium text-zinc-700 mb-2">
             Select Grade Level
@@ -451,8 +472,8 @@ export default function Home() {
             className="w-full p-3 border border-zinc-300 rounded-lg mb-4 bg-white text-zinc-900"
           >
             <option value={3}>Grade 3</option>
-            <option value={4}>Grade 4</option>
-            <option value={5}>Grade 5</option>
+            {testSubject === 'ela' && <option value={4}>Grade 4</option>}
+            {testSubject === 'ela' && <option value={5}>Grade 5</option>}
           </select>
 
           <label className="block text-sm font-medium text-zinc-700 mb-2">

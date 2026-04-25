@@ -1,0 +1,64 @@
+{
+  "session": {
+    "mode": "PT",
+    "grade": 3,
+    "subject": "ELA",
+    "estimated_minutes": 75,
+    "theme": "How People Help Endangered Sea Turtles"
+  },
+  "sources": [
+    {
+      "id": "source-1",
+      "type": "informational",
+      "title": "Saving the Sea Turtles",
+      "author": "Generated",
+      "text": "Sea turtles are amazing animals that spend most of their lives in the ocean. However, many sea turtles are endangered, which means there are not many of them left. Scientists and volunteers work hard to help them. One way people help is by protecting the beaches where turtles lay their eggs. Female turtles crawl onto the sand at night to dig nests. Sometimes, people place special cages over these nests. These cages keep predators, like raccoons or dogs, from eating the eggs. When the tiny hatchlings finally crawl out of the sand, they must find the ocean. People also help by making sure beaches are dark at night. Bright lights can confuse the babies and make them crawl toward buildings instead of the water. By turning off lights near the shore, humans give these little travelers a better chance to reach their watery home safely.",
+      "source": "original"
+    },
+    {
+      "id": "source-2",
+      "type": "literary",
+      "title": "A Moonlit Path",
+      "author": "Generated",
+      "text": "Leo and his mom walked quietly along the edge of the sand. It was a warm summer night, and the stars were like tiny diamonds in the sky. Suddenly, Leo spotted something moving near a wooden fence. 'Look, Mom! Over there!' he whispered. It was a tiny sea turtle, no bigger than a cookie. It was heading toward the bright street lamps of the parking lot. 'He's going the wrong way,' Mom said softly. 'The baby turtles are supposed to follow the moonlight on the waves.' Quickly, Leo stood between the turtle and the bright lights, creating a shadow. Then, his mom used a small red flashlight to point toward the surf. The red light didn't confuse the turtle like the white lamps did. Slowly, the little turtle turned around. It flapped its flippers and scooted over the sand until a gentle wave washed over it. Leo smiled as he watched his new friend swim away into the deep blue sea.",
+      "source": "original"
+    }
+  ],
+  "researchQuestions": [
+    {
+      "id": "rq-1",
+      "question": "Based on Source 1, 'Saving the Sea Turtles,' why do people put cages over sea turtle nests?",
+      "correctAnswer": "According to the text, people put cages over the nests to protect the eggs from predators like raccoons or dogs that might eat them.",
+      "points": 1
+    },
+    {
+      "id": "rq-2",
+      "question": "Using information from both Source 1 and Source 2, explain why lights on the beach can be a problem for baby sea turtles.",
+      "correctAnswer": "Both sources explain that bright lights can confuse baby turtles. Source 1 says it makes them crawl toward buildings, and Source 2 shows a turtle heading toward a parking lot instead of the ocean.",
+      "points": 1
+    }
+  ],
+  "writingPrompt": {
+    "type": "informative",
+    "task": "Your teacher has asked you to write an article for the school newsletter about how humans can help sea turtles survive. Using the information from the sources, write an article that explains the different ways people help sea turtles and why these actions are important. Use details from both 'Saving the Sea Turtles' and 'A Moonlit Path' to support your writing.",
+    "audience": "students and teachers at your school",
+    "wordCountGuidance": "150-250 words"
+  },
+  "rubric": {
+    "organization": {
+      "score2": "The response has a clear introduction and conclusion. Ideas are grouped logically with a clear focus on the topic.",
+      "score1": "The response has an inconsistent structure. Some ideas are related, but the organization is loose or missing a conclusion.",
+      "score0": "The response lacks a clear organization or focus, making it difficult to follow."
+    },
+    "evidence": {
+      "score2": "The response provides thorough support and details from both sources to explain how people help turtles.",
+      "score1": "The response provides some details from the sources, but they may be general or only come from one source.",
+      "score0": "The response provides little or no evidence from the sources."
+    },
+    "conventions": {
+      "score2": "The response demonstrates a strong command of grade-level grammar, usage, spelling, and punctuation with few errors.",
+      "score1": "The response demonstrates a partial command of conventions. Errors may be present but do not distract from the meaning.",
+      "score0": "The response has many errors in conventions that make the writing difficult to understand."
+    }
+  }
+}
